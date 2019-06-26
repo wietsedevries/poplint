@@ -1,4 +1,4 @@
-const withCSS = require('@zeit/next-css');
+const isProd = process.env.NODE_ENV === 'production'
 
 if (typeof require !== 'undefined') {
   require.extensions['.css'] = () => {};
@@ -13,6 +13,7 @@ module.exports = {
     });
     return config;
   },
+  assetPrefix: isProd ? 'poplint' : '',
   // exportPathMap: () => {
   //   return {
   //     '/': { page: '/' },
