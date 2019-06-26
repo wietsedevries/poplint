@@ -1,0 +1,40 @@
+{
+  "name": "poplint",
+  "description": "Find out what ESLint rules we actually use",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wietse de Vries",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "createBase": "node ./scripts/createBase.js",
+    "addGuides": "node ./scripts/addGuides.js",
+    "lint": "eslint . --fix",
+    "pregenerateData": "npm run lint",
+    "generateData": "npm run createBase && npm run addGuides"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "eslint": "^5.3.0",
+    "next": "^8.1.0",
+    "node-fetch": "^2.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-grid-system": "^4.4.6",
+    "styled-components": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-airbnb": "^4.0.0",
+    "css-loader": "^3.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.1",
+    "lodash": "^4.17.11",
+    "style-loader": "^0.23.1"
+  }
+}

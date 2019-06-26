@@ -1,0 +1,45 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/ranking": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/semi-vs-no-semi": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/style-guides": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ],
+    "/tabs-vs-spaces": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.f5bbb19f8aa5cd1e5884.js",
+      "static/runtime/main-aaf1541444c7e3a662c9.js"
+    ]
+  }
+}
