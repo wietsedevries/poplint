@@ -13,14 +13,14 @@ module.exports = {
     });
     return config;
   },
-  assetPrefix: isProd ? 'poplint' : '',
-  // exportPathMap: () => {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/ranking': { page: '/ranking' },
-  //     '/style-guides': { page: '/style-guides' },
-  //     '/semi-vs-no-semi': { page: '/semi-vs-no-semi' },
-  //     '/tabs-vs-spaces': { page: '/tabs-vs-spaces' },
-  //   };
-  // },
+  assetPrefix: isProd ? '' : '',
+  exportPathMap: () => {
+    return {
+      '/': { page: '/' },
+      '/ranking': { page: '/ranking' },
+      '/style-guides': { page: '/style-guides' },
+      '/semi-vs-no-semi': { page: '/semi-vs-no-semi' },
+      '/tabs-vs-spaces': { page: '/tabs-vs-spaces' },
+    };
+  },
 };
