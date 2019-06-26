@@ -15,7 +15,7 @@
     "lint": "eslint . --fix",
     "pregenerateData": "npm run lint",
     "generateData": "npm run createBase && npm run addGuides",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-page\" && git subtree push --prefix out poplint"
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-page\" && git subtree push --prefix out origin master"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
