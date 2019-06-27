@@ -4,7 +4,7 @@ import { RulesProvider, useRules } from '../utils/eslintRules';
 
 import { Modal, ActiveItem, Paginator } from '../components';
 import { ListItem, List, Text, Division, Badge } from '../ui';
-import { Grid, Row, Col } from '../utils/grid';
+import { Grid, Row, Col, Center } from '../utils/grid';
 
 const Ranking = () => {
   const { rules } = useRules();
@@ -73,23 +73,25 @@ const Ranking = () => {
   return (
     <RulesProvider>
       <Grid>
-        <Row>
-          <Col xs={12} lg={6} lgOffset={3}>
-            <Text type="h1" align="center">
-              Popularity ranking of eslint rules
-            </Text>
-            <Text align="center">
-              {`
-              View which rules are used the most and how strict.
-              `}
-            </Text>
-            <List>
-              {renderList()}
-              <Paginator loadMore={increaseLimit} />
-            </List>
-          </Col>
-        </Row>
-        {renderModal()}
+        <Center>
+          <Row>
+            <Col xs={12}>
+              <Text type="h1" align="center">
+                Popularity ranking of eslint rules
+              </Text>
+              <Text align="center">
+                {`
+                View which rules are used the most and how strict.
+                `}
+              </Text>
+              <List>
+                {renderList()}
+                <Paginator loadMore={increaseLimit} />
+              </List>
+            </Col>
+          </Row>
+          {renderModal()}
+        </Center>
       </Grid>
     </RulesProvider>
   );

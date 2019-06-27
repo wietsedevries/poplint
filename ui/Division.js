@@ -50,6 +50,11 @@ const Unit = styled.div`
     }
 
   }
+  @media (max-width: 768px) {
+    &:after {
+      opacity: 1;
+    }
+  }
 `;
 
 const Division = ({ error = 0, warn = 0, off = 0 }) => {

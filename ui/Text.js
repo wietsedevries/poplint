@@ -20,6 +20,10 @@ const Header2 = styled.h2`
   font-weight: 400;
   margin-bottom: ${props => props.margin && props.theme.fn.spacing(3)};
   text-align: ${props => props.align};
+
+  @media (max-width: 768px) {
+    font-size: ${props => props.theme.font[props.font || 'regular']};
+  }
 `;
 
 const Header3 = styled.h3`

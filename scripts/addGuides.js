@@ -140,7 +140,7 @@ const addGuides = () => {
         if (key === 'semi' && !checkGuides.includes(guide.name)) {
           const { values = {}, name = 'Semi vs. No-semi' } = extra;
           const { always = 0, never = 0 } = values;
-          const { extraOptions = [] } = guide || {};
+          const { options: extraOptions = [] } = guide || {};
           const setting = extraOptions[0];
           newExtra = {
             name,

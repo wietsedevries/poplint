@@ -1,10 +1,11 @@
-const isProd = process.env.NODE_ENV === 'production'
+// const isProd = process.env.NODE_ENV === 'production';
+const withOffline = require('next-offline')
 
 if (typeof require !== 'undefined') {
   require.extensions['.css'] = () => {};
 }
 
-module.exports = {
+const nextConfig = {
   webpack(config) {
     config.module.rules.push({
       test: /\.css$/,
@@ -13,14 +14,13 @@ module.exports = {
     });
     return config;
   },
-  assetPrefix: isProd ? '' : '',
-  exportPathMap: () => {
-    return {
-      '/': { page: '/' },
-      '/ranking': { page: '/ranking' },
-      '/style-guides': { page: '/style-guides' },
-      '/semi-vs-no-semi': { page: '/semi-vs-no-semi' },
-      '/tabs-vs-spaces': { page: '/tabs-vs-spaces' },
-    };
-  },
+  exportPathMap: () => ({
+    '/': { page: '/' },
+    '/ranking': { page: '/ranking' },
+    '/style-guides': { page: '/style-guides' },
+    '/semi-vs-no-semi': { page: '/semi-vs-no-semi' },
+    '/tabs-vs-spaces': { page: '/tabs-vs-spaces' },
+  }),
 };
+
+module.exports = withOffline(nextConfig);

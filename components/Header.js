@@ -1,14 +1,16 @@
 import React from 'react';
 import { Logo } from '../ui';
-import { Grid, Row, Col } from '../utils/grid';
+import { Grid, Row, Col, Center } from '../utils/grid';
 
 const Header = () => (
   <Grid>
-    <Row>
-      <Col xs={12} lg={6} lgOffset={3}>
-        <Logo />
-      </Col>
-    </Row>
+    <Center>
+      <Row>
+        <Col xs={12}>
+          <Logo />
+        </Col>
+      </Row>
+    </Center>
   </Grid>
 );
 

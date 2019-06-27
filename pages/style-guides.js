@@ -3,7 +3,7 @@ import { RulesProvider, useRules } from '../utils/eslintRules';
 
 import { DataSet, Modal, ActiveItem } from '../components';
 import { Text, Badge, Anchor } from '../ui';
-import { Grid, Row, Col } from '../utils/grid';
+import { Grid, Row, Col, Center } from '../utils/grid';
 
 
 const StyleGuides = () => {
@@ -31,7 +31,6 @@ const StyleGuides = () => {
     setActiveKey(key);
     setShowModal(true);
   };
-
 
   const headers = (full = false) => [
     '',
@@ -65,6 +64,7 @@ const StyleGuides = () => {
     }
     setRows(tableRow);
   };
+
   useEffect(generateRows, []);
 
   const [statRows, setStatRows] = useState([]);
@@ -90,14 +90,14 @@ const StyleGuides = () => {
           const { metadata, npm } = collected;
           return ({
             repo: metadata.links.homepage,
-            downloads: npm.downloads[1].count,
+            downloads: npm.downloads[1].count.toLocaleString('en'),
             downloadDelta: getDelta((npm.downloads[2].count / 4), npm.downloads[1].count),
             maintenanceScore: (score.detail.maintenance * 100).toFixed(),
             popularityScore: (score.detail.popularity * 100).toFixed(),
             qualityScore: (score.detail.quality * 100).toFixed(),
             totalScore: (score.final * 100).toFixed(),
-            dependentsCount: npm.dependentsCount,
-            starsCount: npm.starsCount,
+            dependentsCount: npm.dependentsCount.toLocaleString('en'),
+            starsCount: npm.starsCount.toLocaleString('en'),
           });
         };
 
@@ -130,22 +130,24 @@ const StyleGuides = () => {
   return (
     <RulesProvider>
       <Grid>
-        <Row>
-          <Col xs={12} lg={8} lgOffset={2}>
-            <Text type="h1" align="center">
-              Javascript style guide comparison
-            </Text>
-            <Text align="center">
-              {`
-              Find out how the most popular javascirpt style guides compare to each other.
-              `}
-            </Text>
-            {!!statRows.length && (
-              <DataSet data={{ headers: headers(), rows: statRows }} src="https://npms.io" />
-            )}
-            <DataSet data={{ headers: headers(true), rows }} />
-          </Col>
-        </Row>
+        <Center>
+          <Row>
+            <Col xs={12}>
+              <Text type="h1" align="center">
+                Javascript style guide comparison
+              </Text>
+              <Text align="center">
+                {`
+                Find out how the most popular javascirpt style guides compare to each other.
+                `}
+              </Text>
+              {!!statRows.length && (
+                <DataSet data={{ headers: headers(), rows: statRows }} src="https://npms.io" />
+              )}
+              <DataSet data={{ headers: headers(true), rows }} />
+            </Col>
+          </Row>
+        </Center>
       </Grid>
       {renderModal()}
     </RulesProvider>

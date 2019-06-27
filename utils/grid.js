@@ -10,3 +10,6 @@ Row.propTypes = { children: PropTypes.node };
 
 export const Col = ({ children, ...props }) => <DepCol {...props}>{children}</DepCol>;
 Col.propTypes = { children: PropTypes.node };
+
+export const Center = ({ children }) => <div style={{ width: '100%', maxWidth: '565px', margin: '0 auto' }}>{children}</div>;
+Center.propTypes = { children: PropTypes.node };

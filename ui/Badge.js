@@ -53,7 +53,8 @@ const Badge = ({ type, size = 18, ...props }) => {
     airBnb: { index: 3, url: 'https://github.com/airbnb/javascript' },
   };
 
-  const redirect = () => {
+  const redirect = (e) => {
+    e.stopPropagation();
     window.location.href = map[type].url;
   };
 

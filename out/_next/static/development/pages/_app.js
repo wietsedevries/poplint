@@ -341,19 +341,23 @@ var Footer = function Footer() {
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_1__["Center"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xs: 12,
-    lg: 6,
-    lgOffset: 3,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: 12,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -362,7 +366,7 @@ var Footer = function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_2__["Anchor"], {
@@ -371,7 +375,7 @@ var Footer = function Footer() {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, "Popularity ranking of eslint rules"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_2__["Anchor"], {
@@ -380,7 +384,7 @@ var Footer = function Footer() {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, "Indentation: tabs vs spaces"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_2__["Anchor"], {
@@ -389,7 +393,7 @@ var Footer = function Footer() {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, "Semicolon: semi vs no-semi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_2__["Anchor"], {
@@ -398,29 +402,29 @@ var Footer = function Footer() {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Javascript guide comparison"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_2__["Logo"], {
     small: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
-  })))));
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -452,28 +456,32 @@ var Header = function Header() {
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_2__["Center"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    xs: 12,
-    lg: 6,
-    lgOffset: 3,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_grid__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    xs: 12,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ui__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -5735,318 +5743,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?modules!./node_modules/flexboxgrid2/flexboxgrid2.css":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js?modules!./node_modules/flexboxgrid2/flexboxgrid2.css ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
-// Module
-exports.push([module.i, "._3skQKpxiSZomj8KbvwQrXT {\n  box-sizing: border-box;\n  margin-left: auto;\n  margin-right: auto;\n  padding-right: 8px;\n  padding-left: 8px;\n}\n\n.XKLhmDNloVln61ip64E7e {\n  padding-right: 16px;\n  padding-left: 16px;\n}\n\n@media only screen and (min-width: 576px) {\n  ._3skQKpxiSZomj8KbvwQrXT {\n    width: 560px;\n    max-width: 100%;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  ._3skQKpxiSZomj8KbvwQrXT {\n    width: 752px;\n    max-width: 100%;\n  }\n}\n\n@media only screen and (min-width: 992px) {\n  ._3skQKpxiSZomj8KbvwQrXT {\n    width: 976px;\n    max-width: 100%;\n  }\n}\n\n@media only screen and (min-width: 1200px) {\n  ._3skQKpxiSZomj8KbvwQrXT {\n    width: 1184px;\n    max-width: 100%;\n  }\n}\n\n.ZtOZviTTkcmz3-DO_OzgS {\n  box-sizing: border-box;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 1 auto;\n  flex: 0 1 auto;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  margin-right: -8px;\n  margin-left: -8px;\n}\n\n.ZtOZviTTkcmz3-DO_OzgS._3oCGTV-ts_waPYnJof4V4t {\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: reverse;\n  -ms-flex-direction: row-reverse;\n  flex-direction: row-reverse;\n}\n\n._2Z6TWNLLayHYcG7d35QlUL._3oCGTV-ts_waPYnJof4V4t {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n  -ms-flex-direction: column-reverse;\n  flex-direction: column-reverse;\n}\n\n._2PLFUU9OgtbELWQz3snC0b,\n._1ys2K5XaFTu2WjGHAx71yi,\n._1oFs0McTNOmQk5ghTCYFF6,\n._1Q5cWluAlEp5vTRePCCYhk,\n._3pHqiVubpMLEJl33qP-THz,\n._3JeAfoKibbHbzssmnpicvq,\n._1ZplxGlyCnvyO0gMSgUv3h,\n._2rjoo-klXFU_UQnvbHm5F8,\n._3Pbgu9jv9fQItKcVfB9dfY,\n.zDP7azG11r4BrryRuQXyP,\n.Zo7_EhNHoP7eD9aOXA1qP,\n.mXqV2KdP02Vq_4UzBTYrV,\n.AdoKE9nnvZr4_zfgdeh5N,\n._3NAsN6VOp8CvKsdJJeTrl4,\n._3K_gCmhBT-OOPbvg3Lm8pQ,\n._2Ga734SBlBhsMTcwtIf_KE,\n._3c_FtR8nE2oJSTSVD3Me1U,\n._3TWUyCYND-7ku2IA3_6mbm,\n._1yWoTYeAeUi09Ayb8K8PBp,\n.al_7H1DFqYiuBDFGT0ZDR,\n._2J_G7ARf9_c2EvK09tdmHA,\n._1RGyWudNUR3qAubJ01JJc-,\n._3OtITJM6lFH3vYTPnQwYlV,\n._109SKBZ06uvcxE8a8gYfqb,\n._1fcLqWgTugO5yvq1iiYEcZ,\n._3UGEQEdCLHsoiUiHpMKNYU,\n._3UNLqXQCngw7zgetmq-cds,\n._2u7TqQNkhucZemW1lsStgy,\n._39LGZKi8lxfwpwhOAq9Ryp,\n._1HPMtw77Ymao63Rv3KJpGx,\n._3SO93QmVQRTCI3HVVcbJyb,\n._2Buhmok5IdCZjOrkWAsBEG,\n._1l2Kt_Yj_tsG2v22qJ55Mv,\n.d6sUamR59xF14rrBJhEqZ,\n.g6l7VjcdMZiPPzmyk3nw6,\n.etIBbrTV1mI5zeUmw0ryx,\n.BxvhteAVmfjdZ22-tz2f2,\n.PiXUPYXrSNDQ4-gFMTaXI,\n._2sYMg4prh7zOP8bfO9laIS,\n.oljZ3p_OPyToDQMlqmmQk,\n._1ywTDZB37vup8OaJpJL9YM,\n._1X0hdUFb1O9MfyJDO4UyEg,\n._2QOr28DMRWqPX2K1ScwV3e,\n._3inAMBU_gYkB5lv4fOjyhu,\n._2IhhnLs24EADiJMfN08ZEx,\n._21xzL4Y45ulPH77671noy5,\n._1ypYV_1ZONUH3OuBV5b-wC,\n.ymjV3DiCmndSacenPGkOp,\n._1SxN0OvcrUUIjrERBiBzB0,\n._2qwiOaGVbe87DSsf7-wQiH,\n._3zRYqsPIYSiZHouaXu_BCl,\n._2fnwdv4QnW7um73SfbyYwO,\n.srMeBWEsmEOeswWRO1jEq,\n._3RdWYuemSslSq-9HPjtsir,\n._3j8qsM33xgyB2B6_j3h7El,\n._2Th4SBV5cKCzriTMAKokee,\n._3pbbScAH_l-HkRL05mtPvP,\n._1Svz96GVCC6H0RBdR6EgmH,\n._1wIAilO4XeLxdqv70sp226,\n._3z1EO27UP67A9MlBGxWr0p,\n._2Dm-WpwJHazviiedcCk3Us,\n._1nXvw1d5DE-w6nrsDZGycJ,\n._3Br2rOm4NKm0ha78Tr0_MB,\n._3gKDLtnENZyOqHa4iE2q6m,\n._2t4Kha_9QhuRG06qHsxLkn,\n._1twEmKyJZD2bm71DqGmmCW,\n._12ZU0L18sdA0OBhLROXuNj,\n._1dGCSr-pJ8dO-qq1dUXGxy,\n.XMXnGj4QpP4s8a1KIZAZr,\n._3TnINlYJn9hl-92XTUoxdS,\n.EGfBj96of_REQ4P_jI2G8,\n._3Kb3EivPWyHSU5Ch5J6BRe,\n._21XFweNjzYKRYi1lIj6Sip,\n.qnljUd3UP2H8zCnvWhqLF,\n.kdDX2gISrC2mPNbGUOyha,\n._284iFuoqBFcyuJA3WxNxJe,\n.WXAgkWzMjcMdnx8clquA3,\n._2XYlUSMi1jIhNXADsPh7Q0,\n._3u7lkDVpkFB4nYh57fkX0Q,\n._2y0lPJzERqxxaNWC8wm94k,\n._1x6vtkRB7hOAfNE0x0PF5F,\n._37wpYTs0if2wh2mOPy3Pzb,\n.RwCNMYR7M4zFRxlOcFWKu,\n._37365696-mbGy6A5NyFvyU,\n.NeTjnPY8pTn9waboyeDqs,\n._3bixvChuExJicUfgKPR_a4,\n._2YhQ16Wzp7wtNCwO3JC60e,\n._2e0uZLQHhmGB5v5wOQXDvs,\n._3X-8gUxZE98Nydn45aIXF9,\n._1YmguBmW_NbaRkxTDjydzJ,\n.p4dm-IeH8p6JGExtzkSQw,\n.YMDi3TgRyvRnlGEoxFn86,\n._2mUfM7GF9pLDFjipjaLaA5,\n._2PSlKqhk395YIoowqTzJak,\n._2ZEsJOer2BnClwsSRSc3Uf,\n.oUBjvp2vUj2CmlocAT2hx,\n._2_pNEIYk7x0U9N-X9wvecm,\n._1bZESYEZevrqMDtkJDGbrO,\n._26quH4cxDB3ZnAwgim5069,\n._3kkd3JPhxZ-ib5GmbDFirf,\n._22Nlu0f38M5TPXvgq4L7PR,\n._32R4D3UYPtZ81-pcQZcWNG,\n._3mcm9jGfIXzmmyvZBdgkBD,\n._1CzWwAVM9UVGYYn22XrBRA,\n._3OIWSYJ0mNmQ59k7BoNskM,\n._1x-yZP1hMr4NJtls7PX7I9,\n.oe1yn7YsSprw1BNeuteLa,\n._1DZkDxHPEoh2TWlTmOQfBP,\n.e7X-gGZblfptYhV8jrAS1,\n._1K3om1v20Bu1a1VV4r2ZYF,\n.pj3ozfaWb1LB-oiSghlLE,\n._2lbXvBRcZOR_KTWieRorkc,\n._2T9rcLmE9S6FYwcdSjC86w,\n._4Cdy9o55krwQul3dCpcLj,\n.pgLUEtV_oUbHEQRrygvXe,\n.fOAzPsOUaUuXn5xXABw5Q,\n._1lxVNl6ky7ubv01QF4dFHS,\n.rTVg4jOSdDhdy5UziRldd,\n._1KRTFVkqjWwc6k8ofgFuov,\n._3XTdAAepYYwsCi2Twc_t5a,\n._1u7VMhj0p6CJ4bCU0nL4v7,\n._1U3cj25P0QGYt1Vxi_hPes,\n._1m-Bk4dMd2T2qS4eSqnCGB,\n.zqsMR6-vXxmx9n8y4BmQa,\n._8fHBq4tBq2KYoXG8psKuE,\n._1LruZSXiiFT74HH278_0bn,\n._3oTGDDpwqxM2xdLE-c5bx7,\n._2eReqgySQLE-dKYf3SzEQl,\n.kuo4AmaMph63-IyI8i89S,\n._1WvjRWPawyl08EaTKuObcv {\n  box-sizing: border-box;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  -ms-flex-preferred-size: 100%;\n  flex-basis: 100%;\n  padding-right: 8px;\n  padding-left: 8px;\n  max-width: 100%;\n}\n\n._2PLFUU9OgtbELWQz3snC0b {\n  -webkit-box-flex: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  -ms-flex-preferred-size: 0;\n  flex-basis: 0;\n  max-width: 100%;\n}\n\n._1ys2K5XaFTu2WjGHAx71yi {\n  -ms-flex-preferred-size: 8.33333333%;\n  flex-basis: 8.33333333%;\n  max-width: 8.33333333%;\n}\n\n._1oFs0McTNOmQk5ghTCYFF6 {\n  -ms-flex-preferred-size: 16.66666667%;\n  flex-basis: 16.66666667%;\n  max-width: 16.66666667%;\n}\n\n._1Q5cWluAlEp5vTRePCCYhk {\n  -ms-flex-preferred-size: 25%;\n  flex-basis: 25%;\n  max-width: 25%;\n}\n\n._3pHqiVubpMLEJl33qP-THz {\n  -ms-flex-preferred-size: 33.33333333%;\n  flex-basis: 33.33333333%;\n  max-width: 33.33333333%;\n}\n\n._3JeAfoKibbHbzssmnpicvq {\n  -ms-flex-preferred-size: 41.66666667%;\n  flex-basis: 41.66666667%;\n  max-width: 41.66666667%;\n}\n\n._1ZplxGlyCnvyO0gMSgUv3h {\n  -ms-flex-preferred-size: 50%;\n  flex-basis: 50%;\n  max-width: 50%;\n}\n\n._2rjoo-klXFU_UQnvbHm5F8 {\n  -ms-flex-preferred-size: 58.33333333%;\n  flex-basis: 58.33333333%;\n  max-width: 58.33333333%;\n}\n\n._3Pbgu9jv9fQItKcVfB9dfY {\n  -ms-flex-preferred-size: 66.66666667%;\n  flex-basis: 66.66666667%;\n  max-width: 66.66666667%;\n}\n\n.zDP7azG11r4BrryRuQXyP {\n  -ms-flex-preferred-size: 75%;\n  flex-basis: 75%;\n  max-width: 75%;\n}\n\n.Zo7_EhNHoP7eD9aOXA1qP {\n  -ms-flex-preferred-size: 83.33333333%;\n  flex-basis: 83.33333333%;\n  max-width: 83.33333333%;\n}\n\n.mXqV2KdP02Vq_4UzBTYrV {\n  -ms-flex-preferred-size: 91.66666667%;\n  flex-basis: 91.66666667%;\n  max-width: 91.66666667%;\n}\n\n.AdoKE9nnvZr4_zfgdeh5N {\n  -ms-flex-preferred-size: 100%;\n  flex-basis: 100%;\n  max-width: 100%;\n}\n\n._3NAsN6VOp8CvKsdJJeTrl4 {\n  margin-left: 0;\n}\n\n._3K_gCmhBT-OOPbvg3Lm8pQ {\n  margin-left: 8.33333333%;\n}\n\n._2Ga734SBlBhsMTcwtIf_KE {\n  margin-left: 16.66666667%;\n}\n\n._3c_FtR8nE2oJSTSVD3Me1U {\n  margin-left: 25%;\n}\n\n._3TWUyCYND-7ku2IA3_6mbm {\n  margin-left: 33.33333333%;\n}\n\n._1yWoTYeAeUi09Ayb8K8PBp {\n  margin-left: 41.66666667%;\n}\n\n.al_7H1DFqYiuBDFGT0ZDR {\n  margin-left: 50%;\n}\n\n._2J_G7ARf9_c2EvK09tdmHA {\n  margin-left: 58.33333333%;\n}\n\n._1RGyWudNUR3qAubJ01JJc- {\n  margin-left: 66.66666667%;\n}\n\n._3OtITJM6lFH3vYTPnQwYlV {\n  margin-left: 75%;\n}\n\n._109SKBZ06uvcxE8a8gYfqb {\n  margin-left: 83.33333333%;\n}\n\n._1fcLqWgTugO5yvq1iiYEcZ {\n  margin-left: 91.66666667%;\n}\n\n._2gtAfUqZ6khOkNnKiFDXal {\n  -webkit-box-pack: start;\n  -ms-flex-pack: start;\n  justify-content: flex-start;\n  text-align: start;\n}\n\n._2GJwnaqQsluFKOCxVoTOym {\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  text-align: center;\n}\n\n._1Jy9aPcdaFtdHs3JoKiBfO {\n  -webkit-box-pack: end;\n  -ms-flex-pack: end;\n  justify-content: flex-end;\n  text-align: end;\n}\n\n._3ApF9vIA8cwtMfgTYSJOze {\n  -webkit-box-align: start;\n  -ms-flex-align: start;\n  align-items: flex-start;\n}\n\n._2qJAdUvXLdQixlGX3vOpbL {\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n._2sMuKCMFQPu6zAKJoogKJY {\n  -webkit-box-align: end;\n  -ms-flex-align: end;\n  align-items: flex-end;\n}\n\n._1h6nugdh9ybztH8j9U9k0c {\n  -ms-flex-pack: distribute;\n  justify-content: space-around;\n}\n\n._1Bml90oycLGBxX6omOeYOJ {\n  -webkit-box-pack: justify;\n  -ms-flex-pack: justify;\n  justify-content: space-between;\n}\n\n._2ydrYqevov2_kqqPGR5Kxk {\n  -webkit-box-ordinal-group: 0;\n  -ms-flex-order: -1;\n  order: -1;\n}\n\n._1TmDf8HQ1KdYEsKjN3ygYJ {\n  -webkit-box-ordinal-group: 2;\n  -ms-flex-order: 1;\n  order: 1;\n}\n\n._1lJw5iKHMs1jttMfd4VaVm {\n  -webkit-box-ordinal-group: NaN;\n  -ms-flex-order: initial;\n  order: initial;\n}\n\n@media only screen and (min-width: 576px) {\n  ._3UNLqXQCngw7zgetmq-cds {\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0;\n    max-width: 100%;\n  }\n\n  ._2u7TqQNkhucZemW1lsStgy {\n    -ms-flex-preferred-size: 8.33333333%;\n    flex-basis: 8.33333333%;\n    max-width: 8.33333333%;\n  }\n\n  ._39LGZKi8lxfwpwhOAq9Ryp {\n    -ms-flex-preferred-size: 16.66666667%;\n    flex-basis: 16.66666667%;\n    max-width: 16.66666667%;\n  }\n\n  ._1HPMtw77Ymao63Rv3KJpGx {\n    -ms-flex-preferred-size: 25%;\n    flex-basis: 25%;\n    max-width: 25%;\n  }\n\n  ._3SO93QmVQRTCI3HVVcbJyb {\n    -ms-flex-preferred-size: 33.33333333%;\n    flex-basis: 33.33333333%;\n    max-width: 33.33333333%;\n  }\n\n  ._2Buhmok5IdCZjOrkWAsBEG {\n    -ms-flex-preferred-size: 41.66666667%;\n    flex-basis: 41.66666667%;\n    max-width: 41.66666667%;\n  }\n\n  ._1l2Kt_Yj_tsG2v22qJ55Mv {\n    -ms-flex-preferred-size: 50%;\n    flex-basis: 50%;\n    max-width: 50%;\n  }\n\n  .d6sUamR59xF14rrBJhEqZ {\n    -ms-flex-preferred-size: 58.33333333%;\n    flex-basis: 58.33333333%;\n    max-width: 58.33333333%;\n  }\n\n  .g6l7VjcdMZiPPzmyk3nw6 {\n    -ms-flex-preferred-size: 66.66666667%;\n    flex-basis: 66.66666667%;\n    max-width: 66.66666667%;\n  }\n\n  .etIBbrTV1mI5zeUmw0ryx {\n    -ms-flex-preferred-size: 75%;\n    flex-basis: 75%;\n    max-width: 75%;\n  }\n\n  .BxvhteAVmfjdZ22-tz2f2 {\n    -ms-flex-preferred-size: 83.33333333%;\n    flex-basis: 83.33333333%;\n    max-width: 83.33333333%;\n  }\n\n  .PiXUPYXrSNDQ4-gFMTaXI {\n    -ms-flex-preferred-size: 91.66666667%;\n    flex-basis: 91.66666667%;\n    max-width: 91.66666667%;\n  }\n\n  ._2sYMg4prh7zOP8bfO9laIS {\n    -ms-flex-preferred-size: 100%;\n    flex-basis: 100%;\n    max-width: 100%;\n  }\n\n  .oljZ3p_OPyToDQMlqmmQk {\n    margin-left: 0;\n  }\n\n  ._1ywTDZB37vup8OaJpJL9YM {\n    margin-left: 8.33333333%;\n  }\n\n  ._1X0hdUFb1O9MfyJDO4UyEg {\n    margin-left: 16.66666667%;\n  }\n\n  ._2QOr28DMRWqPX2K1ScwV3e {\n    margin-left: 25%;\n  }\n\n  ._3inAMBU_gYkB5lv4fOjyhu {\n    margin-left: 33.33333333%;\n  }\n\n  ._2IhhnLs24EADiJMfN08ZEx {\n    margin-left: 41.66666667%;\n  }\n\n  ._21xzL4Y45ulPH77671noy5 {\n    margin-left: 50%;\n  }\n\n  ._1ypYV_1ZONUH3OuBV5b-wC {\n    margin-left: 58.33333333%;\n  }\n\n  .ymjV3DiCmndSacenPGkOp {\n    margin-left: 66.66666667%;\n  }\n\n  ._1SxN0OvcrUUIjrERBiBzB0 {\n    margin-left: 75%;\n  }\n\n  ._2qwiOaGVbe87DSsf7-wQiH {\n    margin-left: 83.33333333%;\n  }\n\n  ._3zRYqsPIYSiZHouaXu_BCl {\n    margin-left: 91.66666667%;\n  }\n\n  ._3I0F04FjVgQjiJ5tB44ZGm {\n    -webkit-box-pack: start;\n    -ms-flex-pack: start;\n    justify-content: flex-start;\n    text-align: start;\n  }\n\n  ._2tfwTBcdzCbdlANbBp_QoJ {\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    text-align: center;\n  }\n\n  ._1Dqio91VQrkCENKT2Naf-p {\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n    text-align: end;\n  }\n\n  .NTmPJv6OEKHClXm8DNhYw {\n    -webkit-box-align: start;\n    -ms-flex-align: start;\n    align-items: flex-start;\n  }\n\n  .QLrL09vxGV-Gc_wlmcrsd {\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n  }\n\n  ._3iRADHmq931QrmDEz66iQF {\n    -webkit-box-align: end;\n    -ms-flex-align: end;\n    align-items: flex-end;\n  }\n\n  ._2DXbHaREcD0fAmb-sVs1v0 {\n    -ms-flex-pack: distribute;\n    justify-content: space-around;\n  }\n\n  ._1GD_qR1leW4xEERHio51eq {\n    -webkit-box-pack: justify;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n  }\n\n  .AlKeII65w7WH0UNts1ktw {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n  }\n\n  ._1GaXQuMgbGIh-BL0a8BGys {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n  }\n\n  ._3Ar7f5RdfKtYarHv1IJ2kF {\n    -webkit-box-ordinal-group: NaN;\n    -ms-flex-order: initial;\n    order: initial;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  .srMeBWEsmEOeswWRO1jEq,\n  ._3RdWYuemSslSq-9HPjtsir,\n  ._3j8qsM33xgyB2B6_j3h7El,\n  ._2Th4SBV5cKCzriTMAKokee,\n  ._3pbbScAH_l-HkRL05mtPvP,\n  ._1Svz96GVCC6H0RBdR6EgmH,\n  ._1wIAilO4XeLxdqv70sp226,\n  ._3z1EO27UP67A9MlBGxWr0p,\n  ._2Dm-WpwJHazviiedcCk3Us,\n  ._1nXvw1d5DE-w6nrsDZGycJ,\n  ._3Br2rOm4NKm0ha78Tr0_MB,\n  ._3gKDLtnENZyOqHa4iE2q6m,\n  ._2t4Kha_9QhuRG06qHsxLkn,\n  ._1twEmKyJZD2bm71DqGmmCW,\n  ._12ZU0L18sdA0OBhLROXuNj,\n  ._1dGCSr-pJ8dO-qq1dUXGxy,\n  .XMXnGj4QpP4s8a1KIZAZr,\n  ._3TnINlYJn9hl-92XTUoxdS,\n  .EGfBj96of_REQ4P_jI2G8,\n  ._3Kb3EivPWyHSU5Ch5J6BRe,\n  ._21XFweNjzYKRYi1lIj6Sip,\n  .qnljUd3UP2H8zCnvWhqLF,\n  .kdDX2gISrC2mPNbGUOyha,\n  ._284iFuoqBFcyuJA3WxNxJe,\n  .WXAgkWzMjcMdnx8clquA3,\n  ._2XYlUSMi1jIhNXADsPh7Q0 {\n    box-sizing: border-box;\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    padding-right: 8px;\n    padding-left: 8px;\n  }\n\n  .srMeBWEsmEOeswWRO1jEq {\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0;\n    max-width: 100%;\n  }\n\n  ._3RdWYuemSslSq-9HPjtsir {\n    -ms-flex-preferred-size: 8.33333333%;\n    flex-basis: 8.33333333%;\n    max-width: 8.33333333%;\n  }\n\n  ._3j8qsM33xgyB2B6_j3h7El {\n    -ms-flex-preferred-size: 16.66666667%;\n    flex-basis: 16.66666667%;\n    max-width: 16.66666667%;\n  }\n\n  ._2Th4SBV5cKCzriTMAKokee {\n    -ms-flex-preferred-size: 25%;\n    flex-basis: 25%;\n    max-width: 25%;\n  }\n\n  ._3pbbScAH_l-HkRL05mtPvP {\n    -ms-flex-preferred-size: 33.33333333%;\n    flex-basis: 33.33333333%;\n    max-width: 33.33333333%;\n  }\n\n  ._1Svz96GVCC6H0RBdR6EgmH {\n    -ms-flex-preferred-size: 41.66666667%;\n    flex-basis: 41.66666667%;\n    max-width: 41.66666667%;\n  }\n\n  ._1wIAilO4XeLxdqv70sp226 {\n    -ms-flex-preferred-size: 50%;\n    flex-basis: 50%;\n    max-width: 50%;\n  }\n\n  ._3z1EO27UP67A9MlBGxWr0p {\n    -ms-flex-preferred-size: 58.33333333%;\n    flex-basis: 58.33333333%;\n    max-width: 58.33333333%;\n  }\n\n  ._2Dm-WpwJHazviiedcCk3Us {\n    -ms-flex-preferred-size: 66.66666667%;\n    flex-basis: 66.66666667%;\n    max-width: 66.66666667%;\n  }\n\n  ._1nXvw1d5DE-w6nrsDZGycJ {\n    -ms-flex-preferred-size: 75%;\n    flex-basis: 75%;\n    max-width: 75%;\n  }\n\n  ._3Br2rOm4NKm0ha78Tr0_MB {\n    -ms-flex-preferred-size: 83.33333333%;\n    flex-basis: 83.33333333%;\n    max-width: 83.33333333%;\n  }\n\n  ._3gKDLtnENZyOqHa4iE2q6m {\n    -ms-flex-preferred-size: 91.66666667%;\n    flex-basis: 91.66666667%;\n    max-width: 91.66666667%;\n  }\n\n  ._2t4Kha_9QhuRG06qHsxLkn {\n    -ms-flex-preferred-size: 100%;\n    flex-basis: 100%;\n    max-width: 100%;\n  }\n\n  ._1twEmKyJZD2bm71DqGmmCW {\n    margin-left: 0;\n  }\n\n  ._12ZU0L18sdA0OBhLROXuNj {\n    margin-left: 8.33333333%;\n  }\n\n  ._1dGCSr-pJ8dO-qq1dUXGxy {\n    margin-left: 16.66666667%;\n  }\n\n  .XMXnGj4QpP4s8a1KIZAZr {\n    margin-left: 25%;\n  }\n\n  ._3TnINlYJn9hl-92XTUoxdS {\n    margin-left: 33.33333333%;\n  }\n\n  .EGfBj96of_REQ4P_jI2G8 {\n    margin-left: 41.66666667%;\n  }\n\n  ._3Kb3EivPWyHSU5Ch5J6BRe {\n    margin-left: 50%;\n  }\n\n  ._21XFweNjzYKRYi1lIj6Sip {\n    margin-left: 58.33333333%;\n  }\n\n  .qnljUd3UP2H8zCnvWhqLF {\n    margin-left: 66.66666667%;\n  }\n\n  .kdDX2gISrC2mPNbGUOyha {\n    margin-left: 75%;\n  }\n\n  ._284iFuoqBFcyuJA3WxNxJe {\n    margin-left: 83.33333333%;\n  }\n\n  .WXAgkWzMjcMdnx8clquA3 {\n    margin-left: 91.66666667%;\n  }\n\n  ._3M-iK4KCqzwVU_r5Xai48C {\n    -webkit-box-pack: start;\n    -ms-flex-pack: start;\n    justify-content: flex-start;\n    text-align: start;\n  }\n\n  ._3Ql1dZCzSQxfkd-Tt49dLn {\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    text-align: center;\n  }\n\n  .STrsQT_cc-vxez-YNFz91 {\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n    text-align: end;\n  }\n\n  ._2FX252Qm1w-KSCksNusX4R {\n    -webkit-box-align: start;\n    -ms-flex-align: start;\n    align-items: flex-start;\n  }\n\n  .YZ6CJlyN2oU2cJqiuOJto {\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n  }\n\n  ._2Ruw8DJMQOABkqDJPnCZla {\n    -webkit-box-align: end;\n    -ms-flex-align: end;\n    align-items: flex-end;\n  }\n\n  ._1G_h0leNekuD8SwyMvPP6M {\n    -ms-flex-pack: distribute;\n    justify-content: space-around;\n  }\n\n  ._1ik_I-X_0gxXRvPEehChGi {\n    -webkit-box-pack: justify;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n  }\n\n  .yFUKjYE9scrKUGf0uUTGg {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n  }\n\n  ._1PHhpZeRyTCvrjpkXL4j4o {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n  }\n\n  ._3UvRNpsH_QPi8h2VSaKRGo {\n    -webkit-box-ordinal-group: NaN;\n    -ms-flex-order: initial;\n    order: initial;\n  }\n}\n\n@media only screen and (min-width: 992px) {\n  ._3u7lkDVpkFB4nYh57fkX0Q,\n  ._2y0lPJzERqxxaNWC8wm94k,\n  ._1x6vtkRB7hOAfNE0x0PF5F,\n  ._37wpYTs0if2wh2mOPy3Pzb,\n  .RwCNMYR7M4zFRxlOcFWKu,\n  ._37365696-mbGy6A5NyFvyU,\n  .NeTjnPY8pTn9waboyeDqs,\n  ._3bixvChuExJicUfgKPR_a4,\n  ._2YhQ16Wzp7wtNCwO3JC60e,\n  ._2e0uZLQHhmGB5v5wOQXDvs,\n  ._3X-8gUxZE98Nydn45aIXF9,\n  ._1YmguBmW_NbaRkxTDjydzJ,\n  .p4dm-IeH8p6JGExtzkSQw,\n  .YMDi3TgRyvRnlGEoxFn86,\n  ._2mUfM7GF9pLDFjipjaLaA5,\n  ._2PSlKqhk395YIoowqTzJak,\n  ._2ZEsJOer2BnClwsSRSc3Uf,\n  .oUBjvp2vUj2CmlocAT2hx,\n  ._2_pNEIYk7x0U9N-X9wvecm,\n  ._1bZESYEZevrqMDtkJDGbrO,\n  ._26quH4cxDB3ZnAwgim5069,\n  ._3kkd3JPhxZ-ib5GmbDFirf,\n  ._22Nlu0f38M5TPXvgq4L7PR,\n  ._32R4D3UYPtZ81-pcQZcWNG,\n  ._3mcm9jGfIXzmmyvZBdgkBD,\n  ._1CzWwAVM9UVGYYn22XrBRA {\n    box-sizing: border-box;\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    padding-right: 8px;\n    padding-left: 8px;\n  }\n\n  ._3u7lkDVpkFB4nYh57fkX0Q {\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0;\n    max-width: 100%;\n  }\n\n  ._2y0lPJzERqxxaNWC8wm94k {\n    -ms-flex-preferred-size: 8.33333333%;\n    flex-basis: 8.33333333%;\n    max-width: 8.33333333%;\n  }\n\n  ._1x6vtkRB7hOAfNE0x0PF5F {\n    -ms-flex-preferred-size: 16.66666667%;\n    flex-basis: 16.66666667%;\n    max-width: 16.66666667%;\n  }\n\n  ._37wpYTs0if2wh2mOPy3Pzb {\n    -ms-flex-preferred-size: 25%;\n    flex-basis: 25%;\n    max-width: 25%;\n  }\n\n  .RwCNMYR7M4zFRxlOcFWKu {\n    -ms-flex-preferred-size: 33.33333333%;\n    flex-basis: 33.33333333%;\n    max-width: 33.33333333%;\n  }\n\n  ._37365696-mbGy6A5NyFvyU {\n    -ms-flex-preferred-size: 41.66666667%;\n    flex-basis: 41.66666667%;\n    max-width: 41.66666667%;\n  }\n\n  .NeTjnPY8pTn9waboyeDqs {\n    -ms-flex-preferred-size: 50%;\n    flex-basis: 50%;\n    max-width: 50%;\n  }\n\n  ._3bixvChuExJicUfgKPR_a4 {\n    -ms-flex-preferred-size: 58.33333333%;\n    flex-basis: 58.33333333%;\n    max-width: 58.33333333%;\n  }\n\n  ._2YhQ16Wzp7wtNCwO3JC60e {\n    -ms-flex-preferred-size: 66.66666667%;\n    flex-basis: 66.66666667%;\n    max-width: 66.66666667%;\n  }\n\n  ._2e0uZLQHhmGB5v5wOQXDvs {\n    -ms-flex-preferred-size: 75%;\n    flex-basis: 75%;\n    max-width: 75%;\n  }\n\n  ._3X-8gUxZE98Nydn45aIXF9 {\n    -ms-flex-preferred-size: 83.33333333%;\n    flex-basis: 83.33333333%;\n    max-width: 83.33333333%;\n  }\n\n  ._1YmguBmW_NbaRkxTDjydzJ {\n    -ms-flex-preferred-size: 91.66666667%;\n    flex-basis: 91.66666667%;\n    max-width: 91.66666667%;\n  }\n\n  .p4dm-IeH8p6JGExtzkSQw {\n    -ms-flex-preferred-size: 100%;\n    flex-basis: 100%;\n    max-width: 100%;\n  }\n\n  .YMDi3TgRyvRnlGEoxFn86 {\n    margin-left: 0;\n  }\n\n  ._2mUfM7GF9pLDFjipjaLaA5 {\n    margin-left: 8.33333333%;\n  }\n\n  ._2PSlKqhk395YIoowqTzJak {\n    margin-left: 16.66666667%;\n  }\n\n  ._2ZEsJOer2BnClwsSRSc3Uf {\n    margin-left: 25%;\n  }\n\n  .oUBjvp2vUj2CmlocAT2hx {\n    margin-left: 33.33333333%;\n  }\n\n  ._2_pNEIYk7x0U9N-X9wvecm {\n    margin-left: 41.66666667%;\n  }\n\n  ._1bZESYEZevrqMDtkJDGbrO {\n    margin-left: 50%;\n  }\n\n  ._26quH4cxDB3ZnAwgim5069 {\n    margin-left: 58.33333333%;\n  }\n\n  ._3kkd3JPhxZ-ib5GmbDFirf {\n    margin-left: 66.66666667%;\n  }\n\n  ._22Nlu0f38M5TPXvgq4L7PR {\n    margin-left: 75%;\n  }\n\n  ._32R4D3UYPtZ81-pcQZcWNG {\n    margin-left: 83.33333333%;\n  }\n\n  ._3mcm9jGfIXzmmyvZBdgkBD {\n    margin-left: 91.66666667%;\n  }\n\n  .m0vFFX3uvoshUtUMuNKEG {\n    -webkit-box-pack: start;\n    -ms-flex-pack: start;\n    justify-content: flex-start;\n    text-align: start;\n  }\n\n  ._1ppmu7vau5AmPTlxWau1WK {\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    text-align: center;\n  }\n\n  ._1CeneHP-ip58Uc3p2n5Lrg {\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n    text-align: end;\n  }\n\n  ._3R_GA-E3ZxvNNrGUvutwLT {\n    -webkit-box-align: start;\n    -ms-flex-align: start;\n    align-items: flex-start;\n  }\n\n  ._2vRr_I4KGzC0W3wjr_kI-x {\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n  }\n\n  ._1FxHXLk79Qlx-1j98AcFPk {\n    -webkit-box-align: end;\n    -ms-flex-align: end;\n    align-items: flex-end;\n  }\n\n  ._24PfHPmaFYV8K0P67vvcj4 {\n    -ms-flex-pack: distribute;\n    justify-content: space-around;\n  }\n\n  ._2a-N0v7Nv3eowE8Nj_J471 {\n    -webkit-box-pack: justify;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n  }\n\n  ._351ppJsPLwyIZRj-arBnW5 {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n  }\n\n  ._2GWNG6yZdrqsmeTgkoiVKo {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n  }\n\n  ._3ajeo649_S-CaMWLS55syA {\n    -webkit-box-ordinal-group: NaN;\n    -ms-flex-order: initial;\n    order: initial;\n  }\n}\n\n@media only screen and (min-width: 1200px) {\n  ._3OIWSYJ0mNmQ59k7BoNskM,\n  ._1x-yZP1hMr4NJtls7PX7I9,\n  .oe1yn7YsSprw1BNeuteLa,\n  ._1DZkDxHPEoh2TWlTmOQfBP,\n  .e7X-gGZblfptYhV8jrAS1,\n  ._1K3om1v20Bu1a1VV4r2ZYF,\n  .pj3ozfaWb1LB-oiSghlLE,\n  ._2lbXvBRcZOR_KTWieRorkc,\n  ._2T9rcLmE9S6FYwcdSjC86w,\n  ._4Cdy9o55krwQul3dCpcLj,\n  .pgLUEtV_oUbHEQRrygvXe,\n  .fOAzPsOUaUuXn5xXABw5Q,\n  ._1lxVNl6ky7ubv01QF4dFHS,\n  .rTVg4jOSdDhdy5UziRldd,\n  ._1KRTFVkqjWwc6k8ofgFuov,\n  ._3XTdAAepYYwsCi2Twc_t5a,\n  ._1u7VMhj0p6CJ4bCU0nL4v7,\n  ._1U3cj25P0QGYt1Vxi_hPes,\n  ._1m-Bk4dMd2T2qS4eSqnCGB,\n  .zqsMR6-vXxmx9n8y4BmQa,\n  ._8fHBq4tBq2KYoXG8psKuE,\n  ._1LruZSXiiFT74HH278_0bn,\n  ._3oTGDDpwqxM2xdLE-c5bx7,\n  ._2eReqgySQLE-dKYf3SzEQl,\n  .kuo4AmaMph63-IyI8i89S,\n  ._1WvjRWPawyl08EaTKuObcv {\n    box-sizing: border-box;\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 auto;\n    flex: 0 0 auto;\n    padding-right: 8px;\n    padding-left: 8px;\n  }\n\n  ._3OIWSYJ0mNmQ59k7BoNskM {\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0;\n    max-width: 100%;\n  }\n\n  ._1x-yZP1hMr4NJtls7PX7I9 {\n    -ms-flex-preferred-size: 8.33333333%;\n    flex-basis: 8.33333333%;\n    max-width: 8.33333333%;\n  }\n\n  .oe1yn7YsSprw1BNeuteLa {\n    -ms-flex-preferred-size: 16.66666667%;\n    flex-basis: 16.66666667%;\n    max-width: 16.66666667%;\n  }\n\n  ._1DZkDxHPEoh2TWlTmOQfBP {\n    -ms-flex-preferred-size: 25%;\n    flex-basis: 25%;\n    max-width: 25%;\n  }\n\n  .e7X-gGZblfptYhV8jrAS1 {\n    -ms-flex-preferred-size: 33.33333333%;\n    flex-basis: 33.33333333%;\n    max-width: 33.33333333%;\n  }\n\n  ._1K3om1v20Bu1a1VV4r2ZYF {\n    -ms-flex-preferred-size: 41.66666667%;\n    flex-basis: 41.66666667%;\n    max-width: 41.66666667%;\n  }\n\n  .pj3ozfaWb1LB-oiSghlLE {\n    -ms-flex-preferred-size: 50%;\n    flex-basis: 50%;\n    max-width: 50%;\n  }\n\n  ._2lbXvBRcZOR_KTWieRorkc {\n    -ms-flex-preferred-size: 58.33333333%;\n    flex-basis: 58.33333333%;\n    max-width: 58.33333333%;\n  }\n\n  ._2T9rcLmE9S6FYwcdSjC86w {\n    -ms-flex-preferred-size: 66.66666667%;\n    flex-basis: 66.66666667%;\n    max-width: 66.66666667%;\n  }\n\n  ._4Cdy9o55krwQul3dCpcLj {\n    -ms-flex-preferred-size: 75%;\n    flex-basis: 75%;\n    max-width: 75%;\n  }\n\n  .pgLUEtV_oUbHEQRrygvXe {\n    -ms-flex-preferred-size: 83.33333333%;\n    flex-basis: 83.33333333%;\n    max-width: 83.33333333%;\n  }\n\n  .fOAzPsOUaUuXn5xXABw5Q {\n    -ms-flex-preferred-size: 91.66666667%;\n    flex-basis: 91.66666667%;\n    max-width: 91.66666667%;\n  }\n\n  ._1lxVNl6ky7ubv01QF4dFHS {\n    -ms-flex-preferred-size: 100%;\n    flex-basis: 100%;\n    max-width: 100%;\n  }\n\n  .rTVg4jOSdDhdy5UziRldd {\n    margin-left: 0;\n  }\n\n  ._1KRTFVkqjWwc6k8ofgFuov {\n    margin-left: 8.33333333%;\n  }\n\n  ._3XTdAAepYYwsCi2Twc_t5a {\n    margin-left: 16.66666667%;\n  }\n\n  ._1u7VMhj0p6CJ4bCU0nL4v7 {\n    margin-left: 25%;\n  }\n\n  ._1U3cj25P0QGYt1Vxi_hPes {\n    margin-left: 33.33333333%;\n  }\n\n  ._1m-Bk4dMd2T2qS4eSqnCGB {\n    margin-left: 41.66666667%;\n  }\n\n  .zqsMR6-vXxmx9n8y4BmQa {\n    margin-left: 50%;\n  }\n\n  ._8fHBq4tBq2KYoXG8psKuE {\n    margin-left: 58.33333333%;\n  }\n\n  ._1LruZSXiiFT74HH278_0bn {\n    margin-left: 66.66666667%;\n  }\n\n  ._3oTGDDpwqxM2xdLE-c5bx7 {\n    margin-left: 75%;\n  }\n\n  ._2eReqgySQLE-dKYf3SzEQl {\n    margin-left: 83.33333333%;\n  }\n\n  .kuo4AmaMph63-IyI8i89S {\n    margin-left: 91.66666667%;\n  }\n\n  ._2Ur_rL36q1waEwVz0FhFXn {\n    -webkit-box-pack: start;\n    -ms-flex-pack: start;\n    justify-content: flex-start;\n    text-align: start;\n  }\n\n  ._3C4Vx7qPNJNaIyLoR8hZr- {\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    text-align: center;\n  }\n\n  ._2UqlCpbSi10LB22Uhx-736 {\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n    text-align: end;\n  }\n\n  ._1tLbFCK29ABJNNBGUDXHF7 {\n    -webkit-box-align: start;\n    -ms-flex-align: start;\n    align-items: flex-start;\n  }\n\n  ._31-IDfNFa6qBWqbArRVPdt {\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n  }\n\n  .p1SvROP9RcuNwO1esT4Rl {\n    -webkit-box-align: end;\n    -ms-flex-align: end;\n    align-items: flex-end;\n  }\n\n  ._2j28wjHGEn4hM2MhATwo7G {\n    -ms-flex-pack: distribute;\n    justify-content: space-around;\n  }\n\n  .xff2EFxG8tg8evHNNVMyb {\n    -webkit-box-pack: justify;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n  }\n\n  ._2QxqG3ap5EkHqi15Y0iAds {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n  }\n\n  ._1v5wIPifGXDAbvveMUSyqQ {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n  }\n\n  .IYbgPGDpOhwvfrkC8MnLj {\n    -webkit-box-ordinal-group: NaN;\n    -ms-flex-order: initial;\n    order: initial;\n  }\n}\n\n@media only screen and (max-width: 575px) {\n  ._3MgtYU349g6IDDlPl93YwB {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 576px) and (max-width: 767px) {\n  ._2YMAOmRApTFg6DRyMmoYIb {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 768px) and (max-width: 991px) {\n  .FbTYO-xyhVdvo0L9XD6sL {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 992px) and (max-width: 1199px) {\n  ._2fkvWGcgWOYTcknbjCLNP- {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 1200px) {\n  ._3hzYJnI04EbSLrqvAHGsZk {\n    display: none;\n  }\n}", ""]);
-// Exports
-exports.locals = {
-	"container": "_3skQKpxiSZomj8KbvwQrXT",
-	"container-fluid": "XKLhmDNloVln61ip64E7e",
-	"row": "ZtOZviTTkcmz3-DO_OzgS",
-	"reverse": "_3oCGTV-ts_waPYnJof4V4t",
-	"col": "_2Z6TWNLLayHYcG7d35QlUL",
-	"col-xs": "_2PLFUU9OgtbELWQz3snC0b",
-	"col-xs-1": "_1ys2K5XaFTu2WjGHAx71yi",
-	"col-xs-2": "_1oFs0McTNOmQk5ghTCYFF6",
-	"col-xs-3": "_1Q5cWluAlEp5vTRePCCYhk",
-	"col-xs-4": "_3pHqiVubpMLEJl33qP-THz",
-	"col-xs-5": "_3JeAfoKibbHbzssmnpicvq",
-	"col-xs-6": "_1ZplxGlyCnvyO0gMSgUv3h",
-	"col-xs-7": "_2rjoo-klXFU_UQnvbHm5F8",
-	"col-xs-8": "_3Pbgu9jv9fQItKcVfB9dfY",
-	"col-xs-9": "zDP7azG11r4BrryRuQXyP",
-	"col-xs-10": "Zo7_EhNHoP7eD9aOXA1qP",
-	"col-xs-11": "mXqV2KdP02Vq_4UzBTYrV",
-	"col-xs-12": "AdoKE9nnvZr4_zfgdeh5N",
-	"col-xs-offset-0": "_3NAsN6VOp8CvKsdJJeTrl4",
-	"col-xs-offset-1": "_3K_gCmhBT-OOPbvg3Lm8pQ",
-	"col-xs-offset-2": "_2Ga734SBlBhsMTcwtIf_KE",
-	"col-xs-offset-3": "_3c_FtR8nE2oJSTSVD3Me1U",
-	"col-xs-offset-4": "_3TWUyCYND-7ku2IA3_6mbm",
-	"col-xs-offset-5": "_1yWoTYeAeUi09Ayb8K8PBp",
-	"col-xs-offset-6": "al_7H1DFqYiuBDFGT0ZDR",
-	"col-xs-offset-7": "_2J_G7ARf9_c2EvK09tdmHA",
-	"col-xs-offset-8": "_1RGyWudNUR3qAubJ01JJc-",
-	"col-xs-offset-9": "_3OtITJM6lFH3vYTPnQwYlV",
-	"col-xs-offset-10": "_109SKBZ06uvcxE8a8gYfqb",
-	"col-xs-offset-11": "_1fcLqWgTugO5yvq1iiYEcZ",
-	"col-xs-offset-12": "_3UGEQEdCLHsoiUiHpMKNYU",
-	"col-sm": "_3UNLqXQCngw7zgetmq-cds",
-	"col-sm-1": "_2u7TqQNkhucZemW1lsStgy",
-	"col-sm-2": "_39LGZKi8lxfwpwhOAq9Ryp",
-	"col-sm-3": "_1HPMtw77Ymao63Rv3KJpGx",
-	"col-sm-4": "_3SO93QmVQRTCI3HVVcbJyb",
-	"col-sm-5": "_2Buhmok5IdCZjOrkWAsBEG",
-	"col-sm-6": "_1l2Kt_Yj_tsG2v22qJ55Mv",
-	"col-sm-7": "d6sUamR59xF14rrBJhEqZ",
-	"col-sm-8": "g6l7VjcdMZiPPzmyk3nw6",
-	"col-sm-9": "etIBbrTV1mI5zeUmw0ryx",
-	"col-sm-10": "BxvhteAVmfjdZ22-tz2f2",
-	"col-sm-11": "PiXUPYXrSNDQ4-gFMTaXI",
-	"col-sm-12": "_2sYMg4prh7zOP8bfO9laIS",
-	"col-sm-offset-0": "oljZ3p_OPyToDQMlqmmQk",
-	"col-sm-offset-1": "_1ywTDZB37vup8OaJpJL9YM",
-	"col-sm-offset-2": "_1X0hdUFb1O9MfyJDO4UyEg",
-	"col-sm-offset-3": "_2QOr28DMRWqPX2K1ScwV3e",
-	"col-sm-offset-4": "_3inAMBU_gYkB5lv4fOjyhu",
-	"col-sm-offset-5": "_2IhhnLs24EADiJMfN08ZEx",
-	"col-sm-offset-6": "_21xzL4Y45ulPH77671noy5",
-	"col-sm-offset-7": "_1ypYV_1ZONUH3OuBV5b-wC",
-	"col-sm-offset-8": "ymjV3DiCmndSacenPGkOp",
-	"col-sm-offset-9": "_1SxN0OvcrUUIjrERBiBzB0",
-	"col-sm-offset-10": "_2qwiOaGVbe87DSsf7-wQiH",
-	"col-sm-offset-11": "_3zRYqsPIYSiZHouaXu_BCl",
-	"col-sm-offset-12": "_2fnwdv4QnW7um73SfbyYwO",
-	"col-md": "srMeBWEsmEOeswWRO1jEq",
-	"col-md-1": "_3RdWYuemSslSq-9HPjtsir",
-	"col-md-2": "_3j8qsM33xgyB2B6_j3h7El",
-	"col-md-3": "_2Th4SBV5cKCzriTMAKokee",
-	"col-md-4": "_3pbbScAH_l-HkRL05mtPvP",
-	"col-md-5": "_1Svz96GVCC6H0RBdR6EgmH",
-	"col-md-6": "_1wIAilO4XeLxdqv70sp226",
-	"col-md-7": "_3z1EO27UP67A9MlBGxWr0p",
-	"col-md-8": "_2Dm-WpwJHazviiedcCk3Us",
-	"col-md-9": "_1nXvw1d5DE-w6nrsDZGycJ",
-	"col-md-10": "_3Br2rOm4NKm0ha78Tr0_MB",
-	"col-md-11": "_3gKDLtnENZyOqHa4iE2q6m",
-	"col-md-12": "_2t4Kha_9QhuRG06qHsxLkn",
-	"col-md-offset-0": "_1twEmKyJZD2bm71DqGmmCW",
-	"col-md-offset-1": "_12ZU0L18sdA0OBhLROXuNj",
-	"col-md-offset-2": "_1dGCSr-pJ8dO-qq1dUXGxy",
-	"col-md-offset-3": "XMXnGj4QpP4s8a1KIZAZr",
-	"col-md-offset-4": "_3TnINlYJn9hl-92XTUoxdS",
-	"col-md-offset-5": "EGfBj96of_REQ4P_jI2G8",
-	"col-md-offset-6": "_3Kb3EivPWyHSU5Ch5J6BRe",
-	"col-md-offset-7": "_21XFweNjzYKRYi1lIj6Sip",
-	"col-md-offset-8": "qnljUd3UP2H8zCnvWhqLF",
-	"col-md-offset-9": "kdDX2gISrC2mPNbGUOyha",
-	"col-md-offset-10": "_284iFuoqBFcyuJA3WxNxJe",
-	"col-md-offset-11": "WXAgkWzMjcMdnx8clquA3",
-	"col-md-offset-12": "_2XYlUSMi1jIhNXADsPh7Q0",
-	"col-lg": "_3u7lkDVpkFB4nYh57fkX0Q",
-	"col-lg-1": "_2y0lPJzERqxxaNWC8wm94k",
-	"col-lg-2": "_1x6vtkRB7hOAfNE0x0PF5F",
-	"col-lg-3": "_37wpYTs0if2wh2mOPy3Pzb",
-	"col-lg-4": "RwCNMYR7M4zFRxlOcFWKu",
-	"col-lg-5": "_37365696-mbGy6A5NyFvyU",
-	"col-lg-6": "NeTjnPY8pTn9waboyeDqs",
-	"col-lg-7": "_3bixvChuExJicUfgKPR_a4",
-	"col-lg-8": "_2YhQ16Wzp7wtNCwO3JC60e",
-	"col-lg-9": "_2e0uZLQHhmGB5v5wOQXDvs",
-	"col-lg-10": "_3X-8gUxZE98Nydn45aIXF9",
-	"col-lg-11": "_1YmguBmW_NbaRkxTDjydzJ",
-	"col-lg-12": "p4dm-IeH8p6JGExtzkSQw",
-	"col-lg-offset-0": "YMDi3TgRyvRnlGEoxFn86",
-	"col-lg-offset-1": "_2mUfM7GF9pLDFjipjaLaA5",
-	"col-lg-offset-2": "_2PSlKqhk395YIoowqTzJak",
-	"col-lg-offset-3": "_2ZEsJOer2BnClwsSRSc3Uf",
-	"col-lg-offset-4": "oUBjvp2vUj2CmlocAT2hx",
-	"col-lg-offset-5": "_2_pNEIYk7x0U9N-X9wvecm",
-	"col-lg-offset-6": "_1bZESYEZevrqMDtkJDGbrO",
-	"col-lg-offset-7": "_26quH4cxDB3ZnAwgim5069",
-	"col-lg-offset-8": "_3kkd3JPhxZ-ib5GmbDFirf",
-	"col-lg-offset-9": "_22Nlu0f38M5TPXvgq4L7PR",
-	"col-lg-offset-10": "_32R4D3UYPtZ81-pcQZcWNG",
-	"col-lg-offset-11": "_3mcm9jGfIXzmmyvZBdgkBD",
-	"col-lg-offset-12": "_1CzWwAVM9UVGYYn22XrBRA",
-	"col-xl": "_3OIWSYJ0mNmQ59k7BoNskM",
-	"col-xl-1": "_1x-yZP1hMr4NJtls7PX7I9",
-	"col-xl-2": "oe1yn7YsSprw1BNeuteLa",
-	"col-xl-3": "_1DZkDxHPEoh2TWlTmOQfBP",
-	"col-xl-4": "e7X-gGZblfptYhV8jrAS1",
-	"col-xl-5": "_1K3om1v20Bu1a1VV4r2ZYF",
-	"col-xl-6": "pj3ozfaWb1LB-oiSghlLE",
-	"col-xl-7": "_2lbXvBRcZOR_KTWieRorkc",
-	"col-xl-8": "_2T9rcLmE9S6FYwcdSjC86w",
-	"col-xl-9": "_4Cdy9o55krwQul3dCpcLj",
-	"col-xl-10": "pgLUEtV_oUbHEQRrygvXe",
-	"col-xl-11": "fOAzPsOUaUuXn5xXABw5Q",
-	"col-xl-12": "_1lxVNl6ky7ubv01QF4dFHS",
-	"col-xl-offset-0": "rTVg4jOSdDhdy5UziRldd",
-	"col-xl-offset-1": "_1KRTFVkqjWwc6k8ofgFuov",
-	"col-xl-offset-2": "_3XTdAAepYYwsCi2Twc_t5a",
-	"col-xl-offset-3": "_1u7VMhj0p6CJ4bCU0nL4v7",
-	"col-xl-offset-4": "_1U3cj25P0QGYt1Vxi_hPes",
-	"col-xl-offset-5": "_1m-Bk4dMd2T2qS4eSqnCGB",
-	"col-xl-offset-6": "zqsMR6-vXxmx9n8y4BmQa",
-	"col-xl-offset-7": "_8fHBq4tBq2KYoXG8psKuE",
-	"col-xl-offset-8": "_1LruZSXiiFT74HH278_0bn",
-	"col-xl-offset-9": "_3oTGDDpwqxM2xdLE-c5bx7",
-	"col-xl-offset-10": "_2eReqgySQLE-dKYf3SzEQl",
-	"col-xl-offset-11": "kuo4AmaMph63-IyI8i89S",
-	"col-xl-offset-12": "_1WvjRWPawyl08EaTKuObcv",
-	"start-xs": "_2gtAfUqZ6khOkNnKiFDXal",
-	"center-xs": "_2GJwnaqQsluFKOCxVoTOym",
-	"end-xs": "_1Jy9aPcdaFtdHs3JoKiBfO",
-	"top-xs": "_3ApF9vIA8cwtMfgTYSJOze",
-	"middle-xs": "_2qJAdUvXLdQixlGX3vOpbL",
-	"bottom-xs": "_2sMuKCMFQPu6zAKJoogKJY",
-	"around-xs": "_1h6nugdh9ybztH8j9U9k0c",
-	"between-xs": "_1Bml90oycLGBxX6omOeYOJ",
-	"first-xs": "_2ydrYqevov2_kqqPGR5Kxk",
-	"last-xs": "_1TmDf8HQ1KdYEsKjN3ygYJ",
-	"initial-order-xs": "_1lJw5iKHMs1jttMfd4VaVm",
-	"start-sm": "_3I0F04FjVgQjiJ5tB44ZGm",
-	"center-sm": "_2tfwTBcdzCbdlANbBp_QoJ",
-	"end-sm": "_1Dqio91VQrkCENKT2Naf-p",
-	"top-sm": "NTmPJv6OEKHClXm8DNhYw",
-	"middle-sm": "QLrL09vxGV-Gc_wlmcrsd",
-	"bottom-sm": "_3iRADHmq931QrmDEz66iQF",
-	"around-sm": "_2DXbHaREcD0fAmb-sVs1v0",
-	"between-sm": "_1GD_qR1leW4xEERHio51eq",
-	"first-sm": "AlKeII65w7WH0UNts1ktw",
-	"last-sm": "_1GaXQuMgbGIh-BL0a8BGys",
-	"initial-order-sm": "_3Ar7f5RdfKtYarHv1IJ2kF",
-	"start-md": "_3M-iK4KCqzwVU_r5Xai48C",
-	"center-md": "_3Ql1dZCzSQxfkd-Tt49dLn",
-	"end-md": "STrsQT_cc-vxez-YNFz91",
-	"top-md": "_2FX252Qm1w-KSCksNusX4R",
-	"middle-md": "YZ6CJlyN2oU2cJqiuOJto",
-	"bottom-md": "_2Ruw8DJMQOABkqDJPnCZla",
-	"around-md": "_1G_h0leNekuD8SwyMvPP6M",
-	"between-md": "_1ik_I-X_0gxXRvPEehChGi",
-	"first-md": "yFUKjYE9scrKUGf0uUTGg",
-	"last-md": "_1PHhpZeRyTCvrjpkXL4j4o",
-	"initial-order-md": "_3UvRNpsH_QPi8h2VSaKRGo",
-	"start-lg": "m0vFFX3uvoshUtUMuNKEG",
-	"center-lg": "_1ppmu7vau5AmPTlxWau1WK",
-	"end-lg": "_1CeneHP-ip58Uc3p2n5Lrg",
-	"top-lg": "_3R_GA-E3ZxvNNrGUvutwLT",
-	"middle-lg": "_2vRr_I4KGzC0W3wjr_kI-x",
-	"bottom-lg": "_1FxHXLk79Qlx-1j98AcFPk",
-	"around-lg": "_24PfHPmaFYV8K0P67vvcj4",
-	"between-lg": "_2a-N0v7Nv3eowE8Nj_J471",
-	"first-lg": "_351ppJsPLwyIZRj-arBnW5",
-	"last-lg": "_2GWNG6yZdrqsmeTgkoiVKo",
-	"initial-order-lg": "_3ajeo649_S-CaMWLS55syA",
-	"start-xl": "_2Ur_rL36q1waEwVz0FhFXn",
-	"center-xl": "_3C4Vx7qPNJNaIyLoR8hZr-",
-	"end-xl": "_2UqlCpbSi10LB22Uhx-736",
-	"top-xl": "_1tLbFCK29ABJNNBGUDXHF7",
-	"middle-xl": "_31-IDfNFa6qBWqbArRVPdt",
-	"bottom-xl": "p1SvROP9RcuNwO1esT4Rl",
-	"around-xl": "_2j28wjHGEn4hM2MhATwo7G",
-	"between-xl": "xff2EFxG8tg8evHNNVMyb",
-	"first-xl": "_2QxqG3ap5EkHqi15Y0iAds",
-	"last-xl": "_1v5wIPifGXDAbvveMUSyqQ",
-	"initial-order-xl": "IYbgPGDpOhwvfrkC8MnLj",
-	"hidden-xs": "_3MgtYU349g6IDDlPl93YwB",
-	"hidden-sm": "_2YMAOmRApTFg6DRyMmoYIb",
-	"hidden-md": "FbTYO-xyhVdvo0L9XD6sL",
-	"hidden-lg": "_2fkvWGcgWOYTcknbjCLNP-",
-	"hidden-xl": "_3hzYJnI04EbSLrqvAHGsZk"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], "{").concat(content, "}");
-      }
-
-      return content;
-    }).join('');
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      // eslint-disable-next-line prefer-destructuring
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = modules[_i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
-/***/ }),
-
 /***/ "./node_modules/define-properties/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/define-properties/index.js ***!
@@ -6114,61 +5810,6 @@ defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
 
-
-/***/ }),
-
-/***/ "./node_modules/flexboxgrid2/flexboxgrid2.css":
-/*!****************************************************!*\
-  !*** ./node_modules/flexboxgrid2/flexboxgrid2.css ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../css-loader/dist/cjs.js?modules!./flexboxgrid2.css */ "./node_modules/css-loader/dist/cjs.js?modules!./node_modules/flexboxgrid2/flexboxgrid2.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(true) {
-	module.hot.accept(/*! !../css-loader/dist/cjs.js?modules!./flexboxgrid2.css */ "./node_modules/css-loader/dist/cjs.js?modules!./node_modules/flexboxgrid2/flexboxgrid2.css", function() {
-		var newContent = __webpack_require__(/*! !../css-loader/dist/cjs.js?modules!./flexboxgrid2.css */ "./node_modules/css-loader/dist/cjs.js?modules!./node_modules/flexboxgrid2/flexboxgrid2.css");
-
-		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
-
-		var locals = (function(a, b) {
-			var key, idx = 0;
-
-			for(key in a) {
-				if(!b || a[key] !== b[key]) return false;
-				idx++;
-			}
-
-			for(key in b) idx--;
-
-			return idx === 0;
-		}(content.locals, newContent.locals));
-
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-
-		update(newContent);
-	});
-
-	module.hot.dispose(function() { update(); });
-}
 
 /***/ }),
 
@@ -11289,10 +10930,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226
 
 /***/ }),
 
-/***/ "./node_modules/react-flexbox-grid/lib/classNames.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/classNames.js ***!
-  \***********************************************************/
+/***/ "./node_modules/react-grid-system/build/config.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-grid-system/build/config.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11302,24 +10943,31 @@ module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = getClass;
 
-var _flexboxgrid = __webpack_require__(/*! flexboxgrid2/flexboxgrid2.css */ "./node_modules/flexboxgrid2/flexboxgrid2.css");
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _flexboxgrid2 = _interopRequireDefault(_flexboxgrid);
+var configuration = {
+  breakpoints: [576, 768, 992, 1200],
+  containerWidths: [540, 750, 960, 1140],
+  gutterWidth: 30,
+  gridColumns: 12,
+  defaultScreenClass: 'xl'
+};
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var getConfiguration = exports.getConfiguration = function getConfiguration() {
+  return configuration;
+};
 
-function getClass(className) {
-  return _flexboxgrid2.default && _flexboxgrid2.default[className] ? _flexboxgrid2.default[className] : className;
-}
+var setConfiguration = exports.setConfiguration = function setConfiguration(newConfiguration) {
+  configuration = _extends({}, configuration, newConfiguration);
+};
 
 /***/ }),
 
-/***/ "./node_modules/react-flexbox-grid/lib/components/Col.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/components/Col.js ***!
-  \***************************************************************/
+/***/ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11329,8 +10977,9 @@ function getClass(className) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getColumnProps = getColumnProps;
-exports.default = Col;
+exports.ScreenClassContext = exports.NO_PROVIDER_FLAG = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -11340,95 +10989,196 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _createProps = __webpack_require__(/*! ../createProps */ "./node_modules/react-flexbox-grid/lib/createProps.js");
+var _utils = __webpack_require__(/*! ../../utils */ "./node_modules/react-grid-system/build/utils.js");
 
-var _createProps2 = _interopRequireDefault(_createProps);
-
-var _classNames = __webpack_require__(/*! ../classNames */ "./node_modules/react-flexbox-grid/lib/classNames.js");
-
-var _classNames2 = _interopRequireDefault(_classNames);
-
-var _types = __webpack_require__(/*! ../types */ "./node_modules/react-flexbox-grid/lib/types.js");
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var propTypes = {
-  xs: _types.ColumnSizeType,
-  sm: _types.ColumnSizeType,
-  md: _types.ColumnSizeType,
-  lg: _types.ColumnSizeType,
-  xl: _types.ColumnSizeType,
-  xsOffset: _propTypes2.default.number,
-  smOffset: _propTypes2.default.number,
-  mdOffset: _propTypes2.default.number,
-  lgOffset: _propTypes2.default.number,
-  xlOffset: _propTypes2.default.number,
-  first: _types.ViewportSizeType,
-  last: _types.ViewportSizeType,
-  className: _propTypes2.default.string,
-  tagName: _propTypes2.default.string,
-  children: _propTypes2.default.node
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* global window */
+
+
+var NO_PROVIDER_FLAG = exports.NO_PROVIDER_FLAG = 'NO_PROVIDER_FLAG';
+
+var ScreenClassContext = exports.ScreenClassContext = _react2.default.createContext(NO_PROVIDER_FLAG);
+
+var ScreenClassProvider = function (_PureComponent) {
+  _inherits(ScreenClassProvider, _PureComponent);
+
+  function ScreenClassProvider(props) {
+    _classCallCheck(this, ScreenClassProvider);
+
+    var _this = _possibleConstructorReturn(this, (ScreenClassProvider.__proto__ || Object.getPrototypeOf(ScreenClassProvider)).call(this, props));
+
+    _this.state = {
+      screenClass: (0, _config.getConfiguration)().defaultScreenClass
+    };
+
+    _this.screenClassRef = _react2.default.createRef();
+    _this.setScreenClass = _this.setScreenClass.bind(_this);
+    return _this;
+  }
+
+  _createClass(ScreenClassProvider, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.setScreenClass();
+      window.addEventListener('resize', this.setScreenClass, false);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      window.removeEventListener('resize', this.setScreenClass, false);
+    }
+  }, {
+    key: 'setScreenClass',
+    value: function setScreenClass() {
+      var useOwnWidth = this.props.useOwnWidth;
+
+
+      var source = useOwnWidth && this.screenClassRef && this.screenClassRef.current;
+      var currScreenClass = (0, _utils.getScreenClass)(source);
+      if (currScreenClass !== this.state.screenClass) {
+        this.setState({ screenClass: currScreenClass });
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var screenClass = this.state.screenClass;
+      var _props = this.props,
+          children = _props.children,
+          useOwnWidth = _props.useOwnWidth;
+
+
+      return _react2.default.createElement(
+        ScreenClassContext.Provider,
+        { value: screenClass },
+        useOwnWidth ? _react2.default.createElement(
+          'div',
+          { ref: this.screenClassRef },
+          children
+        ) : _react2.default.createElement(
+          _react2.default.Fragment,
+          null,
+          children
+        )
+      );
+    }
+  }]);
+
+  return ScreenClassProvider;
+}(_react.PureComponent);
+
+ScreenClassProvider.propTypes = {
+  /**
+   * Children of the ScreenClassProvider.
+   * This should be all your child React nodes that are using `react-grid-system`.
+   */
+  children: _propTypes2.default.node.isRequired,
+  /**
+   * Boolean to determine whether own width should be used as source.
+   * When provided, the screen class is derived from own dimensions instead of the window.
+   */
+  useOwnWidth: _propTypes2.default.bool
 };
-
-var classMap = {
-  xs: 'col-xs',
-  sm: 'col-sm',
-  md: 'col-md',
-  lg: 'col-lg',
-  xl: 'col-xl',
-  xsOffset: 'col-xs-offset',
-  smOffset: 'col-sm-offset',
-  mdOffset: 'col-md-offset',
-  lgOffset: 'col-lg-offset',
-  xlOffset: 'col-xl-offset'
+ScreenClassProvider.defaultProps = {
+  useOwnWidth: false
 };
-
-function isInteger(value) {
-  return typeof value === 'number' && isFinite(value) && Math.floor(value) === value;
-}
-
-function getColClassNames(props) {
-  var extraClasses = [];
-
-  if (props.className) {
-    extraClasses.push(props.className);
-  }
-
-  if (props.first) {
-    extraClasses.push((0, _classNames2.default)('first-' + props.first));
-  }
-
-  if (props.last) {
-    extraClasses.push((0, _classNames2.default)('last-' + props.last));
-  }
-
-  return Object.keys(props).filter(function (key) {
-    return classMap[key];
-  }).map(function (key) {
-    return (0, _classNames2.default)(isInteger(props[key]) ? classMap[key] + '-' + props[key] : classMap[key]);
-  }).concat(extraClasses);
-}
-
-function getColumnProps(props) {
-  return (0, _createProps2.default)(propTypes, props, getColClassNames(props));
-}
-
-function Col(props) {
-  var tagName = props.tagName,
-      columnProps = _objectWithoutProperties(props, ['tagName']);
-
-  return _react2.default.createElement(tagName || 'div', getColumnProps(columnProps));
-}
-
-Col.propTypes = propTypes;
+exports.default = ScreenClassProvider;
 
 /***/ }),
 
-/***/ "./node_modules/react-flexbox-grid/lib/components/Grid.js":
+/***/ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _ScreenClassProvider = __webpack_require__(/*! ../ScreenClassProvider */ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js");
+
+var _ScreenClassProvider2 = _interopRequireDefault(_ScreenClassProvider);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ScreenClassResolver = function (_Component) {
+  _inherits(ScreenClassResolver, _Component);
+
+  function ScreenClassResolver() {
+    _classCallCheck(this, ScreenClassResolver);
+
+    return _possibleConstructorReturn(this, (ScreenClassResolver.__proto__ || Object.getPrototypeOf(ScreenClassResolver)).apply(this, arguments));
+  }
+
+  _createClass(ScreenClassResolver, [{
+    key: 'render',
+    value: function render() {
+      var children = this.props.children;
+
+      return _react2.default.createElement(
+        _ScreenClassProvider.ScreenClassContext.Consumer,
+        null,
+        function (screenClassCheck) {
+          if (screenClassCheck === _ScreenClassProvider.NO_PROVIDER_FLAG) {
+            return _react2.default.createElement(
+              _ScreenClassProvider2.default,
+              null,
+              _react2.default.createElement(
+                _ScreenClassProvider.ScreenClassContext.Consumer,
+                null,
+                function (screenClassResolved) {
+                  return children(screenClassResolved);
+                }
+              )
+            );
+          }
+          return children(screenClassCheck);
+        }
+      );
+    }
+  }]);
+
+  return ScreenClassResolver;
+}(_react.Component);
+
+ScreenClassResolver.propTypes = {
+  children: _propTypes2.default.func.isRequired
+};
+exports.default = ScreenClassResolver;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Col/index.js":
 /*!****************************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/components/Grid.js ***!
+  !*** ./node_modules/react-grid-system/build/grid/Col/index.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -11439,7 +11189,8 @@ Col.propTypes = propTypes;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = Grid;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -11449,121 +11200,186 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _createProps = __webpack_require__(/*! ../createProps */ "./node_modules/react-flexbox-grid/lib/createProps.js");
+var _style = __webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Col/style.js");
 
-var _createProps2 = _interopRequireDefault(_createProps);
+var _style2 = _interopRequireDefault(_style);
 
-var _classNames = __webpack_require__(/*! ../classNames */ "./node_modules/react-flexbox-grid/lib/classNames.js");
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
 
-var _classNames2 = _interopRequireDefault(_classNames);
+var _Row = __webpack_require__(/*! ../Row */ "./node_modules/react-grid-system/build/grid/Row/index.js");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _ScreenClassResolver = __webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js");
 
-var propTypes = {
-  fluid: _propTypes2.default.bool,
-  className: _propTypes2.default.string,
-  tagName: _propTypes2.default.string,
-  children: _propTypes2.default.node
-};
-
-function Grid(props) {
-  var containerClass = (0, _classNames2.default)(props.fluid ? 'container-fluid' : 'container');
-  var classNames = [props.className, containerClass];
-
-  return _react2.default.createElement(props.tagName || 'div', (0, _createProps2.default)(propTypes, props, classNames));
-}
-
-Grid.propTypes = propTypes;
-
-/***/ }),
-
-/***/ "./node_modules/react-flexbox-grid/lib/components/Row.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/components/Row.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.getRowProps = getRowProps;
-exports.default = Row;
-
-var _classNames = __webpack_require__(/*! ../classNames */ "./node_modules/react-flexbox-grid/lib/classNames.js");
-
-var _classNames2 = _interopRequireDefault(_classNames);
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _createProps = __webpack_require__(/*! ../createProps */ "./node_modules/react-flexbox-grid/lib/createProps.js");
-
-var _createProps2 = _interopRequireDefault(_createProps);
-
-var _types = __webpack_require__(/*! ../types */ "./node_modules/react-flexbox-grid/lib/types.js");
+var _ScreenClassResolver2 = _interopRequireDefault(_ScreenClassResolver);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var rowKeys = ['start', 'center', 'end', 'top', 'middle', 'bottom', 'around', 'between'];
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-var propTypes = {
-  reverse: _propTypes2.default.bool,
-  start: _types.ViewportSizeType,
-  center: _types.ViewportSizeType,
-  end: _types.ViewportSizeType,
-  top: _types.ViewportSizeType,
-  middle: _types.ViewportSizeType,
-  bottom: _types.ViewportSizeType,
-  around: _types.ViewportSizeType,
-  between: _types.ViewportSizeType,
-  className: _propTypes2.default.string,
-  tagName: _propTypes2.default.string,
-  children: _propTypes2.default.node
-};
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function getRowClassNames(props) {
-  var modificators = [props.className, (0, _classNames2.default)('row')];
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-  for (var i = 0; i < rowKeys.length; ++i) {
-    var key = rowKeys[i];
-    var value = props[key];
-    if (value) {
-      modificators.push((0, _classNames2.default)(key + '-' + value));
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Col = function (_React$PureComponent) {
+  _inherits(Col, _React$PureComponent);
+
+  function Col() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Col);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
     }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Col.__proto__ || Object.getPrototypeOf(Col)).call.apply(_ref, [this].concat(args))), _this), _this.renderCol = function (gutterWidth, screenClass) {
+      var _this$props = _this.props,
+          children = _this$props.children,
+          xs = _this$props.xs,
+          sm = _this$props.sm,
+          md = _this$props.md,
+          lg = _this$props.lg,
+          xl = _this$props.xl,
+          offset = _this$props.offset,
+          pull = _this$props.pull,
+          push = _this$props.push,
+          debug = _this$props.debug,
+          style = _this$props.style,
+          component = _this$props.component,
+          otherProps = _objectWithoutProperties(_this$props, ['children', 'xs', 'sm', 'md', 'lg', 'xl', 'offset', 'pull', 'push', 'debug', 'style', 'component']);
+
+      var theStyle = (0, _style2.default)({
+        width: {
+          xs: xs,
+          sm: sm,
+          md: md,
+          lg: lg,
+          xl: xl
+        },
+        offset: offset,
+        pull: pull,
+        push: push,
+        debug: debug,
+        screenClass: screenClass,
+        gutterWidth: gutterWidth,
+        gridColumns: (0, _config.getConfiguration)().gridColumns,
+        moreStyle: style
+      });
+      return (0, _react.createElement)(component, _extends({ style: theStyle }, otherProps, { children: children }));
+    }, _this.render = function () {
+      return _react2.default.createElement(
+        _ScreenClassResolver2.default,
+        null,
+        function (screenClass) {
+          return _react2.default.createElement(
+            _Row.GutterWidthContext.Consumer,
+            null,
+            function (gutterWidth) {
+              return _this.renderCol(gutterWidth, screenClass);
+            }
+          );
+        }
+      );
+    }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
-  if (props.reverse) {
-    modificators.push((0, _classNames2.default)('reverse'));
-  }
+  return Col;
+}(_react2.default.PureComponent);
 
-  return modificators;
-}
-
-function getRowProps(props) {
-  return (0, _createProps2.default)(propTypes, props, getRowClassNames(props));
-}
-
-function Row(props) {
-  return _react2.default.createElement(props.tagName || 'div', getRowProps(props));
-}
-
-Row.propTypes = propTypes;
+Col.propTypes = {
+  /**
+   * Content of the column
+   */
+  children: _propTypes2.default.node,
+  /**
+   * The width of the column for screenclass `xs`, between 0 and 12
+   */
+  xs: _propTypes2.default.number,
+  /**
+   * The width of the column for screenclass `sm`, between 0 and 12
+   */
+  sm: _propTypes2.default.number,
+  /**
+   * The width of the column for screenclass `md`, between 0 and 12
+   */
+  md: _propTypes2.default.number,
+  /**
+   * The width of the column for screenclass `lg`, between 0 and 12
+   */
+  lg: _propTypes2.default.number,
+  /**
+   * The width of the column for screenclass `xl`, between 0 and 12
+   */
+  xl: _propTypes2.default.number,
+  /**
+   * The offset of this column for all screenclasses
+   */
+  offset: _propTypes2.default.shape({
+    xs: _propTypes2.default.number,
+    sm: _propTypes2.default.number,
+    md: _propTypes2.default.number,
+    lg: _propTypes2.default.number,
+    xl: _propTypes2.default.number
+  }),
+  /**
+   * The amount this column is pushed to the right for all screenclasses
+   */
+  push: _propTypes2.default.shape({
+    xs: _propTypes2.default.number,
+    sm: _propTypes2.default.number,
+    md: _propTypes2.default.number,
+    lg: _propTypes2.default.number,
+    xl: _propTypes2.default.number
+  }),
+  /**
+   * The amount this column is pulled to the left for all screenclasses
+   */
+  pull: _propTypes2.default.shape({
+    xs: _propTypes2.default.number,
+    sm: _propTypes2.default.number,
+    md: _propTypes2.default.number,
+    lg: _propTypes2.default.number,
+    xl: _propTypes2.default.number
+  }),
+  /**
+   * Optional styling
+   */
+  style: _propTypes2.default.objectOf(_propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string])),
+  /**
+   * Set to apply some debug styling
+   */
+  debug: _propTypes2.default.bool,
+  /**
+   * Use your own component
+   */
+  component: _propTypes2.default.oneOfType([_propTypes2.default.func, _propTypes2.default.string])
+};
+Col.defaultProps = {
+  children: null,
+  xs: null,
+  sm: null,
+  md: null,
+  lg: null,
+  xl: null,
+  offset: {},
+  push: {},
+  pull: {},
+  style: {},
+  debug: false,
+  component: 'div'
+};
+exports.default = Col;
 
 /***/ }),
 
-/***/ "./node_modules/react-flexbox-grid/lib/createProps.js":
-/*!************************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/createProps.js ***!
-  \************************************************************/
+/***/ "./node_modules/react-grid-system/build/grid/Col/style.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Col/style.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11573,28 +11389,84 @@ Row.propTypes = propTypes;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = createProps;
-function createProps(propTypes, props, classNames) {
-  var newProps = {};
 
-  Object.keys(props).filter(function (key) {
-    return key === 'children' || !propTypes[key];
-  }).forEach(function (key) {
-    return newProps[key] = props[key];
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _utils = __webpack_require__(/*! ../../utils */ "./node_modules/react-grid-system/build/utils.js");
+
+var hasWidth = function hasWidth(widths) {
+  return Object.keys(widths).reduce(function (acc, cur) {
+    return acc || widths[cur];
+  }, false);
+};
+
+var getWidth = function getWidth(width, gridColumns) {
+  if (typeof width !== 'number') return undefined;
+  var normalizedWidth = Math.max(0, Math.min(gridColumns, width));
+  return 100 / gridColumns * normalizedWidth + '%';
+};
+
+exports.default = function (_ref) {
+  var _ref$width = _ref.width,
+      width = _ref$width === undefined ? {} : _ref$width,
+      _ref$offset = _ref.offset,
+      offset = _ref$offset === undefined ? {} : _ref$offset,
+      _ref$pull = _ref.pull,
+      pull = _ref$pull === undefined ? {} : _ref$pull,
+      _ref$push = _ref.push,
+      push = _ref$push === undefined ? {} : _ref$push,
+      debug = _ref.debug,
+      screenClass = _ref.screenClass,
+      gutterWidth = _ref.gutterWidth,
+      moreStyle = _ref.moreStyle,
+      gridColumns = _ref.gridColumns;
+
+  var styles = _extends({
+    boxSizing: 'border-box',
+    minHeight: '1px',
+    position: 'relative',
+    paddingLeft: gutterWidth / 2 + 'px',
+    paddingRight: gutterWidth / 2 + 'px',
+    width: '100%'
+  }, moreStyle);
+
+  if (debug) {
+    styles.outline = '1px solid silver';
+    styles.background = 'rgba(0,0,0,.05)';
+  }
+
+  styles.flexBasis = '100%';
+  styles.flexGrow = 0;
+  styles.flexShrink = 0;
+  styles.maxWidth = '100%';
+  styles.marginLeft = '0%';
+  styles.right = 'auto';
+  styles.left = 'auto';
+
+  _utils.screenClasses.forEach(function (size, index) {
+    if (_utils.screenClasses.indexOf(screenClass) >= index) {
+      styles.flexBasis = getWidth(width[size], gridColumns) || styles.flexBasis;
+      styles.maxWidth = getWidth(width[size], gridColumns) || styles.maxWidth;
+      styles.marginLeft = getWidth(offset[size], gridColumns) || styles.marginLeft;
+      styles.right = getWidth(pull[size], gridColumns) || styles.right;
+      styles.left = getWidth(push[size], gridColumns) || styles.left;
+    }
   });
 
-  var className = classNames.filter(function (cn) {
-    return cn;
-  }).join(' ');
-  return Object.assign({}, newProps, { className: className });
-}
+  if (!hasWidth(width)) {
+    styles.flexBasis = 0;
+    styles.flexGrow = 1;
+  }
+
+  return styles;
+};
 
 /***/ }),
 
-/***/ "./node_modules/react-flexbox-grid/lib/index.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/index.js ***!
-  \******************************************************/
+/***/ "./node_modules/react-grid-system/build/grid/Container/index.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Container/index.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11604,65 +11476,922 @@ function createProps(propTypes, props, classNames) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getColumnProps = exports.Col = exports.getRowProps = exports.Row = exports.Grid = undefined;
 
-var _Row2 = __webpack_require__(/*! ./components/Row */ "./node_modules/react-flexbox-grid/lib/components/Row.js");
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-Object.defineProperty(exports, 'getRowProps', {
-  enumerable: true,
-  get: function get() {
-    return _Row2.getRowProps;
-  }
-});
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Col2 = __webpack_require__(/*! ./components/Col */ "./node_modules/react-flexbox-grid/lib/components/Col.js");
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-Object.defineProperty(exports, 'getColumnProps', {
-  enumerable: true,
-  get: function get() {
-    return _Col2.getColumnProps;
-  }
-});
-
-var _Grid2 = __webpack_require__(/*! ./components/Grid */ "./node_modules/react-flexbox-grid/lib/components/Grid.js");
-
-var _Grid3 = _interopRequireDefault(_Grid2);
-
-var _Row3 = _interopRequireDefault(_Row2);
-
-var _Col3 = _interopRequireDefault(_Col2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.Grid = _Grid3.default;
-exports.Row = _Row3.default;
-exports.Col = _Col3.default;
-
-/***/ }),
-
-/***/ "./node_modules/react-flexbox-grid/lib/types.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-flexbox-grid/lib/types.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ViewportSizeType = exports.ColumnSizeType = undefined;
+var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+var _style = __webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Container/style.js");
+
+var _style2 = _interopRequireDefault(_style);
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+var _ScreenClassResolver = __webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js");
+
+var _ScreenClassResolver2 = _interopRequireDefault(_ScreenClassResolver);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var ColumnSizeType = exports.ColumnSizeType = _propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.bool]);
-var ViewportSizeType = exports.ViewportSizeType = _propTypes2.default.oneOf(['xs', 'sm', 'md', 'lg', 'xl']);
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Container = function (_React$PureComponent) {
+  _inherits(Container, _React$PureComponent);
+
+  function Container() {
+    _classCallCheck(this, Container);
+
+    return _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).apply(this, arguments));
+  }
+
+  _createClass(Container, [{
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var _props = this.props,
+          children = _props.children,
+          fluid = _props.fluid,
+          xs = _props.xs,
+          sm = _props.sm,
+          md = _props.md,
+          lg = _props.lg,
+          xl = _props.xl,
+          style = _props.style,
+          component = _props.component,
+          otherProps = _objectWithoutProperties(_props, ['children', 'fluid', 'xs', 'sm', 'md', 'lg', 'xl', 'style', 'component']);
+
+      return _react2.default.createElement(
+        _ScreenClassResolver2.default,
+        null,
+        function (screenClass) {
+          return (0, _react.createElement)(component, _extends({
+            style: (0, _style2.default)({
+              fluid: fluid,
+              xs: xs,
+              sm: sm,
+              md: md,
+              lg: lg,
+              xl: xl,
+              screenClass: screenClass || _this2.state.screenClass,
+              containerWidths: (0, _config.getConfiguration)().containerWidths,
+              gutterWidth: (0, _config.getConfiguration)().gutterWidth,
+              moreStyle: style
+            })
+          }, otherProps), _react2.default.createElement(
+            _react2.default.Fragment,
+            null,
+            children,
+            _react2.default.createElement('span', { style: (0, _style.getAfterStyle)() })
+          ));
+        }
+      );
+    }
+  }]);
+
+  return Container;
+}(_react2.default.PureComponent);
+
+Container.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes2.default.node.isRequired,
+  /**
+   * True makes the container full-width, false fixed-width
+   */
+  fluid: _propTypes2.default.bool,
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in xs, not present means fluid everywhere
+   */
+  xs: _propTypes2.default.bool,
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in sm, not present means fluid everywhere
+   */
+  sm: _propTypes2.default.bool,
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in md, not present means fluid everywhere
+   */
+  md: _propTypes2.default.bool,
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in lg, not present means fluid everywhere
+   */
+  lg: _propTypes2.default.bool,
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in xl, not present means fluid everywhere
+   */
+  xl: _propTypes2.default.bool,
+  /**
+   * Optional styling
+   */
+  style: _propTypes2.default.objectOf(_propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string])),
+  /**
+   * Use your own component
+   */
+  component: _propTypes2.default.oneOfType([_propTypes2.default.func, _propTypes2.default.string])
+};
+Container.defaultProps = {
+  fluid: false,
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false,
+  style: {},
+  component: 'div'
+};
+exports.default = Container;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Container/style.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Container/style.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.default = function (_ref) {
+  var fluid = _ref.fluid,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl,
+      screenClass = _ref.screenClass,
+      containerWidths = _ref.containerWidths,
+      gutterWidth = _ref.gutterWidth,
+      moreStyle = _ref.moreStyle;
+
+  var styles = _extends({
+    boxSizing: 'border-box',
+    position: 'relative',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    paddingLeft: gutterWidth / 2 + 'px',
+    paddingRight: gutterWidth / 2 + 'px'
+  }, moreStyle);
+
+  if (fluid && !sm && !md && !lg && !xl) {
+    return styles;
+  }
+
+  if (screenClass === 'sm' && containerWidths[0] && !sm && !xs) {
+    styles.maxWidth = containerWidths[0] + 'px';
+  }
+
+  if (screenClass === 'md' && containerWidths[1] && !md) {
+    styles.maxWidth = containerWidths[1] + 'px';
+  }
+
+  if (screenClass === 'lg' && containerWidths[2] && !lg) {
+    styles.maxWidth = containerWidths[2] + 'px';
+  }
+
+  if (screenClass === 'xl' && containerWidths[3] && !xl) {
+    styles.maxWidth = containerWidths[3] + 'px';
+  }
+
+  return styles;
+};
+
+var getAfterStyle = exports.getAfterStyle = function getAfterStyle() {
+  return {
+    display: 'table',
+    clear: 'both'
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Row/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Row/index.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.GutterWidthContext = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+var _style = __webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Row/style.js");
+
+var _style2 = _interopRequireDefault(_style);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var GutterWidthContext = exports.GutterWidthContext = _react2.default.createContext(false);
+
+var Row = function (_React$PureComponent) {
+  _inherits(Row, _React$PureComponent);
+
+  function Row() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Row);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Row.__proto__ || Object.getPrototypeOf(Row)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
+      var _this$props = _this.props,
+          children = _this$props.children,
+          style = _this$props.style,
+          align = _this$props.align,
+          justify = _this$props.justify,
+          debug = _this$props.debug,
+          nogutter = _this$props.nogutter,
+          gutterWidth = _this$props.gutterWidth,
+          component = _this$props.component,
+          otherProps = _objectWithoutProperties(_this$props, ['children', 'style', 'align', 'justify', 'debug', 'nogutter', 'gutterWidth', 'component']);
+
+      var theGutterWidth = (0, _config.getConfiguration)().gutterWidth;
+      if (nogutter) theGutterWidth = 0;
+      if (typeof gutterWidth === 'number') theGutterWidth = gutterWidth;
+      var theStyle = (0, _style2.default)({
+        gutterWidth: theGutterWidth,
+        align: align,
+        justify: justify,
+        debug: debug,
+        moreStyle: style
+      });
+      return _react2.default.createElement(component, _extends({ style: theStyle }, otherProps), _react2.default.createElement(
+        GutterWidthContext.Provider,
+        { value: theGutterWidth },
+        children
+      ));
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  return Row;
+}(_react2.default.PureComponent);
+
+Row.propTypes = {
+  /**
+   * Content of the element
+   */
+  children: _propTypes2.default.node.isRequired,
+  /**
+   * Vertical column alignment
+   */
+  align: _propTypes2.default.oneOf(['normal', 'start', 'center', 'end', 'stretch']),
+  /**
+   * Horizontal column alignment
+   */
+  justify: _propTypes2.default.oneOf(['start', 'center', 'end', 'between', 'around', 'initial', 'inherit']),
+  /**
+   * No gutter for this row
+   */
+  nogutter: _propTypes2.default.bool,
+  /**
+   * Custom gutter width for this row
+   */
+  gutterWidth: _propTypes2.default.number,
+  /**
+   * Optional styling
+   */
+  style: _propTypes2.default.objectOf(_propTypes2.default.oneOfType([_propTypes2.default.number, _propTypes2.default.string])),
+  /**
+   * Set to apply some debug styling
+   */
+  debug: _propTypes2.default.bool,
+  /**
+   * Use your own component
+   */
+  component: _propTypes2.default.oneOfType([_propTypes2.default.func, _propTypes2.default.string])
+};
+Row.defaultProps = {
+  align: 'normal',
+  justify: 'start',
+  nogutter: false,
+  gutterWidth: null,
+  style: {},
+  debug: false,
+  component: 'div'
+};
+exports.default = Row;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Row/style.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Row/style.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.default = function (_ref) {
+  var gutterWidth = _ref.gutterWidth,
+      align = _ref.align,
+      justify = _ref.justify,
+      debug = _ref.debug,
+      moreStyle = _ref.moreStyle;
+
+  // Vertical alignment
+  var alignItems = align;
+  if (align === 'start') alignItems = 'flex-start';
+  if (align === 'end') alignItems = 'flex-end';
+
+  // Horizontal alignment
+  var justifyContent = justify;
+  if (justify === 'start') justifyContent = 'flex-start';
+  if (justify === 'end') justifyContent = 'flex-end';
+  if (justify === 'between') justifyContent = 'space-between';
+  if (justify === 'around') justifyContent = 'space-around';
+  if (justify === 'center') justifyContent = 'center';
+  if (justify === 'initial') justifyContent = 'initial';
+  if (justify === 'inherit') justifyContent = 'inherit';
+
+  var styles = _extends({
+    marginLeft: '-' + gutterWidth / 2 + 'px',
+    marginRight: '-' + gutterWidth / 2 + 'px',
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexGrow: 0,
+    flexShrink: 0,
+    alignItems: alignItems,
+    justifyContent: justifyContent
+  }, moreStyle);
+
+  if (debug) {
+    styles.background = 'rgba(128,128,128,.05)';
+  }
+
+  return styles;
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-grid-system/build/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Col = __webpack_require__(/*! ./grid/Col */ "./node_modules/react-grid-system/build/grid/Col/index.js");
+
+Object.defineProperty(exports, 'Col', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Col).default;
+  }
+});
+
+var _Container = __webpack_require__(/*! ./grid/Container */ "./node_modules/react-grid-system/build/grid/Container/index.js");
+
+Object.defineProperty(exports, 'Container', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Container).default;
+  }
+});
+
+var _Row = __webpack_require__(/*! ./grid/Row */ "./node_modules/react-grid-system/build/grid/Row/index.js");
+
+Object.defineProperty(exports, 'Row', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Row).default;
+  }
+});
+
+var _Hidden = __webpack_require__(/*! ./utilities/Hidden */ "./node_modules/react-grid-system/build/utilities/Hidden/index.js");
+
+Object.defineProperty(exports, 'Hidden', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Hidden).default;
+  }
+});
+
+var _Visible = __webpack_require__(/*! ./utilities/Visible */ "./node_modules/react-grid-system/build/utilities/Visible/index.js");
+
+Object.defineProperty(exports, 'Visible', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Visible).default;
+  }
+});
+
+var _ScreenClassRender = __webpack_require__(/*! ./utilities/ScreenClassRender */ "./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js");
+
+Object.defineProperty(exports, 'ScreenClassRender', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ScreenClassRender).default;
+  }
+});
+
+var _ScreenClassProvider = __webpack_require__(/*! ./context/ScreenClassProvider */ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js");
+
+Object.defineProperty(exports, 'ScreenClassProvider', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ScreenClassProvider).default;
+  }
+});
+Object.defineProperty(exports, 'ScreenClassContext', {
+  enumerable: true,
+  get: function get() {
+    return _ScreenClassProvider.ScreenClassContext;
+  }
+});
+
+var _config = __webpack_require__(/*! ./config */ "./node_modules/react-grid-system/build/config.js");
+
+Object.defineProperty(exports, 'setConfiguration', {
+  enumerable: true,
+  get: function get() {
+    return _config.setConfiguration;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Hidden/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Hidden/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _style = __webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/utilities/Hidden/style.js");
+
+var style = _interopRequireWildcard(_style);
+
+var _ScreenClassResolver = __webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js");
+
+var _ScreenClassResolver2 = _interopRequireDefault(_ScreenClassResolver);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Hidden = function (_React$PureComponent) {
+  _inherits(Hidden, _React$PureComponent);
+
+  function Hidden() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Hidden);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Hidden.__proto__ || Object.getPrototypeOf(Hidden)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
+      return _react2.default.createElement(
+        _ScreenClassResolver2.default,
+        null,
+        function (screenClass) {
+          return style.hidden({
+            screenClass: screenClass,
+            xs: _this.props.xs,
+            sm: _this.props.sm,
+            md: _this.props.md,
+            lg: _this.props.lg,
+            xl: _this.props.xl
+          }) ? null : _this.props.children;
+        }
+      );
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  return Hidden;
+}(_react2.default.PureComponent);
+
+Hidden.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes2.default.node.isRequired,
+  /**
+   * Hide on extra small devices
+   */
+  xs: _propTypes2.default.bool,
+  /**
+   * Hide on small devices
+   */
+  sm: _propTypes2.default.bool,
+  /**
+   * Hide on medium devices
+   */
+  md: _propTypes2.default.bool,
+  /**
+   * Hide on large devices
+   */
+  lg: _propTypes2.default.bool,
+  /**
+   * Hide on xlarge devices
+   */
+  xl: _propTypes2.default.bool
+};
+Hidden.defaultProps = {
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false
+};
+exports.default = Hidden;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Hidden/style.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Hidden/style.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var hidden = exports.hidden = function hidden(_ref) {
+  var screenClass = _ref.screenClass,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+
+  if (screenClass === 'xl') return xl;
+  if (screenClass === 'lg') return lg;
+  if (screenClass === 'md') return md;
+  if (screenClass === 'sm') return sm;
+  return xs;
+};
+
+exports.default = hidden;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _ScreenClassResolver = __webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js");
+
+var _ScreenClassResolver2 = _interopRequireDefault(_ScreenClassResolver);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ScreenClassRender = function (_React$PureComponent) {
+  _inherits(ScreenClassRender, _React$PureComponent);
+
+  function ScreenClassRender() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ScreenClassRender);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ScreenClassRender.__proto__ || Object.getPrototypeOf(ScreenClassRender)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
+      return _react2.default.createElement(
+        _ScreenClassResolver2.default,
+        null,
+        function (screenClass) {
+          return _this.props.render(screenClass);
+        }
+      );
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  return ScreenClassRender;
+}(_react2.default.PureComponent);
+
+ScreenClassRender.propTypes = {
+  /**
+   * The function which return value will be rendered.
+   * Will be called with one argument: the screen class.
+   */
+  render: _propTypes2.default.func.isRequired
+};
+exports.default = ScreenClassRender;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Visible/index.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Visible/index.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _style = __webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/utilities/Visible/style.js");
+
+var style = _interopRequireWildcard(_style);
+
+var _ScreenClassResolver = __webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js");
+
+var _ScreenClassResolver2 = _interopRequireDefault(_ScreenClassResolver);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Visible = function (_React$PureComponent) {
+  _inherits(Visible, _React$PureComponent);
+
+  function Visible() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Visible);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Visible.__proto__ || Object.getPrototypeOf(Visible)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
+      return _react2.default.createElement(
+        _ScreenClassResolver2.default,
+        null,
+        function (screenClass) {
+          return !style.visible({
+            screenClass: screenClass,
+            xs: _this.props.xs,
+            sm: _this.props.sm,
+            md: _this.props.md,
+            lg: _this.props.lg,
+            xl: _this.props.xl
+          }) ? null : _this.props.children;
+        }
+      );
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  return Visible;
+}(_react2.default.PureComponent);
+
+Visible.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes2.default.node.isRequired,
+  /**
+   * Show on extra small devices
+   */
+  xs: _propTypes2.default.bool,
+  /**
+   * Show on small devices
+   */
+  sm: _propTypes2.default.bool,
+  /**
+   * Show on medium devices
+   */
+  md: _propTypes2.default.bool,
+  /**
+   * Show on large devices
+   */
+  lg: _propTypes2.default.bool,
+  /**
+   * Show on xl devices
+   */
+  xl: _propTypes2.default.bool
+};
+Visible.defaultProps = {
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false
+};
+exports.default = Visible;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Visible/style.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Visible/style.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var visible = exports.visible = function visible(_ref) {
+  var screenClass = _ref.screenClass,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+
+  if (screenClass === 'xl') return xl;
+  if (screenClass === 'lg') return lg;
+  if (screenClass === 'md') return md;
+  if (screenClass === 'sm') return sm;
+  return xs;
+};
+
+exports.default = visible;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utils.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utils.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getScreenClass = exports.screenClasses = undefined;
+
+var _config = __webpack_require__(/*! ./config */ "./node_modules/react-grid-system/build/config.js");
+
+var getViewPort = function getViewPort(source) {
+  if (source && source.clientWidth) {
+    return source.clientWidth;
+  }
+  if (typeof window !== 'undefined' && window.innerWidth) {
+    return window.innerWidth;
+  }
+  return null;
+}; /* global window */
+/* eslint "no-console": "off" */
+
+var screenClasses = exports.screenClasses = ['xs', 'sm', 'md', 'lg', 'xl'];
+
+var getScreenClass = exports.getScreenClass = function getScreenClass(source) {
+  var _getConfiguration = (0, _config.getConfiguration)(),
+      breakpoints = _getConfiguration.breakpoints,
+      defaultScreenClass = _getConfiguration.defaultScreenClass;
+
+  var screenClass = defaultScreenClass;
+
+  var viewport = getViewPort(source);
+  if (viewport) {
+    screenClass = 'xs';
+    if (breakpoints[0] && viewport >= breakpoints[0]) screenClass = 'sm';
+    if (breakpoints[1] && viewport >= breakpoints[1]) screenClass = 'md';
+    if (breakpoints[2] && viewport >= breakpoints[2]) screenClass = 'lg';
+    if (breakpoints[3] && viewport >= breakpoints[3]) screenClass = 'xl';
+  }
+
+  return screenClass;
+};
 
 /***/ }),
 
@@ -12709,515 +13438,6 @@ if (hadRuntime) {
     return this || (typeof self === "object" && self);
   })() || Function("return this")()
 );
-
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/lib/addStyles.js":
-/*!****************************************************!*\
-  !*** ./node_modules/style-loader/lib/addStyles.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-
-var stylesInDom = {};
-
-var	memoize = function (fn) {
-	var memo;
-
-	return function () {
-		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
-		return memo;
-	};
-};
-
-var isOldIE = memoize(function () {
-	// Test for IE <= 9 as proposed by Browserhacks
-	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-	// Tests for existence of standard globals is to allow style-loader
-	// to operate correctly into non-standard environments
-	// @see https://github.com/webpack-contrib/style-loader/issues/177
-	return window && document && document.all && !window.atob;
-});
-
-var getTarget = function (target, parent) {
-  if (parent){
-    return parent.querySelector(target);
-  }
-  return document.querySelector(target);
-};
-
-var getElement = (function (fn) {
-	var memo = {};
-
-	return function(target, parent) {
-                // If passing function in options, then use it for resolve "head" element.
-                // Useful for Shadow Root style i.e
-                // {
-                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
-                // }
-                if (typeof target === 'function') {
-                        return target();
-                }
-                if (typeof memo[target] === "undefined") {
-			var styleTarget = getTarget.call(this, target, parent);
-			// Special case to return head of iframe instead of iframe itself
-			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-				try {
-					// This will throw an exception if access to iframe is blocked
-					// due to cross-origin restrictions
-					styleTarget = styleTarget.contentDocument.head;
-				} catch(e) {
-					styleTarget = null;
-				}
-			}
-			memo[target] = styleTarget;
-		}
-		return memo[target]
-	};
-})();
-
-var singleton = null;
-var	singletonCounter = 0;
-var	stylesInsertedAtTop = [];
-
-var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
-
-module.exports = function(list, options) {
-	if (typeof DEBUG !== "undefined" && DEBUG) {
-		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
-	}
-
-	options = options || {};
-
-	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
-
-	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-	// tags it will allow on a page
-	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
-
-	// By default, add <style> tags to the <head> element
-        if (!options.insertInto) options.insertInto = "head";
-
-	// By default, add <style> tags to the bottom of the target
-	if (!options.insertAt) options.insertAt = "bottom";
-
-	var styles = listToStyles(list, options);
-
-	addStylesToDom(styles, options);
-
-	return function update (newList) {
-		var mayRemove = [];
-
-		for (var i = 0; i < styles.length; i++) {
-			var item = styles[i];
-			var domStyle = stylesInDom[item.id];
-
-			domStyle.refs--;
-			mayRemove.push(domStyle);
-		}
-
-		if(newList) {
-			var newStyles = listToStyles(newList, options);
-			addStylesToDom(newStyles, options);
-		}
-
-		for (var i = 0; i < mayRemove.length; i++) {
-			var domStyle = mayRemove[i];
-
-			if(domStyle.refs === 0) {
-				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
-
-				delete stylesInDom[domStyle.id];
-			}
-		}
-	};
-};
-
-function addStylesToDom (styles, options) {
-	for (var i = 0; i < styles.length; i++) {
-		var item = styles[i];
-		var domStyle = stylesInDom[item.id];
-
-		if(domStyle) {
-			domStyle.refs++;
-
-			for(var j = 0; j < domStyle.parts.length; j++) {
-				domStyle.parts[j](item.parts[j]);
-			}
-
-			for(; j < item.parts.length; j++) {
-				domStyle.parts.push(addStyle(item.parts[j], options));
-			}
-		} else {
-			var parts = [];
-
-			for(var j = 0; j < item.parts.length; j++) {
-				parts.push(addStyle(item.parts[j], options));
-			}
-
-			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
-		}
-	}
-}
-
-function listToStyles (list, options) {
-	var styles = [];
-	var newStyles = {};
-
-	for (var i = 0; i < list.length; i++) {
-		var item = list[i];
-		var id = options.base ? item[0] + options.base : item[0];
-		var css = item[1];
-		var media = item[2];
-		var sourceMap = item[3];
-		var part = {css: css, media: media, sourceMap: sourceMap};
-
-		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
-		else newStyles[id].parts.push(part);
-	}
-
-	return styles;
-}
-
-function insertStyleElement (options, style) {
-	var target = getElement(options.insertInto)
-
-	if (!target) {
-		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
-	}
-
-	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
-
-	if (options.insertAt === "top") {
-		if (!lastStyleElementInsertedAtTop) {
-			target.insertBefore(style, target.firstChild);
-		} else if (lastStyleElementInsertedAtTop.nextSibling) {
-			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
-		} else {
-			target.appendChild(style);
-		}
-		stylesInsertedAtTop.push(style);
-	} else if (options.insertAt === "bottom") {
-		target.appendChild(style);
-	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
-		var nextSibling = getElement(options.insertAt.before, target);
-		target.insertBefore(style, nextSibling);
-	} else {
-		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
-	}
-}
-
-function removeStyleElement (style) {
-	if (style.parentNode === null) return false;
-	style.parentNode.removeChild(style);
-
-	var idx = stylesInsertedAtTop.indexOf(style);
-	if(idx >= 0) {
-		stylesInsertedAtTop.splice(idx, 1);
-	}
-}
-
-function createStyleElement (options) {
-	var style = document.createElement("style");
-
-	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
-	}
-
-	if(options.attrs.nonce === undefined) {
-		var nonce = getNonce();
-		if (nonce) {
-			options.attrs.nonce = nonce;
-		}
-	}
-
-	addAttrs(style, options.attrs);
-	insertStyleElement(options, style);
-
-	return style;
-}
-
-function createLinkElement (options) {
-	var link = document.createElement("link");
-
-	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
-	}
-	options.attrs.rel = "stylesheet";
-
-	addAttrs(link, options.attrs);
-	insertStyleElement(options, link);
-
-	return link;
-}
-
-function addAttrs (el, attrs) {
-	Object.keys(attrs).forEach(function (key) {
-		el.setAttribute(key, attrs[key]);
-	});
-}
-
-function getNonce() {
-	if (false) {}
-
-	return __webpack_require__.nc;
-}
-
-function addStyle (obj, options) {
-	var style, update, remove, result;
-
-	// If a transform function was defined, run it on the css
-	if (options.transform && obj.css) {
-	    result = typeof options.transform === 'function'
-		 ? options.transform(obj.css) 
-		 : options.transform.default(obj.css);
-
-	    if (result) {
-	    	// If transform returns a value, use that instead of the original css.
-	    	// This allows running runtime transformations on the css.
-	    	obj.css = result;
-	    } else {
-	    	// If the transform function returns a falsy value, don't add this css.
-	    	// This allows conditional loading of css
-	    	return function() {
-	    		// noop
-	    	};
-	    }
-	}
-
-	if (options.singleton) {
-		var styleIndex = singletonCounter++;
-
-		style = singleton || (singleton = createStyleElement(options));
-
-		update = applyToSingletonTag.bind(null, style, styleIndex, false);
-		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-
-	} else if (
-		obj.sourceMap &&
-		typeof URL === "function" &&
-		typeof URL.createObjectURL === "function" &&
-		typeof URL.revokeObjectURL === "function" &&
-		typeof Blob === "function" &&
-		typeof btoa === "function"
-	) {
-		style = createLinkElement(options);
-		update = updateLink.bind(null, style, options);
-		remove = function () {
-			removeStyleElement(style);
-
-			if(style.href) URL.revokeObjectURL(style.href);
-		};
-	} else {
-		style = createStyleElement(options);
-		update = applyToTag.bind(null, style);
-		remove = function () {
-			removeStyleElement(style);
-		};
-	}
-
-	update(obj);
-
-	return function updateStyle (newObj) {
-		if (newObj) {
-			if (
-				newObj.css === obj.css &&
-				newObj.media === obj.media &&
-				newObj.sourceMap === obj.sourceMap
-			) {
-				return;
-			}
-
-			update(obj = newObj);
-		} else {
-			remove();
-		}
-	};
-}
-
-var replaceText = (function () {
-	var textStore = [];
-
-	return function (index, replacement) {
-		textStore[index] = replacement;
-
-		return textStore.filter(Boolean).join('\n');
-	};
-})();
-
-function applyToSingletonTag (style, index, remove, obj) {
-	var css = remove ? "" : obj.css;
-
-	if (style.styleSheet) {
-		style.styleSheet.cssText = replaceText(index, css);
-	} else {
-		var cssNode = document.createTextNode(css);
-		var childNodes = style.childNodes;
-
-		if (childNodes[index]) style.removeChild(childNodes[index]);
-
-		if (childNodes.length) {
-			style.insertBefore(cssNode, childNodes[index]);
-		} else {
-			style.appendChild(cssNode);
-		}
-	}
-}
-
-function applyToTag (style, obj) {
-	var css = obj.css;
-	var media = obj.media;
-
-	if(media) {
-		style.setAttribute("media", media)
-	}
-
-	if(style.styleSheet) {
-		style.styleSheet.cssText = css;
-	} else {
-		while(style.firstChild) {
-			style.removeChild(style.firstChild);
-		}
-
-		style.appendChild(document.createTextNode(css));
-	}
-}
-
-function updateLink (link, options, obj) {
-	var css = obj.css;
-	var sourceMap = obj.sourceMap;
-
-	/*
-		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
-		and there is no publicPath defined then lets turn convertToAbsoluteUrls
-		on by default.  Otherwise default to the convertToAbsoluteUrls option
-		directly
-	*/
-	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
-
-	if (options.convertToAbsoluteUrls || autoFixUrls) {
-		css = fixUrls(css);
-	}
-
-	if (sourceMap) {
-		// http://stackoverflow.com/a/26603875
-		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
-	}
-
-	var blob = new Blob([css], { type: "text/css" });
-
-	var oldSrc = link.href;
-
-	link.href = URL.createObjectURL(blob);
-
-	if(oldSrc) URL.revokeObjectURL(oldSrc);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/lib/urls.js":
-/*!***********************************************!*\
-  !*** ./node_modules/style-loader/lib/urls.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-/**
- * When source maps are enabled, `style-loader` uses a link element with a data-uri to
- * embed the css on the page. This breaks all relative urls because now they are relative to a
- * bundle instead of the current page.
- *
- * One solution is to only use full urls, but that may be impossible.
- *
- * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
- *
- * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
- *
- */
-
-module.exports = function (css) {
-  // get current location
-  var location = typeof window !== "undefined" && window.location;
-
-  if (!location) {
-    throw new Error("fixUrls requires window.location");
-  }
-
-	// blank or null?
-	if (!css || typeof css !== "string") {
-	  return css;
-  }
-
-  var baseUrl = location.protocol + "//" + location.host;
-  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
-
-	// convert each url(...)
-	/*
-	This regular expression is just a way to recursively match brackets within
-	a string.
-
-	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
-	   (  = Start a capturing group
-	     (?:  = Start a non-capturing group
-	         [^)(]  = Match anything that isn't a parentheses
-	         |  = OR
-	         \(  = Match a start parentheses
-	             (?:  = Start another non-capturing groups
-	                 [^)(]+  = Match anything that isn't a parentheses
-	                 |  = OR
-	                 \(  = Match a start parentheses
-	                     [^)(]*  = Match anything that isn't a parentheses
-	                 \)  = Match a end parentheses
-	             )  = End Group
-              *\) = Match anything and then a close parens
-          )  = Close non-capturing group
-          *  = Match anything
-       )  = Close capturing group
-	 \)  = Match a close parens
-
-	 /gi  = Get all matches, not the first.  Be case insensitive.
-	 */
-	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
-		// strip quotes (if they exist)
-		var unquotedOrigUrl = origUrl
-			.trim()
-			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
-			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
-
-		// already a full url? no change
-		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
-		  return fullMatch;
-		}
-
-		// convert the url to a full url
-		var newUrl;
-
-		if (unquotedOrigUrl.indexOf("//") === 0) {
-		  	//TODO: should we add protocol?
-			newUrl = unquotedOrigUrl;
-		} else if (unquotedOrigUrl.indexOf("/") === 0) {
-			// path should be relative to the base url
-			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
-		} else {
-			// path should be relative to current directory
-			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
-		}
-
-		// send back the fixed url(...)
-		return "url(" + JSON.stringify(newUrl) + ")";
-	});
-
-	// send back the fixed css
-	return fixedCss;
-};
 
 
 /***/ }),
@@ -16797,7 +17017,7 @@ PopLint.propTypes = {
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, default */
 /***/ (function(module) {
 
-module.exports = [{"key":"accessor-pairs","eslint":false,"description":"enforce getter and setter pairs in objects","category":"Best Practices","url":"https://eslint.org/docs/rules/accessor-pairs","options":{"getWithoutSet":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2},"extra":{},"setWithoutGet":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"array-bracket-newline","eslint":false,"description":"enforce linebreaks after opening and before closing array brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-bracket-newline","fixable":"whitespace","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"consistent":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"minItems":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"array-bracket-spacing","eslint":false,"description":"enforce consistent spacing inside array brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-bracket-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":4,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":0},"singleValue":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"objectsInArrays":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"arraysInArrays":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"array-callback-return","eslint":false,"description":"enforce `return` statements in callbacks of array methods","category":"Best Practices","url":"https://eslint.org/docs/rules/array-callback-return","options":{"allowImplicit":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"array-element-newline","eslint":false,"description":"enforce line breaks after each array element","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-element-newline","fixable":"whitespace","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"consistent":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"minItems":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"arrow-body-style","eslint":false,"description":"require braces around arrow function bodies","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-body-style","fixable":"code","options":{"always":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"as-needed":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"requireReturnForObjectLiteral":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"arrow-parens","eslint":false,"description":"require parentheses around arrow function arguments","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-parens","fixable":"code","options":{"always":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"requireForBlockBody":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":6,"warn":0,"off":10},{"key":"arrow-spacing","eslint":false,"description":"enforce consistent spacing before and after the arrow in arrow functions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-spacing","fixable":"whitespace","options":{"before":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"block-scoped-var","eslint":false,"description":"enforce the use of variables within the scope they are defined","category":"Best Practices","url":"https://eslint.org/docs/rules/block-scoped-var","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"block-spacing","eslint":false,"description":"disallow or enforce spaces inside of blocks after opening block and before closing block","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/block-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"brace-style","eslint":false,"description":"enforce consistent brace style for blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/brace-style","fixable":"whitespace","options":{"1tbs":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"stroustrup":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"allman":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"allowSingleLine":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"callback-return","eslint":false,"description":"require `return` statements after callbacks","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/callback-return","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"camelcase","eslint":false,"description":"enforce camelcase naming convention","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/camelcase","options":{"ignoreDestructuring":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"properties":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"capitalized-comments","eslint":false,"description":"enforce or disallow capitalization of the first letter of a comment","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/capitalized-comments","fixable":"code","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreInlineComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreConsecutiveComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"line":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"class-methods-use-this","eslint":false,"description":"enforce that class methods utilize `this`","category":"Best Practices","url":"https://eslint.org/docs/rules/class-methods-use-this","options":{"exceptMethods":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"comma-dangle","eslint":false,"description":"require or disallow trailing commas","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-dangle","fixable":"code","options":{"always-multiline":{"error":9,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":9,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"never":{"error":9,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"only-multiline":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"arrays":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"objects":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"imports":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"exports":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"functions":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":9,"warn":0,"off":7},{"key":"comma-spacing","eslint":false,"description":"enforce consistent spacing before and after commas","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-spacing","fixable":"whitespace","options":{"before":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"comma-style","eslint":false,"description":"enforce consistent comma style","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-style","fixable":"code","options":{"first":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"last":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"exceptions":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"complexity","eslint":false,"description":"enforce a maximum cyclomatic complexity allowed in a program","category":"Best Practices","url":"https://eslint.org/docs/rules/complexity","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"computed-property-spacing","eslint":false,"description":"enforce consistent spacing inside computed property brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/computed-property-spacing","fixable":"whitespace","options":{"always":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"consistent-return","eslint":false,"description":"require `return` statements to either always or never specify values","category":"Best Practices","url":"https://eslint.org/docs/rules/consistent-return","options":{"treatUndefinedAsUnspecified":{"error":2,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"consistent-this","eslint":false,"description":"enforce consistent naming when capturing the current execution context","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/consistent-this","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"constructor-super","eslint":true,"description":"require `super()` calls in constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/constructor-super","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"curly","eslint":false,"description":"enforce consistent brace style for all control statements","category":"Best Practices","url":"https://eslint.org/docs/rules/curly","fixable":"code","options":{"all":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"multi":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"multi-line":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"multi-or-nest":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"consistent":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"default-case","eslint":false,"description":"require `default` cases in `switch` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/default-case","options":{"commentPattern":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"dot-location","eslint":false,"description":"enforce consistent newlines before and after dots","category":"Best Practices","url":"https://eslint.org/docs/rules/dot-location","fixable":"code","options":{"object":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{},"property":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"dot-notation","eslint":false,"description":"enforce dot notation whenever possible","category":"Best Practices","url":"https://eslint.org/docs/rules/dot-notation","fixable":"code","options":{"allowKeywords":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowPattern":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"eol-last","eslint":false,"description":"require or disallow newline at the end of files","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/eol-last","fixable":"whitespace","options":{"always":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"unix":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"windows":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":9,"warn":0,"off":7},{"key":"eqeqeq","eslint":false,"description":"require the use of `===` and `!==`","category":"Best Practices","url":"https://eslint.org/docs/rules/eqeqeq","fixable":"code","options":{"always":{"error":8,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"null":{"error":8,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"smart":{"error":8,"warn":0,"off":8,"google":0,"airBnb":2,"standardJs":2},"allow-null":{"error":8,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"for-direction","eslint":true,"description":"enforce \"for\" loop update clause moving the counter in the right direction.","category":"Possible Errors","url":"https://eslint.org/docs/rules/for-direction","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"func-call-spacing","eslint":false,"description":"require or disallow spacing between function identifiers and their invocations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-call-spacing","fixable":"whitespace","options":{"never":{"error":4,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"allowNewlines":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"func-name-matching","eslint":false,"description":"require function names to match the name of the variable or property to which they are assigned","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-name-matching","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"considerPropertyDescriptor":{"error":0,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"includeCommonJSModuleExports":{"error":0,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"func-names","eslint":false,"description":"require or disallow named `function` expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-names","options":{"always":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0},"extra":{},"as-needed":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0},"never":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":2,"off":14},{"key":"func-style","eslint":false,"description":"enforce the consistent use of either `function` declarations or expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-style","options":{"declaration":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"expression":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrowFunctions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"function-paren-newline","eslint":false,"description":"enforce consistent line breaks inside function parentheses","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/function-paren-newline","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"multiline":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"minItems":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"generator-star-spacing","eslint":false,"description":"enforce consistent spacing around `*` operators in generator functions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/generator-star-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":3,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"both":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"neither":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"named":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"anonymous":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"method":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"getter-return","eslint":true,"description":"enforce `return` statements in getters","category":"Possible Errors","url":"https://eslint.org/docs/rules/getter-return","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"global-require","eslint":false,"description":"require `require()` calls to be placed at top-level module scope","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/global-require","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"guard-for-in","eslint":false,"description":"require `for-in` loops to include an `if` statement","category":"Best Practices","url":"https://eslint.org/docs/rules/guard-for-in","options":{},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"handle-callback-err","eslint":false,"description":"require error handling in callbacks","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/handle-callback-err","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"id-blacklist","eslint":false,"description":"disallow specified identifiers","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-blacklist","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"id-length","eslint":false,"description":"enforce minimum and maximum identifier lengths","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-length","options":{"min":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"exceptions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"properties":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"id-match","eslint":false,"description":"require identifiers to match a specified regular expression","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-match","options":{"properties":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"implicit-arrow-linebreak","eslint":false,"description":"enforce the location of arrow function bodies","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/implicit-arrow-linebreak","fixable":"whitespace","options":{"beside":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"below":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"indent-legacy","eslint":false,"description":"enforce consistent indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/indent-legacy","fixable":"whitespace","options":{"tab":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"SwitchCase":{"error":1,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":0},"VariableDeclarator":{"error":1,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":0},"outerIIFEBody":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"MemberExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"FunctionDeclaration":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"FunctionExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"CallExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ArrayExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ObjectExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"indent","eslint":false,"description":"enforce consistent indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/indent","fixable":"whitespace","options":{"tab":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{"name":"Spaces vs. tabs","values":{"spaces2":6,"spaces4":0,"tabs":0}},"SwitchCase":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"VariableDeclarator":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"outerIIFEBody":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"MemberExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"FunctionDeclaration":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"FunctionExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"CallExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"ArrayExpression":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ObjectExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"ImportDeclaration":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"flatTernaryExpressions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ignoredNodes":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ignoreComments":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"init-declarations","eslint":false,"description":"require or disallow initialization in variable declarations","category":"Variables","url":"https://eslint.org/docs/rules/init-declarations","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreForLoopInit":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"jsx-quotes","eslint":false,"description":"enforce the consistent use of either double or single quotes in JSX attributes","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/jsx-quotes","fixable":"whitespace","options":{"prefer-single":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"prefer-double":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"key-spacing","eslint":false,"description":"enforce consistent spacing between keys and values in object literal properties","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/key-spacing","fixable":"whitespace","options":{"align":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"mode":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"beforeColon":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"afterColon":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"singleLine":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"multiLine":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"keyword-spacing","eslint":false,"description":"enforce consistent spacing before and after keywords","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/keyword-spacing","fixable":"whitespace","options":{"before":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"overrides":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"line-comment-position","eslint":false,"description":"enforce position of line comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/line-comment-position","options":{"above":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"beside":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"position":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultPatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultIgnorePatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"linebreak-style","eslint":false,"description":"enforce consistent linebreak style","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/linebreak-style","fixable":"whitespace","options":{"unix":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0},"extra":{},"windows":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"lines-around-comment","eslint":false,"description":"require empty lines around comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-around-comment","fixable":"whitespace","options":{"beforeBlockComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"afterBlockComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"beforeLineComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"afterLineComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowBlockStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowBlockEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowClassStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowClassEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowObjectStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowObjectEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrayStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrayEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultIgnorePatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"lines-around-directive","eslint":false,"description":"require or disallow newlines around directives","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-around-directive","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"before":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"after":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"lines-between-class-members","eslint":false,"description":"require or disallow an empty line between class members","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-between-class-members","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"exceptAfterSingleLine":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"max-classes-per-file","eslint":false,"description":"enforce a maximum number of classes per file","category":"Best Practices","url":"https://eslint.org/docs/rules/max-classes-per-file","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-depth","eslint":false,"description":"enforce a maximum depth that blocks can be nested","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-depth","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-len","eslint":false,"description":"enforce a maximum line length","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-len","options":{"code":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"extra":{},"comments":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":0},"tabWidth":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignorePattern":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreComments":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreStrings":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreUrls":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreTemplateLiterals":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreRegExpLiterals":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreTrailingComments":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"max-lines-per-function","eslint":false,"description":"enforce a maximum number of line of code in a function","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-lines-per-function","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"skipComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"skipBlankLines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"IIFEs":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-lines","eslint":false,"description":"enforce a maximum number of lines per file","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-lines","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"skipComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"skipBlankLines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-nested-callbacks","eslint":false,"description":"enforce a maximum depth that callbacks can be nested","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-nested-callbacks","options":{"maximum":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"max-params","eslint":false,"description":"enforce a maximum number of parameters in function definitions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-params","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-statements-per-line","eslint":false,"description":"enforce a maximum number of statements allowed per line","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-statements-per-line","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-statements","eslint":false,"description":"enforce a maximum number of statements allowed in function blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-statements","options":{"maximum":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"ignoreTopLevelFunctions":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"multiline-comment-style","eslint":false,"description":"enforce a particular style for multiline comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/multiline-comment-style","fixable":"whitespace","options":{"starred-block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"separate-lines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"bare-block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"multiline-ternary","eslint":false,"description":"enforce newlines between operands of ternary expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/multiline-ternary","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"always-multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"new-cap","eslint":false,"description":"require constructor names to begin with a capital letter","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/new-cap","options":{"newIsCap":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"capIsNew":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"newIsCapExceptions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"newIsCapExceptionPattern":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"capIsNewExceptions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"capIsNewExceptionPattern":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"properties":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"new-parens","eslint":false,"description":"require parentheses when invoking a constructor with no arguments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/new-parens","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"newline-after-var","eslint":false,"description":"require or disallow an empty line after variable declarations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-after-var","fixable":"whitespace","options":{"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"newline-before-return","eslint":false,"description":"require an empty line before `return` statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-before-return","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"newline-per-chained-call","eslint":false,"description":"require a newline after each call in a method chain","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-per-chained-call","fixable":"whitespace","options":{"ignoreChainWithDepth":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-alert","eslint":false,"description":"disallow the use of `alert`, `confirm`, and `prompt`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-alert","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":3,"off":11},{"key":"no-array-constructor","eslint":false,"description":"disallow `Array` constructors","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-array-constructor","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-async-promise-executor","eslint":false,"description":"disallow using an async function as a Promise executor","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-async-promise-executor","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-await-in-loop","eslint":false,"description":"disallow `await` inside of loops","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-await-in-loop","options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-bitwise","eslint":false,"description":"disallow bitwise operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-bitwise","options":{"allow":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"int32Hint":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-buffer-constructor","eslint":false,"description":"disallow use of the `Buffer()` constructor","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-buffer-constructor","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-caller","eslint":false,"description":"disallow the use of `arguments.caller` or `arguments.callee`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-caller","options":{},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"no-case-declarations","eslint":true,"description":"disallow lexical declarations in case clauses","category":"Best Practices","url":"https://eslint.org/docs/rules/no-case-declarations","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-catch-shadow","eslint":false,"description":"disallow `catch` clause parameters from shadowing variables in the outer scope","category":"Variables","url":"https://eslint.org/docs/rules/no-catch-shadow","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-class-assign","eslint":true,"description":"disallow reassigning class members","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-class-assign","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-compare-neg-zero","eslint":true,"description":"disallow comparing against -0","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-compare-neg-zero","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-cond-assign","eslint":true,"description":"disallow assignment operators in conditional expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-cond-assign","options":{"except-parens":{"error":3,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2},"extra":{},"always":{"error":3,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-confusing-arrow","eslint":false,"description":"disallow arrow functions where they could be confused with comparisons","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-confusing-arrow","fixable":"code","options":{"allowParens":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-console","eslint":true,"description":"disallow the use of `console`","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-console","options":{"allow":{"error":2,"warn":1,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":false,"standardJs":false,"error":2,"warn":1,"off":13},{"key":"no-const-assign","eslint":true,"description":"disallow reassigning `const` variables","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-const-assign","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-constant-condition","eslint":true,"description":"disallow constant expressions in conditions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-constant-condition","options":{"checkLoops":{"error":2,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":1,"off":13},{"key":"no-continue","eslint":false,"description":"disallow `continue` statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-continue","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-control-regex","eslint":true,"description":"disallow control characters in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-control-regex","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-debugger","eslint":true,"description":"disallow the use of `debugger`","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-debugger","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":1,"off":12},{"key":"no-delete-var","eslint":true,"description":"disallow deleting variables","category":"Variables","url":"https://eslint.org/docs/rules/no-delete-var","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-div-regex","eslint":false,"description":"disallow division operators explicitly at the beginning of regular expressions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-div-regex","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-dupe-args","eslint":true,"description":"disallow duplicate arguments in `function` definitions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-dupe-args","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-dupe-class-members","eslint":true,"description":"disallow duplicate class members","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-dupe-class-members","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-dupe-keys","eslint":true,"description":"disallow duplicate keys in object literals","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-dupe-keys","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-duplicate-case","eslint":true,"description":"disallow duplicate case labels","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-duplicate-case","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-duplicate-imports","eslint":false,"description":"disallow duplicate module imports","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-duplicate-imports","options":{"includeExports":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-else-return","eslint":false,"description":"disallow `else` blocks after `return` statements in `if` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-else-return","fixable":"code","options":{"allowElseIf":{"error":6,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":6,"warn":0,"off":10},{"key":"no-empty-character-class","eslint":true,"description":"disallow empty character classes in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-empty-character-class","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-empty-function","eslint":false,"description":"disallow empty functions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-empty-function","options":{"allow":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-empty-pattern","eslint":true,"description":"disallow empty destructuring patterns","category":"Best Practices","url":"https://eslint.org/docs/rules/no-empty-pattern","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-empty","eslint":true,"description":"disallow empty block statements","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-empty","options":{"allowEmptyCatch":{"error":3,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":false,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-eq-null","eslint":false,"description":"disallow `null` comparisons without type-checking operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-eq-null","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-eval","eslint":false,"description":"disallow the use of `eval()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-eval","options":{"allowIndirect":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-ex-assign","eslint":true,"description":"disallow reassigning exceptions in `catch` clauses","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-ex-assign","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-extend-native","eslint":false,"description":"disallow extending native types","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extend-native","options":{"exceptions":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-extra-bind","eslint":false,"description":"disallow unnecessary calls to `.bind()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extra-bind","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":1,"off":9},{"key":"no-extra-boolean-cast","eslint":true,"description":"disallow unnecessary boolean casts","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-boolean-cast","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-extra-label","eslint":false,"description":"disallow unnecessary labels","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extra-label","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-extra-parens","eslint":false,"description":"disallow unnecessary parentheses","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-parens","fixable":"code","options":{"functions":{"error":2,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":2},"extra":{},"all":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"conditionalAssign":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"nestedBinaryExpressions":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"returnAssign":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"ignoreJSX":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"enforceForArrowConditionals":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-extra-semi","eslint":true,"description":"disallow unnecessary semicolons","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-semi","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-fallthrough","eslint":true,"description":"disallow fallthrough of `case` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-fallthrough","options":{"commentPattern":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-floating-decimal","eslint":false,"description":"disallow leading or trailing decimal points in numeric literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-floating-decimal","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-func-assign","eslint":true,"description":"disallow reassigning `function` declarations","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-func-assign","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-global-assign","eslint":true,"description":"disallow assignments to native objects or read-only global variables","category":"Best Practices","url":"https://eslint.org/docs/rules/no-global-assign","options":{"exceptions":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-implicit-coercion","eslint":false,"description":"disallow shorthand type conversions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implicit-coercion","fixable":"code","options":{"boolean":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"number":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"string":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allow":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-implicit-globals","eslint":false,"description":"disallow variable and `function` declarations in the global scope","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implicit-globals","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-implied-eval","eslint":false,"description":"disallow the use of `eval()`-like methods","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implied-eval","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-inline-comments","eslint":false,"description":"disallow inline comments after code","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-inline-comments","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-inner-declarations","eslint":true,"description":"disallow variable or `function` declarations in nested blocks","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-inner-declarations","options":{"functions":{"error":4,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":2},"extra":{},"both":{"error":4,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-invalid-regexp","eslint":true,"description":"disallow invalid regular expression strings in `RegExp` constructors","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-invalid-regexp","options":{"allowConstructorFlags":{"error":4,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-invalid-this","eslint":false,"description":"disallow `this` keywords outside of classes or class-like objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-invalid-this","options":{},"google":true,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-irregular-whitespace","eslint":true,"description":"disallow irregular whitespace outside of strings and comments","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-irregular-whitespace","options":{"skipComments":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"extra":{},"skipStrings":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"skipTemplates":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"skipRegExps":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2}},"google":true,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-iterator","eslint":false,"description":"disallow the use of the `__iterator__` property","category":"Best Practices","url":"https://eslint.org/docs/rules/no-iterator","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-label-var","eslint":false,"description":"disallow labels that share a name with a variable","category":"Variables","url":"https://eslint.org/docs/rules/no-label-var","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-labels","eslint":false,"description":"disallow labeled statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-labels","options":{"allowLoop":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowSwitch":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-lone-blocks","eslint":false,"description":"disallow unnecessary nested blocks","category":"Best Practices","url":"https://eslint.org/docs/rules/no-lone-blocks","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-lonely-if","eslint":false,"description":"disallow `if` statements as the only statement in `else` blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-lonely-if","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-loop-func","eslint":false,"description":"disallow `function` declarations and expressions inside loop statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-loop-func","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":1,"off":11},{"key":"no-magic-numbers","eslint":false,"description":"disallow magic numbers","category":"Best Practices","url":"https://eslint.org/docs/rules/no-magic-numbers","options":{"detectObjects":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"enforceConst":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignore":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreArrayIndexes":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-misleading-character-class","eslint":false,"description":"disallow characters which are made with multiple code points in character class syntax","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-misleading-character-class","options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-mixed-operators","eslint":false,"description":"disallow mixed binary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-mixed-operators","options":{"groups":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowSamePrecedence":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-mixed-requires","eslint":false,"description":"disallow `require` calls to be mixed with regular variable declarations","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-mixed-requires","options":{"grouping":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"allowCall":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-mixed-spaces-and-tabs","eslint":true,"description":"disallow mixed spaces and tabs for indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-mixed-spaces-and-tabs","options":{"smart-tabs":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"true":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"false":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-multi-assign","eslint":false,"description":"disallow use of chained assignment expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-multi-assign","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-multi-spaces","eslint":false,"description":"disallow multiple spaces","category":"Best Practices","url":"https://eslint.org/docs/rules/no-multi-spaces","fixable":"whitespace","options":{"exceptions":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"ignoreEOLComments":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-multi-str","eslint":false,"description":"disallow multiline strings","category":"Best Practices","url":"https://eslint.org/docs/rules/no-multi-str","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-multiple-empty-lines","eslint":false,"description":"disallow multiple empty lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-multiple-empty-lines","fixable":"whitespace","options":{"max":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"maxEOF":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"maxBOF":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-native-reassign","eslint":false,"description":"disallow assignments to native objects or read-only global variables","category":"Best Practices","url":"https://eslint.org/docs/rules/no-native-reassign","options":{"exceptions":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-negated-condition","eslint":false,"description":"disallow negated conditions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-negated-condition","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-negated-in-lhs","eslint":false,"description":"disallow negating the left operand in `in` expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-negated-in-lhs","options":{},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-nested-ternary","eslint":false,"description":"disallow nested ternary expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-nested-ternary","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-new-func","eslint":false,"description":"disallow `new` operators with the `Function` object","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new-func","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-object","eslint":false,"description":"disallow `Object` constructors","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-new-object","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-require","eslint":false,"description":"disallow `new` operators with calls to `require`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-new-require","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-new-symbol","eslint":true,"description":"disallow `new` operators with the `Symbol` object","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-new-symbol","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-wrappers","eslint":false,"description":"disallow `new` operators with the `String`, `Number`, and `Boolean` objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new-wrappers","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-new","eslint":false,"description":"disallow `new` operators outside of assignments or comparisons","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-obj-calls","eslint":true,"description":"disallow calling global object properties as functions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-obj-calls","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-octal-escape","eslint":false,"description":"disallow octal escape sequences in string literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-octal-escape","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-octal","eslint":true,"description":"disallow octal literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-octal","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-param-reassign","eslint":false,"description":"disallow reassigning `function` parameters","category":"Best Practices","url":"https://eslint.org/docs/rules/no-param-reassign","options":{"props":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"ignorePropertyModificationsFor":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-path-concat","eslint":false,"description":"disallow string concatenation with `__dirname` and `__filename`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-path-concat","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-plusplus","eslint":false,"description":"disallow the unary operators `++` and `--`","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-plusplus","options":{"allowForLoopAfterthoughts":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-process-env","eslint":false,"description":"disallow the use of `process.env`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-process-env","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-process-exit","eslint":false,"description":"disallow the use of `process.exit()`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-process-exit","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":1,"off":15},{"key":"no-proto","eslint":false,"description":"disallow the use of the `__proto__` property","category":"Best Practices","url":"https://eslint.org/docs/rules/no-proto","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-prototype-builtins","eslint":false,"description":"disallow calling some `Object.prototype` methods directly on objects","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-prototype-builtins","options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-redeclare","eslint":true,"description":"disallow variable redeclaration","category":"Best Practices","url":"https://eslint.org/docs/rules/no-redeclare","options":{"builtinGlobals":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-regex-spaces","eslint":true,"description":"disallow multiple spaces in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-regex-spaces","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-restricted-globals","eslint":false,"description":"disallow specified global variables","category":"Variables","url":"https://eslint.org/docs/rules/no-restricted-globals","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-restricted-imports","eslint":false,"description":"disallow specified modules when loaded by `import`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-restricted-imports","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-restricted-modules","eslint":false,"description":"disallow specified modules when loaded by `require`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-restricted-modules","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-restricted-properties","eslint":false,"description":"disallow certain properties on certain objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-restricted-properties","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-restricted-syntax","eslint":false,"description":"disallow specified syntax","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-restricted-syntax","options":{"selector":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"message":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-return-assign","eslint":false,"description":"disallow assignment operators in `return` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-return-assign","options":{"except-parens":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-return-await","eslint":false,"description":"disallow unnecessary `return await`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-return-await","fixable":null,"options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-script-url","eslint":false,"description":"disallow `javascript:` urls","category":"Best Practices","url":"https://eslint.org/docs/rules/no-script-url","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-self-assign","eslint":true,"description":"disallow assignments where both sides are exactly the same","category":"Best Practices","url":"https://eslint.org/docs/rules/no-self-assign","options":{"props":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-self-compare","eslint":false,"description":"disallow comparisons where both sides are exactly the same","category":"Best Practices","url":"https://eslint.org/docs/rules/no-self-compare","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-sequences","eslint":false,"description":"disallow comma operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-sequences","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-shadow-restricted-names","eslint":false,"description":"disallow identifiers from shadowing restricted names","category":"Variables","url":"https://eslint.org/docs/rules/no-shadow-restricted-names","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-shadow","eslint":false,"description":"disallow variable declarations from shadowing variables declared in the outer scope","category":"Variables","url":"https://eslint.org/docs/rules/no-shadow","options":{"builtinGlobals":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"extra":{},"hoist":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"allow":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-spaced-func","eslint":false,"description":"disallow spacing between function identifiers and their applications (deprecated)","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-spaced-func","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-sparse-arrays","eslint":true,"description":"disallow sparse arrays","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-sparse-arrays","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-sync","eslint":false,"description":"disallow synchronous methods","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-sync","options":{"allowAtRootLevel":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-tabs","eslint":false,"description":"disallow all tabs","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-tabs","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-template-curly-in-string","eslint":false,"description":"disallow template literal placeholder syntax in regular strings","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-template-curly-in-string","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-ternary","eslint":false,"description":"disallow ternary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-ternary","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-this-before-super","eslint":true,"description":"disallow `this`/`super` before calling `super()` in constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-this-before-super","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-throw-literal","eslint":false,"description":"disallow throwing literals as exceptions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-throw-literal","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-trailing-spaces","eslint":false,"description":"disallow trailing whitespace at the end of lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-trailing-spaces","fixable":"whitespace","options":{"skipBlankLines":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{},"ignoreComments":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"no-undef-init","eslint":false,"description":"disallow initializing variables to `undefined`","category":"Variables","url":"https://eslint.org/docs/rules/no-undef-init","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-undef","eslint":true,"description":"disallow the use of undeclared variables unless mentioned in `/*global */` comments","category":"Variables","url":"https://eslint.org/docs/rules/no-undef","options":{"typeof":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-undefined","eslint":false,"description":"disallow the use of `undefined` as an identifier","category":"Variables","url":"https://eslint.org/docs/rules/no-undefined","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-underscore-dangle","eslint":false,"description":"disallow dangling underscores in identifiers","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-underscore-dangle","options":{"allow":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowAfterThis":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"allowAfterSuper":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"enforceInMethodNames":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-unexpected-multiline","eslint":true,"description":"disallow confusing multiline expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unexpected-multiline","options":{},"google":true,"airBnb":false,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-unmodified-loop-condition","eslint":false,"description":"disallow unmodified loop conditions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unmodified-loop-condition","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-unneeded-ternary","eslint":false,"description":"disallow ternary operators when simpler alternatives exist","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-unneeded-ternary","fixable":"code","options":{"defaultAssignment":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unreachable","eslint":true,"description":"disallow unreachable code after `return`, `throw`, `continue`, and `break` statements","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unreachable","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unsafe-finally","eslint":true,"description":"disallow control flow statements in `finally` blocks","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unsafe-finally","options":{},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-unsafe-negation","eslint":true,"description":"disallow negating the left operand of relational operators","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unsafe-negation","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-unused-expressions","eslint":false,"description":"disallow unused expressions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unused-expressions","options":{"allowShortCircuit":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowTernary":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"allowTaggedTemplates":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unused-labels","eslint":true,"description":"disallow unused labels","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unused-labels","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-unused-vars","eslint":true,"description":"disallow unused variables","category":"Variables","url":"https://eslint.org/docs/rules/no-unused-vars","options":{"all":{"error":12,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"local":{"error":12,"warn":0,"off":10,"google":2,"airBnb":2,"standardJs":2},"vars":{"error":12,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"varsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"args":{"error":12,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"ignoreRestSiblings":{"error":12,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2},"argsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"caughtErrors":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"caughtErrorsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":12,"warn":0,"off":4},{"key":"no-use-before-define","eslint":false,"description":"disallow the use of variables before they are defined","category":"Variables","url":"https://eslint.org/docs/rules/no-use-before-define","options":{"nofunc":{"error":4,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"functions":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"classes":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"variables":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-call","eslint":false,"description":"disallow unnecessary calls to `.call()` and `.apply()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-call","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-useless-computed-key","eslint":false,"description":"disallow unnecessary computed property keys in object literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-computed-key","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-concat","eslint":false,"description":"disallow unnecessary concatenation of literals or template literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-concat","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-useless-constructor","eslint":false,"description":"disallow unnecessary constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-constructor","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-escape","eslint":true,"description":"disallow unnecessary escape characters","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-escape","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-rename","eslint":false,"description":"disallow renaming import, export, and destructured assignments to the same name","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-rename","fixable":"code","options":{"ignoreDestructuring":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"ignoreImport":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"ignoreExport":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-return","eslint":false,"description":"disallow redundant return statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-return","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-var","eslint":false,"description":"require `let` or `const` instead of `var`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-var","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":false,"error":8,"warn":0,"off":8},{"key":"no-void","eslint":false,"description":"disallow `void` operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-void","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-warning-comments","eslint":false,"description":"disallow specified warning terms in comments","category":"Best Practices","url":"https://eslint.org/docs/rules/no-warning-comments","options":{"terms":{"error":0,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"location":{"error":0,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":1,"off":15},{"key":"no-whitespace-before-property","eslint":false,"description":"disallow whitespace before properties","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-whitespace-before-property","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-with","eslint":false,"description":"disallow `with` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-with","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"nonblock-statement-body-position","eslint":false,"description":"enforce the location of single-line statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/nonblock-statement-body-position","fixable":"whitespace","options":{"beside":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"below":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"any":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"overrides":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"object-curly-newline","eslint":false,"description":"enforce consistent line breaks inside braces","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-curly-newline","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"multiline":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"minProperties":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ObjectExpression":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ObjectPattern":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ImportDeclaration":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ExportDeclaration":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"object-curly-spacing","eslint":false,"description":"enforce consistent spacing inside braces","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-curly-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"arraysInObjects":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"objectsInObjects":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"object-property-newline","eslint":false,"description":"enforce placing object properties on separate lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-property-newline","fixable":"whitespace","options":{"allowAllPropertiesOnSameLine":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowMultiplePropertiesPerLine":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"object-shorthand","eslint":false,"description":"require or disallow method and property shorthand syntax for object literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/object-shorthand","fixable":"code","options":{"always":{"error":9,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":0},"extra":{},"methods":{"error":9,"warn":0,"off":12,"google":0,"airBnb":2,"standardJs":0},"properties":{"error":6,"warn":0,"off":8,"google":0,"airBnb":2,"standardJs":0},"never":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"consistent-as-needed":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"avoidQuotes":{"error":6,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"ignoreConstructors":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"avoidExplicitReturnArrows":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"one-var-declaration-per-line","eslint":false,"description":"require or disallow newlines around variable declarations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/one-var-declaration-per-line","fixable":"whitespace","options":{"always":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"initializations":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"one-var","eslint":false,"description":"enforce variables to be declared either together or separately in functions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/one-var","fixable":"code","options":{"always":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"consecutive":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"separateRequires":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"var":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"let":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"const":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"initialized":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"uninitialized":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"operator-assignment","eslint":false,"description":"require or disallow assignment operator shorthand where possible","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/operator-assignment","fixable":"code","options":{"always":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"operator-linebreak","eslint":false,"description":"enforce consistent linebreak style for operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/operator-linebreak","fixable":"code","options":{"after":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"before":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"none":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"null":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"overrides":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"padded-blocks","eslint":false,"description":"require or disallow padding within blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/padded-blocks","fixable":"whitespace","options":{"always":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":5,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"blocks":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"switches":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"classes":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"padding-line-between-statements","eslint":false,"description":"require or disallow padding lines between statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/padding-line-between-statements","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-arrow-callback","eslint":false,"description":"require using arrow functions for callbacks","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-arrow-callback","fixable":"code","options":{"allowNamedFunctions":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowUnboundThis":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"prefer-const","eslint":false,"description":"require `const` declarations for variables that are never reassigned after declared","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-const","fixable":"code","options":{"destructuring":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"ignoreReadBeforeAssign":{"error":5,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":5,"warn":0,"off":11},{"key":"prefer-destructuring","eslint":false,"description":"require destructuring from arrays and/or objects","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-destructuring","options":{"VariableDeclarator":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"AssignmentExpression":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"array":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"object":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"enforceForRenamedProperties":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"prefer-numeric-literals","eslint":false,"description":"disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-numeric-literals","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"prefer-object-spread","eslint":false,"description":"disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/prefer-object-spread","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-promise-reject-errors","eslint":false,"description":"require using Error objects as Promise rejection reasons","category":"Best Practices","url":"https://eslint.org/docs/rules/prefer-promise-reject-errors","fixable":null,"options":{"allowEmptyReject":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"prefer-reflect","eslint":false,"description":"require `Reflect` methods where applicable","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-reflect","options":{"exceptions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-rest-params","eslint":false,"description":"require rest parameters instead of `arguments`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-rest-params","options":{},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"prefer-spread","eslint":false,"description":"require spread operators instead of `.apply()`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-spread","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"prefer-template","eslint":false,"description":"require template literals instead of string concatenation","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-template","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"quote-props","eslint":false,"description":"require quotes around object literal property names","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/quote-props","fixable":"code","options":{"always":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"consistent":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"consistent-as-needed":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"keywords":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0},"unnecessary":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"numbers":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"quotes","eslint":false,"description":"enforce the consistent use of either backticks, double, or single quotes","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/quotes","fixable":"code","options":{"single":{"error":7,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"extra":{},"double":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"backtick":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"avoid-escape":{"error":7,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"avoidEscape":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"allowTemplateLiterals":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"radix","eslint":false,"description":"enforce the consistent use of the radix argument when using `parseInt()`","category":"Best Practices","url":"https://eslint.org/docs/rules/radix","options":{"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"require-atomic-updates","eslint":false,"description":"disallow assignments that can lead to race conditions due to usage of `await` or `yield`","category":"Possible Errors","url":"https://eslint.org/docs/rules/require-atomic-updates","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-await","eslint":false,"description":"disallow async functions which have no `await` expression","category":"Best Practices","url":"https://eslint.org/docs/rules/require-await","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-jsdoc","eslint":false,"description":"require JSDoc comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/require-jsdoc","options":{"require":{"error":1,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"extra":{}},"google":true,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"require-unicode-regexp","eslint":false,"description":"enforce the use of `u` flag on RegExp","category":"Best Practices","url":"https://eslint.org/docs/rules/require-unicode-regexp","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-yield","eslint":true,"description":"require generator functions to contain `yield`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/require-yield","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"rest-spread-spacing","eslint":false,"description":"enforce spacing between rest and spread operators and their expressions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/rest-spread-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"semi-spacing","eslint":false,"description":"enforce consistent spacing before and after semicolons","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi-spacing","fixable":"whitespace","options":{"before":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"semi-style","eslint":false,"description":"enforce location of semicolons","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi-style","fixable":"whitespace","options":{"last":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"first":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"semi","eslint":false,"description":"require or disallow semicolons instead of ASI","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi","fixable":"code","options":{"never":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{"name":"Semi vs. No-semi","values":{"always":0,"never":0}},"beforeStatementContinuationChars":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2},"always":{"error":8,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"omitLastInOneLineBlock":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"sort-imports","eslint":false,"description":"enforce sorted import declarations within modules","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/sort-imports","fixable":"code","options":{"ignoreCase":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"memberSyntaxSortOrder":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreMemberSort":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"sort-keys","eslint":false,"description":"require object keys to be sorted","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/sort-keys","options":{"asc":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"desc":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"caseSensitive":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"natural":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"sort-vars","eslint":false,"description":"require variables within the same declaration block to be sorted","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/sort-vars","fixable":"code","options":{"ignoreCase":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"space-before-blocks","eslint":false,"description":"enforce consistent spacing before blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-before-blocks","fixable":"whitespace","options":{"always":{"error":7,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"keywords":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"functions":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"classes":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"space-before-function-paren","eslint":false,"description":"enforce consistent spacing before `function` definition opening parenthesis","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-before-function-paren","fixable":"whitespace","options":{"always":{"error":8,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":8,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"anonymous":{"error":8,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"named":{"error":8,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"asyncArrow":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"space-in-parens","eslint":false,"description":"enforce consistent spacing inside parentheses","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-in-parens","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"exceptions":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"space-infix-ops","eslint":false,"description":"require spacing around infix operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-infix-ops","fixable":"whitespace","options":{"int32Hint":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"space-unary-ops","eslint":false,"description":"enforce consistent spacing before or after unary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-unary-ops","fixable":"whitespace","options":{"words":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"nonwords":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"overrides":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"spaced-comment","eslint":false,"description":"enforce consistent spacing after the `//` or `/*` in a comment","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/spaced-comment","fixable":"whitespace","options":{"always":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"exceptions":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"markers":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"line":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"block":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"strict","eslint":false,"description":"require or disallow strict mode directives","category":"Strict Mode","url":"https://eslint.org/docs/rules/strict","fixable":"code","options":{"never":{"error":5,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{},"global":{"error":5,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"function":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"safe":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":5,"warn":0,"off":11},{"key":"switch-colon-spacing","eslint":false,"description":"enforce spacing around colons of switch statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/switch-colon-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"after":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"symbol-description","eslint":false,"description":"require symbol descriptions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/symbol-description","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"template-curly-spacing","eslint":false,"description":"require or disallow spacing around embedded expressions of template strings","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/template-curly-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"template-tag-spacing","eslint":false,"description":"require or disallow spacing between template tags and their literals","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/template-tag-spacing","fixable":"whitespace","options":{"always":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"unicode-bom","eslint":false,"description":"require or disallow Unicode byte order mark (BOM)","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/unicode-bom","fixable":"whitespace","options":{"always":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":3,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"use-isnan","eslint":true,"description":"require calls to `isNaN()` when checking for `NaN`","category":"Possible Errors","url":"https://eslint.org/docs/rules/use-isnan","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"valid-jsdoc","eslint":false,"description":"enforce valid JSDoc comments","category":"Possible Errors","url":"https://eslint.org/docs/rules/valid-jsdoc","fixable":"code","options":{"prefer":{"error":2,"warn":0,"off":0,"google":2,"airBnb":0,"standardJs":0},"extra":{},"preferType":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireReturn":{"error":2,"warn":0,"off":0,"google":2,"airBnb":0,"standardJs":0},"requireParamDescription":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireReturnDescription":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"matchDescription":{"error":2,"warn":0,"off":2,"google":2,"airBnb":0,"standardJs":0},"requireReturnType":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireParamType":{"error":2,"warn":0,"off":2,"google":2,"airBnb":0,"standardJs":0}},"google":true,"airBnb":false,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"valid-typeof","eslint":true,"description":"enforce comparing `typeof` expressions against valid strings","category":"Possible Errors","url":"https://eslint.org/docs/rules/valid-typeof","options":{"requireStringLiterals":{"error":4,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"vars-on-top","eslint":false,"description":"require `var` declarations be placed at the top of their containing scope","category":"Best Practices","url":"https://eslint.org/docs/rules/vars-on-top","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"wrap-iife","eslint":false,"description":"require parentheses around immediate `function` invocations","category":"Best Practices","url":"https://eslint.org/docs/rules/wrap-iife","fixable":"code","options":{"outside":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"inside":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"any":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"functionPrototypeMethods":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"wrap-regex","eslint":false,"description":"require parenthesis around regex literals","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/wrap-regex","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"yield-star-spacing","eslint":false,"description":"require or disallow spacing around the `*` in `yield*` expressions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/yield-star-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"both":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"neither":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"yoda","eslint":false,"description":"require or disallow \"Yoda\" conditions","category":"Best Practices","url":"https://eslint.org/docs/rules/yoda","fixable":"code","options":{"always":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":6,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"exceptRange":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"onlyEquality":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10}];
+module.exports = [{"key":"accessor-pairs","eslint":false,"description":"enforce getter and setter pairs in objects","category":"Best Practices","url":"https://eslint.org/docs/rules/accessor-pairs","options":{"getWithoutSet":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2},"extra":{},"setWithoutGet":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"array-bracket-newline","eslint":false,"description":"enforce linebreaks after opening and before closing array brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-bracket-newline","fixable":"whitespace","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"consistent":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"minItems":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"array-bracket-spacing","eslint":false,"description":"enforce consistent spacing inside array brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-bracket-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":4,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":0},"singleValue":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"objectsInArrays":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"arraysInArrays":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"array-callback-return","eslint":false,"description":"enforce `return` statements in callbacks of array methods","category":"Best Practices","url":"https://eslint.org/docs/rules/array-callback-return","options":{"allowImplicit":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"array-element-newline","eslint":false,"description":"enforce line breaks after each array element","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/array-element-newline","fixable":"whitespace","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"consistent":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"minItems":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"arrow-body-style","eslint":false,"description":"require braces around arrow function bodies","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-body-style","fixable":"code","options":{"always":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"as-needed":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"requireReturnForObjectLiteral":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"arrow-parens","eslint":false,"description":"require parentheses around arrow function arguments","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-parens","fixable":"code","options":{"always":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"requireForBlockBody":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":6,"warn":0,"off":10},{"key":"arrow-spacing","eslint":false,"description":"enforce consistent spacing before and after the arrow in arrow functions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/arrow-spacing","fixable":"whitespace","options":{"before":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"block-scoped-var","eslint":false,"description":"enforce the use of variables within the scope they are defined","category":"Best Practices","url":"https://eslint.org/docs/rules/block-scoped-var","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"block-spacing","eslint":false,"description":"disallow or enforce spaces inside of blocks after opening block and before closing block","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/block-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"brace-style","eslint":false,"description":"enforce consistent brace style for blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/brace-style","fixable":"whitespace","options":{"1tbs":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"stroustrup":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"allman":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"allowSingleLine":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"callback-return","eslint":false,"description":"require `return` statements after callbacks","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/callback-return","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"camelcase","eslint":false,"description":"enforce camelcase naming convention","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/camelcase","options":{"ignoreDestructuring":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"properties":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"capitalized-comments","eslint":false,"description":"enforce or disallow capitalization of the first letter of a comment","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/capitalized-comments","fixable":"code","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreInlineComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreConsecutiveComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"line":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"class-methods-use-this","eslint":false,"description":"enforce that class methods utilize `this`","category":"Best Practices","url":"https://eslint.org/docs/rules/class-methods-use-this","options":{"exceptMethods":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"comma-dangle","eslint":false,"description":"require or disallow trailing commas","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-dangle","fixable":"code","options":{"always-multiline":{"error":9,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":9,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"never":{"error":9,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"only-multiline":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"arrays":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"objects":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"imports":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"exports":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"functions":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":9,"warn":0,"off":7},{"key":"comma-spacing","eslint":false,"description":"enforce consistent spacing before and after commas","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-spacing","fixable":"whitespace","options":{"before":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"comma-style","eslint":false,"description":"enforce consistent comma style","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/comma-style","fixable":"code","options":{"first":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"last":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"exceptions":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"complexity","eslint":false,"description":"enforce a maximum cyclomatic complexity allowed in a program","category":"Best Practices","url":"https://eslint.org/docs/rules/complexity","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"computed-property-spacing","eslint":false,"description":"enforce consistent spacing inside computed property brackets","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/computed-property-spacing","fixable":"whitespace","options":{"always":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"consistent-return","eslint":false,"description":"require `return` statements to either always or never specify values","category":"Best Practices","url":"https://eslint.org/docs/rules/consistent-return","options":{"treatUndefinedAsUnspecified":{"error":2,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"consistent-this","eslint":false,"description":"enforce consistent naming when capturing the current execution context","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/consistent-this","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"constructor-super","eslint":true,"description":"require `super()` calls in constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/constructor-super","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"curly","eslint":false,"description":"enforce consistent brace style for all control statements","category":"Best Practices","url":"https://eslint.org/docs/rules/curly","fixable":"code","options":{"all":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"multi":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"multi-line":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"multi-or-nest":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"consistent":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"default-case","eslint":false,"description":"require `default` cases in `switch` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/default-case","options":{"commentPattern":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"dot-location","eslint":false,"description":"enforce consistent newlines before and after dots","category":"Best Practices","url":"https://eslint.org/docs/rules/dot-location","fixable":"code","options":{"object":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{},"property":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"dot-notation","eslint":false,"description":"enforce dot notation whenever possible","category":"Best Practices","url":"https://eslint.org/docs/rules/dot-notation","fixable":"code","options":{"allowKeywords":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowPattern":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"eol-last","eslint":false,"description":"require or disallow newline at the end of files","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/eol-last","fixable":"whitespace","options":{"always":{"error":9,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"unix":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2},"windows":{"error":9,"warn":0,"off":9,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":9,"warn":0,"off":7},{"key":"eqeqeq","eslint":false,"description":"require the use of `===` and `!==`","category":"Best Practices","url":"https://eslint.org/docs/rules/eqeqeq","fixable":"code","options":{"always":{"error":8,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"null":{"error":8,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"smart":{"error":8,"warn":0,"off":8,"google":0,"airBnb":2,"standardJs":2},"allow-null":{"error":8,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"for-direction","eslint":true,"description":"enforce \"for\" loop update clause moving the counter in the right direction.","category":"Possible Errors","url":"https://eslint.org/docs/rules/for-direction","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"func-call-spacing","eslint":false,"description":"require or disallow spacing between function identifiers and their invocations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-call-spacing","fixable":"whitespace","options":{"never":{"error":4,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"allowNewlines":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"func-name-matching","eslint":false,"description":"require function names to match the name of the variable or property to which they are assigned","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-name-matching","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"considerPropertyDescriptor":{"error":0,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"includeCommonJSModuleExports":{"error":0,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"func-names","eslint":false,"description":"require or disallow named `function` expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-names","options":{"always":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0},"extra":{},"as-needed":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0},"never":{"error":0,"warn":2,"off":3,"google":0,"airBnb":1,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":2,"off":14},{"key":"func-style","eslint":false,"description":"enforce the consistent use of either `function` declarations or expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/func-style","options":{"declaration":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"expression":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrowFunctions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"function-paren-newline","eslint":false,"description":"enforce consistent line breaks inside function parentheses","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/function-paren-newline","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"multiline":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"minItems":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"generator-star-spacing","eslint":false,"description":"enforce consistent spacing around `*` operators in generator functions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/generator-star-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":3,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"both":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"neither":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"named":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"anonymous":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"method":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"getter-return","eslint":true,"description":"enforce `return` statements in getters","category":"Possible Errors","url":"https://eslint.org/docs/rules/getter-return","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"global-require","eslint":false,"description":"require `require()` calls to be placed at top-level module scope","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/global-require","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"guard-for-in","eslint":false,"description":"require `for-in` loops to include an `if` statement","category":"Best Practices","url":"https://eslint.org/docs/rules/guard-for-in","options":{},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"handle-callback-err","eslint":false,"description":"require error handling in callbacks","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/handle-callback-err","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"id-blacklist","eslint":false,"description":"disallow specified identifiers","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-blacklist","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"id-length","eslint":false,"description":"enforce minimum and maximum identifier lengths","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-length","options":{"min":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"exceptions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"properties":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"id-match","eslint":false,"description":"require identifiers to match a specified regular expression","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/id-match","options":{"properties":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"implicit-arrow-linebreak","eslint":false,"description":"enforce the location of arrow function bodies","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/implicit-arrow-linebreak","fixable":"whitespace","options":{"beside":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"below":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"indent-legacy","eslint":false,"description":"enforce consistent indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/indent-legacy","fixable":"whitespace","options":{"tab":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"SwitchCase":{"error":1,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":0},"VariableDeclarator":{"error":1,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":0},"outerIIFEBody":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"MemberExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"FunctionDeclaration":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"FunctionExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"CallExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ArrayExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ObjectExpression":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"indent","eslint":false,"description":"enforce consistent indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/indent","fixable":"whitespace","options":{"tab":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{"name":"Spaces vs. tabs","values":{"spaces2":6,"spaces4":0,"tabs":0}},"SwitchCase":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"VariableDeclarator":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"outerIIFEBody":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"MemberExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"FunctionDeclaration":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"FunctionExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"CallExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"ArrayExpression":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ObjectExpression":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"ImportDeclaration":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"flatTernaryExpressions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ignoredNodes":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"ignoreComments":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"init-declarations","eslint":false,"description":"require or disallow initialization in variable declarations","category":"Variables","url":"https://eslint.org/docs/rules/init-declarations","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreForLoopInit":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"jsx-quotes","eslint":false,"description":"enforce the consistent use of either double or single quotes in JSX attributes","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/jsx-quotes","fixable":"whitespace","options":{"prefer-single":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"prefer-double":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"key-spacing","eslint":false,"description":"enforce consistent spacing between keys and values in object literal properties","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/key-spacing","fixable":"whitespace","options":{"align":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"mode":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"beforeColon":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"afterColon":{"error":5,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"singleLine":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"multiLine":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"keyword-spacing","eslint":false,"description":"enforce consistent spacing before and after keywords","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/keyword-spacing","fixable":"whitespace","options":{"before":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"overrides":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"line-comment-position","eslint":false,"description":"enforce position of line comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/line-comment-position","options":{"above":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"beside":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"position":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultPatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultIgnorePatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"linebreak-style","eslint":false,"description":"enforce consistent linebreak style","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/linebreak-style","fixable":"whitespace","options":{"unix":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0},"extra":{},"windows":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"lines-around-comment","eslint":false,"description":"require empty lines around comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-around-comment","fixable":"whitespace","options":{"beforeBlockComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"afterBlockComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"beforeLineComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"afterLineComment":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowBlockStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowBlockEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowClassStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowClassEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowObjectStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowObjectEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrayStart":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allowArrayEnd":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignorePattern":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"applyDefaultIgnorePatterns":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"lines-around-directive","eslint":false,"description":"require or disallow newlines around directives","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-around-directive","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"before":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"after":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"lines-between-class-members","eslint":false,"description":"require or disallow an empty line between class members","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/lines-between-class-members","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"exceptAfterSingleLine":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"max-classes-per-file","eslint":false,"description":"enforce a maximum number of classes per file","category":"Best Practices","url":"https://eslint.org/docs/rules/max-classes-per-file","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-depth","eslint":false,"description":"enforce a maximum depth that blocks can be nested","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-depth","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-len","eslint":false,"description":"enforce a maximum line length","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-len","options":{"code":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"extra":{},"comments":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":0},"tabWidth":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignorePattern":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreComments":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreStrings":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreUrls":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreTemplateLiterals":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"ignoreRegExpLiterals":{"error":8,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"ignoreTrailingComments":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"max-lines-per-function","eslint":false,"description":"enforce a maximum number of line of code in a function","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-lines-per-function","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"skipComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"skipBlankLines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"IIFEs":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-lines","eslint":false,"description":"enforce a maximum number of lines per file","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-lines","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"skipComments":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"skipBlankLines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-nested-callbacks","eslint":false,"description":"enforce a maximum depth that callbacks can be nested","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-nested-callbacks","options":{"maximum":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"max-params","eslint":false,"description":"enforce a maximum number of parameters in function definitions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-params","options":{"maximum":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-statements-per-line","eslint":false,"description":"enforce a maximum number of statements allowed per line","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-statements-per-line","options":{"max":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"max-statements","eslint":false,"description":"enforce a maximum number of statements allowed in function blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/max-statements","options":{"maximum":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"max":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"ignoreTopLevelFunctions":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"multiline-comment-style","eslint":false,"description":"enforce a particular style for multiline comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/multiline-comment-style","fixable":"whitespace","options":{"starred-block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"separate-lines":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"bare-block":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"multiline-ternary","eslint":false,"description":"enforce newlines between operands of ternary expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/multiline-ternary","options":{"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"always-multiline":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"new-cap","eslint":false,"description":"require constructor names to begin with a capital letter","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/new-cap","options":{"newIsCap":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"capIsNew":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"newIsCapExceptions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"newIsCapExceptionPattern":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"capIsNewExceptions":{"error":6,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"capIsNewExceptionPattern":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"properties":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"new-parens","eslint":false,"description":"require parentheses when invoking a constructor with no arguments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/new-parens","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"newline-after-var","eslint":false,"description":"require or disallow an empty line after variable declarations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-after-var","fixable":"whitespace","options":{"never":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"always":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"newline-before-return","eslint":false,"description":"require an empty line before `return` statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-before-return","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"newline-per-chained-call","eslint":false,"description":"require a newline after each call in a method chain","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/newline-per-chained-call","fixable":"whitespace","options":{"ignoreChainWithDepth":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-alert","eslint":false,"description":"disallow the use of `alert`, `confirm`, and `prompt`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-alert","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":3,"off":11},{"key":"no-array-constructor","eslint":false,"description":"disallow `Array` constructors","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-array-constructor","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-async-promise-executor","eslint":false,"description":"disallow using an async function as a Promise executor","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-async-promise-executor","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-await-in-loop","eslint":false,"description":"disallow `await` inside of loops","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-await-in-loop","options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-bitwise","eslint":false,"description":"disallow bitwise operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-bitwise","options":{"allow":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"int32Hint":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-buffer-constructor","eslint":false,"description":"disallow use of the `Buffer()` constructor","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-buffer-constructor","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-caller","eslint":false,"description":"disallow the use of `arguments.caller` or `arguments.callee`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-caller","options":{},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"no-case-declarations","eslint":true,"description":"disallow lexical declarations in case clauses","category":"Best Practices","url":"https://eslint.org/docs/rules/no-case-declarations","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-catch-shadow","eslint":false,"description":"disallow `catch` clause parameters from shadowing variables in the outer scope","category":"Variables","url":"https://eslint.org/docs/rules/no-catch-shadow","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-class-assign","eslint":true,"description":"disallow reassigning class members","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-class-assign","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-compare-neg-zero","eslint":true,"description":"disallow comparing against -0","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-compare-neg-zero","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-cond-assign","eslint":true,"description":"disallow assignment operators in conditional expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-cond-assign","options":{"except-parens":{"error":3,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":2},"extra":{},"always":{"error":3,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-confusing-arrow","eslint":false,"description":"disallow arrow functions where they could be confused with comparisons","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-confusing-arrow","fixable":"code","options":{"allowParens":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-console","eslint":true,"description":"disallow the use of `console`","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-console","options":{"allow":{"error":2,"warn":1,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":false,"standardJs":false,"error":2,"warn":1,"off":13},{"key":"no-const-assign","eslint":true,"description":"disallow reassigning `const` variables","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-const-assign","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-constant-condition","eslint":true,"description":"disallow constant expressions in conditions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-constant-condition","options":{"checkLoops":{"error":2,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":1,"off":13},{"key":"no-continue","eslint":false,"description":"disallow `continue` statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-continue","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-control-regex","eslint":true,"description":"disallow control characters in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-control-regex","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-debugger","eslint":true,"description":"disallow the use of `debugger`","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-debugger","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":1,"off":12},{"key":"no-delete-var","eslint":true,"description":"disallow deleting variables","category":"Variables","url":"https://eslint.org/docs/rules/no-delete-var","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-div-regex","eslint":false,"description":"disallow division operators explicitly at the beginning of regular expressions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-div-regex","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-dupe-args","eslint":true,"description":"disallow duplicate arguments in `function` definitions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-dupe-args","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-dupe-class-members","eslint":true,"description":"disallow duplicate class members","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-dupe-class-members","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-dupe-keys","eslint":true,"description":"disallow duplicate keys in object literals","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-dupe-keys","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-duplicate-case","eslint":true,"description":"disallow duplicate case labels","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-duplicate-case","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-duplicate-imports","eslint":false,"description":"disallow duplicate module imports","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-duplicate-imports","options":{"includeExports":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-else-return","eslint":false,"description":"disallow `else` blocks after `return` statements in `if` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-else-return","fixable":"code","options":{"allowElseIf":{"error":6,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":6,"warn":0,"off":10},{"key":"no-empty-character-class","eslint":true,"description":"disallow empty character classes in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-empty-character-class","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-empty-function","eslint":false,"description":"disallow empty functions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-empty-function","options":{"allow":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-empty-pattern","eslint":true,"description":"disallow empty destructuring patterns","category":"Best Practices","url":"https://eslint.org/docs/rules/no-empty-pattern","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-empty","eslint":true,"description":"disallow empty block statements","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-empty","options":{"allowEmptyCatch":{"error":3,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":false,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-eq-null","eslint":false,"description":"disallow `null` comparisons without type-checking operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-eq-null","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-eval","eslint":false,"description":"disallow the use of `eval()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-eval","options":{"allowIndirect":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-ex-assign","eslint":true,"description":"disallow reassigning exceptions in `catch` clauses","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-ex-assign","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-extend-native","eslint":false,"description":"disallow extending native types","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extend-native","options":{"exceptions":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-extra-bind","eslint":false,"description":"disallow unnecessary calls to `.bind()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extra-bind","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":1,"off":9},{"key":"no-extra-boolean-cast","eslint":true,"description":"disallow unnecessary boolean casts","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-boolean-cast","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-extra-label","eslint":false,"description":"disallow unnecessary labels","category":"Best Practices","url":"https://eslint.org/docs/rules/no-extra-label","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-extra-parens","eslint":false,"description":"disallow unnecessary parentheses","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-parens","fixable":"code","options":{"functions":{"error":2,"warn":0,"off":0,"google":0,"airBnb":0,"standardJs":2},"extra":{},"all":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"conditionalAssign":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"nestedBinaryExpressions":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"returnAssign":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"ignoreJSX":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"enforceForArrowConditionals":{"error":2,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-extra-semi","eslint":true,"description":"disallow unnecessary semicolons","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-extra-semi","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-fallthrough","eslint":true,"description":"disallow fallthrough of `case` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-fallthrough","options":{"commentPattern":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-floating-decimal","eslint":false,"description":"disallow leading or trailing decimal points in numeric literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-floating-decimal","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-func-assign","eslint":true,"description":"disallow reassigning `function` declarations","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-func-assign","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-global-assign","eslint":true,"description":"disallow assignments to native objects or read-only global variables","category":"Best Practices","url":"https://eslint.org/docs/rules/no-global-assign","options":{"exceptions":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-implicit-coercion","eslint":false,"description":"disallow shorthand type conversions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implicit-coercion","fixable":"code","options":{"boolean":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"number":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"string":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"allow":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-implicit-globals","eslint":false,"description":"disallow variable and `function` declarations in the global scope","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implicit-globals","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-implied-eval","eslint":false,"description":"disallow the use of `eval()`-like methods","category":"Best Practices","url":"https://eslint.org/docs/rules/no-implied-eval","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-inline-comments","eslint":false,"description":"disallow inline comments after code","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-inline-comments","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-inner-declarations","eslint":true,"description":"disallow variable or `function` declarations in nested blocks","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-inner-declarations","options":{"functions":{"error":4,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":2},"extra":{},"both":{"error":4,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-invalid-regexp","eslint":true,"description":"disallow invalid regular expression strings in `RegExp` constructors","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-invalid-regexp","options":{"allowConstructorFlags":{"error":4,"warn":0,"off":4,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-invalid-this","eslint":false,"description":"disallow `this` keywords outside of classes or class-like objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-invalid-this","options":{},"google":true,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-irregular-whitespace","eslint":true,"description":"disallow irregular whitespace outside of strings and comments","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-irregular-whitespace","options":{"skipComments":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"extra":{},"skipStrings":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"skipTemplates":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2},"skipRegExps":{"error":4,"warn":0,"off":4,"google":2,"airBnb":0,"standardJs":2}},"google":true,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-iterator","eslint":false,"description":"disallow the use of the `__iterator__` property","category":"Best Practices","url":"https://eslint.org/docs/rules/no-iterator","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-label-var","eslint":false,"description":"disallow labels that share a name with a variable","category":"Variables","url":"https://eslint.org/docs/rules/no-label-var","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-labels","eslint":false,"description":"disallow labeled statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-labels","options":{"allowLoop":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowSwitch":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-lone-blocks","eslint":false,"description":"disallow unnecessary nested blocks","category":"Best Practices","url":"https://eslint.org/docs/rules/no-lone-blocks","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-lonely-if","eslint":false,"description":"disallow `if` statements as the only statement in `else` blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-lonely-if","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-loop-func","eslint":false,"description":"disallow `function` declarations and expressions inside loop statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-loop-func","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":1,"off":11},{"key":"no-magic-numbers","eslint":false,"description":"disallow magic numbers","category":"Best Practices","url":"https://eslint.org/docs/rules/no-magic-numbers","options":{"detectObjects":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"enforceConst":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignore":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreArrayIndexes":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-misleading-character-class","eslint":false,"description":"disallow characters which are made with multiple code points in character class syntax","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-misleading-character-class","options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-mixed-operators","eslint":false,"description":"disallow mixed binary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-mixed-operators","options":{"groups":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowSamePrecedence":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-mixed-requires","eslint":false,"description":"disallow `require` calls to be mixed with regular variable declarations","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-mixed-requires","options":{"grouping":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"allowCall":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-mixed-spaces-and-tabs","eslint":true,"description":"disallow mixed spaces and tabs for indentation","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-mixed-spaces-and-tabs","options":{"smart-tabs":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"true":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"false":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-multi-assign","eslint":false,"description":"disallow use of chained assignment expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-multi-assign","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-multi-spaces","eslint":false,"description":"disallow multiple spaces","category":"Best Practices","url":"https://eslint.org/docs/rules/no-multi-spaces","fixable":"whitespace","options":{"exceptions":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"ignoreEOLComments":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-multi-str","eslint":false,"description":"disallow multiline strings","category":"Best Practices","url":"https://eslint.org/docs/rules/no-multi-str","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-multiple-empty-lines","eslint":false,"description":"disallow multiple empty lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-multiple-empty-lines","fixable":"whitespace","options":{"max":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"maxEOF":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"maxBOF":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-native-reassign","eslint":false,"description":"disallow assignments to native objects or read-only global variables","category":"Best Practices","url":"https://eslint.org/docs/rules/no-native-reassign","options":{"exceptions":{"error":2,"warn":0,"off":3,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-negated-condition","eslint":false,"description":"disallow negated conditions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-negated-condition","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-negated-in-lhs","eslint":false,"description":"disallow negating the left operand in `in` expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-negated-in-lhs","options":{},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-nested-ternary","eslint":false,"description":"disallow nested ternary expressions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-nested-ternary","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-new-func","eslint":false,"description":"disallow `new` operators with the `Function` object","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new-func","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-object","eslint":false,"description":"disallow `Object` constructors","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-new-object","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-require","eslint":false,"description":"disallow `new` operators with calls to `require`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-new-require","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-new-symbol","eslint":true,"description":"disallow `new` operators with the `Symbol` object","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-new-symbol","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-new-wrappers","eslint":false,"description":"disallow `new` operators with the `String`, `Number`, and `Boolean` objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new-wrappers","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-new","eslint":false,"description":"disallow `new` operators outside of assignments or comparisons","category":"Best Practices","url":"https://eslint.org/docs/rules/no-new","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-obj-calls","eslint":true,"description":"disallow calling global object properties as functions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-obj-calls","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-octal-escape","eslint":false,"description":"disallow octal escape sequences in string literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-octal-escape","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-octal","eslint":true,"description":"disallow octal literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-octal","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-param-reassign","eslint":false,"description":"disallow reassigning `function` parameters","category":"Best Practices","url":"https://eslint.org/docs/rules/no-param-reassign","options":{"props":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"ignorePropertyModificationsFor":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-path-concat","eslint":false,"description":"disallow string concatenation with `__dirname` and `__filename`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-path-concat","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-plusplus","eslint":false,"description":"disallow the unary operators `++` and `--`","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-plusplus","options":{"allowForLoopAfterthoughts":{"error":1,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-process-env","eslint":false,"description":"disallow the use of `process.env`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-process-env","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-process-exit","eslint":false,"description":"disallow the use of `process.exit()`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-process-exit","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":1,"off":15},{"key":"no-proto","eslint":false,"description":"disallow the use of the `__proto__` property","category":"Best Practices","url":"https://eslint.org/docs/rules/no-proto","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-prototype-builtins","eslint":false,"description":"disallow calling some `Object.prototype` methods directly on objects","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-prototype-builtins","options":{},"google":false,"airBnb":false,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-redeclare","eslint":true,"description":"disallow variable redeclaration","category":"Best Practices","url":"https://eslint.org/docs/rules/no-redeclare","options":{"builtinGlobals":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-regex-spaces","eslint":true,"description":"disallow multiple spaces in regular expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-regex-spaces","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-restricted-globals","eslint":false,"description":"disallow specified global variables","category":"Variables","url":"https://eslint.org/docs/rules/no-restricted-globals","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-restricted-imports","eslint":false,"description":"disallow specified modules when loaded by `import`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-restricted-imports","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-restricted-modules","eslint":false,"description":"disallow specified modules when loaded by `require`","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-restricted-modules","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-restricted-properties","eslint":false,"description":"disallow certain properties on certain objects","category":"Best Practices","url":"https://eslint.org/docs/rules/no-restricted-properties","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-restricted-syntax","eslint":false,"description":"disallow specified syntax","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-restricted-syntax","options":{"selector":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"message":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-return-assign","eslint":false,"description":"disallow assignment operators in `return` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-return-assign","options":{"except-parens":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-return-await","eslint":false,"description":"disallow unnecessary `return await`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-return-await","fixable":null,"options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-script-url","eslint":false,"description":"disallow `javascript:` urls","category":"Best Practices","url":"https://eslint.org/docs/rules/no-script-url","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-self-assign","eslint":true,"description":"disallow assignments where both sides are exactly the same","category":"Best Practices","url":"https://eslint.org/docs/rules/no-self-assign","options":{"props":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-self-compare","eslint":false,"description":"disallow comparisons where both sides are exactly the same","category":"Best Practices","url":"https://eslint.org/docs/rules/no-self-compare","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-sequences","eslint":false,"description":"disallow comma operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-sequences","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-shadow-restricted-names","eslint":false,"description":"disallow identifiers from shadowing restricted names","category":"Variables","url":"https://eslint.org/docs/rules/no-shadow-restricted-names","options":{},"google":false,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-shadow","eslint":false,"description":"disallow variable declarations from shadowing variables declared in the outer scope","category":"Variables","url":"https://eslint.org/docs/rules/no-shadow","options":{"builtinGlobals":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"extra":{},"hoist":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"allow":{"error":4,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-spaced-func","eslint":false,"description":"disallow spacing between function identifiers and their applications (deprecated)","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-spaced-func","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"no-sparse-arrays","eslint":true,"description":"disallow sparse arrays","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-sparse-arrays","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-sync","eslint":false,"description":"disallow synchronous methods","category":"Node.js and CommonJS","url":"https://eslint.org/docs/rules/no-sync","options":{"allowAtRootLevel":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-tabs","eslint":false,"description":"disallow all tabs","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-tabs","options":{},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-template-curly-in-string","eslint":false,"description":"disallow template literal placeholder syntax in regular strings","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-template-curly-in-string","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-ternary","eslint":false,"description":"disallow ternary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-ternary","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-this-before-super","eslint":true,"description":"disallow `this`/`super` before calling `super()` in constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-this-before-super","options":{},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"no-throw-literal","eslint":false,"description":"disallow throwing literals as exceptions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-throw-literal","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-trailing-spaces","eslint":false,"description":"disallow trailing whitespace at the end of lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-trailing-spaces","fixable":"whitespace","options":{"skipBlankLines":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{},"ignoreComments":{"error":7,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"no-undef-init","eslint":false,"description":"disallow initializing variables to `undefined`","category":"Variables","url":"https://eslint.org/docs/rules/no-undef-init","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-undef","eslint":true,"description":"disallow the use of undeclared variables unless mentioned in `/*global */` comments","category":"Variables","url":"https://eslint.org/docs/rules/no-undef","options":{"typeof":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-undefined","eslint":false,"description":"disallow the use of `undefined` as an identifier","category":"Variables","url":"https://eslint.org/docs/rules/no-undefined","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"no-underscore-dangle","eslint":false,"description":"disallow dangling underscores in identifiers","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-underscore-dangle","options":{"allow":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowAfterThis":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"allowAfterSuper":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"enforceInMethodNames":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"no-unexpected-multiline","eslint":true,"description":"disallow confusing multiline expressions","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unexpected-multiline","options":{},"google":true,"airBnb":false,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"no-unmodified-loop-condition","eslint":false,"description":"disallow unmodified loop conditions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unmodified-loop-condition","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-unneeded-ternary","eslint":false,"description":"disallow ternary operators when simpler alternatives exist","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-unneeded-ternary","fixable":"code","options":{"defaultAssignment":{"error":4,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unreachable","eslint":true,"description":"disallow unreachable code after `return`, `throw`, `continue`, and `break` statements","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unreachable","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unsafe-finally","eslint":true,"description":"disallow control flow statements in `finally` blocks","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unsafe-finally","options":{},"google":false,"airBnb":false,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"no-unsafe-negation","eslint":true,"description":"disallow negating the left operand of relational operators","category":"Possible Errors","url":"https://eslint.org/docs/rules/no-unsafe-negation","fixable":"code","options":{},"google":false,"airBnb":false,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-unused-expressions","eslint":false,"description":"disallow unused expressions","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unused-expressions","options":{"allowShortCircuit":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowTernary":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"allowTaggedTemplates":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-unused-labels","eslint":true,"description":"disallow unused labels","category":"Best Practices","url":"https://eslint.org/docs/rules/no-unused-labels","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-unused-vars","eslint":true,"description":"disallow unused variables","category":"Variables","url":"https://eslint.org/docs/rules/no-unused-vars","options":{"all":{"error":12,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"extra":{},"local":{"error":12,"warn":0,"off":10,"google":2,"airBnb":2,"standardJs":2},"vars":{"error":12,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"varsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"args":{"error":12,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"ignoreRestSiblings":{"error":12,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2},"argsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"caughtErrors":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2},"caughtErrorsIgnorePattern":{"error":12,"warn":0,"off":12,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":12,"warn":0,"off":4},{"key":"no-use-before-define","eslint":false,"description":"disallow the use of variables before they are defined","category":"Variables","url":"https://eslint.org/docs/rules/no-use-before-define","options":{"nofunc":{"error":4,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"functions":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"classes":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"variables":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-call","eslint":false,"description":"disallow unnecessary calls to `.call()` and `.apply()`","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-call","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-useless-computed-key","eslint":false,"description":"disallow unnecessary computed property keys in object literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-computed-key","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-concat","eslint":false,"description":"disallow unnecessary concatenation of literals or template literals","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-concat","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"no-useless-constructor","eslint":false,"description":"disallow unnecessary constructors","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-constructor","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-escape","eslint":true,"description":"disallow unnecessary escape characters","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-escape","options":{},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-rename","eslint":false,"description":"disallow renaming import, export, and destructured assignments to the same name","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-useless-rename","fixable":"code","options":{"ignoreDestructuring":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"ignoreImport":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"ignoreExport":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"no-useless-return","eslint":false,"description":"disallow redundant return statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-useless-return","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-var","eslint":false,"description":"require `let` or `const` instead of `var`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/no-var","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":false,"error":8,"warn":0,"off":8},{"key":"no-void","eslint":false,"description":"disallow `void` operators","category":"Best Practices","url":"https://eslint.org/docs/rules/no-void","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"no-warning-comments","eslint":false,"description":"disallow specified warning terms in comments","category":"Best Practices","url":"https://eslint.org/docs/rules/no-warning-comments","options":{"terms":{"error":0,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":0},"extra":{},"location":{"error":0,"warn":1,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":1,"off":15},{"key":"no-whitespace-before-property","eslint":false,"description":"disallow whitespace before properties","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/no-whitespace-before-property","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"no-with","eslint":false,"description":"disallow `with` statements","category":"Best Practices","url":"https://eslint.org/docs/rules/no-with","options":{},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"nonblock-statement-body-position","eslint":false,"description":"enforce the location of single-line statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/nonblock-statement-body-position","fixable":"whitespace","options":{"beside":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"below":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"any":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"overrides":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"object-curly-newline","eslint":false,"description":"enforce consistent line breaks inside braces","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-curly-newline","fixable":"whitespace","options":{"always":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":1,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"multiline":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"minProperties":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ObjectExpression":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ObjectPattern":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ImportDeclaration":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"ExportDeclaration":{"error":1,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"object-curly-spacing","eslint":false,"description":"enforce consistent spacing inside braces","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-curly-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"arraysInObjects":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"objectsInObjects":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"object-property-newline","eslint":false,"description":"enforce placing object properties on separate lines","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/object-property-newline","fixable":"whitespace","options":{"allowAllPropertiesOnSameLine":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"allowMultiplePropertiesPerLine":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"object-shorthand","eslint":false,"description":"require or disallow method and property shorthand syntax for object literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/object-shorthand","fixable":"code","options":{"always":{"error":9,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":0},"extra":{},"methods":{"error":9,"warn":0,"off":12,"google":0,"airBnb":2,"standardJs":0},"properties":{"error":6,"warn":0,"off":8,"google":0,"airBnb":2,"standardJs":0},"never":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"consistent":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"consistent-as-needed":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"avoidQuotes":{"error":6,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"ignoreConstructors":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"avoidExplicitReturnArrows":{"error":3,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"one-var-declaration-per-line","eslint":false,"description":"require or disallow newlines around variable declarations","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/one-var-declaration-per-line","fixable":"whitespace","options":{"always":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"initializations":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"one-var","eslint":false,"description":"enforce variables to be declared either together or separately in functions","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/one-var","fixable":"code","options":{"always":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"consecutive":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"separateRequires":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"var":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"let":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"const":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"initialized":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"uninitialized":{"error":5,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"operator-assignment","eslint":false,"description":"require or disallow assignment operator shorthand where possible","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/operator-assignment","fixable":"code","options":{"always":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":0},"extra":{},"never":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"operator-linebreak","eslint":false,"description":"enforce consistent linebreak style for operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/operator-linebreak","fixable":"code","options":{"after":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"before":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2},"none":{"error":2,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"null":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"overrides":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"padded-blocks","eslint":false,"description":"require or disallow padding within blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/padded-blocks","fixable":"whitespace","options":{"always":{"error":5,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":5,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"blocks":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"switches":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"classes":{"error":5,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"padding-line-between-statements","eslint":false,"description":"require or disallow padding lines between statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/padding-line-between-statements","fixable":"whitespace","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-arrow-callback","eslint":false,"description":"require using arrow functions for callbacks","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-arrow-callback","fixable":"code","options":{"allowNamedFunctions":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"allowUnboundThis":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"prefer-const","eslint":false,"description":"require `const` declarations for variables that are never reassigned after declared","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-const","fixable":"code","options":{"destructuring":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"ignoreReadBeforeAssign":{"error":5,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":5,"warn":0,"off":11},{"key":"prefer-destructuring","eslint":false,"description":"require destructuring from arrays and/or objects","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-destructuring","options":{"VariableDeclarator":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"extra":{},"AssignmentExpression":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"array":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"object":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0},"enforceForRenamedProperties":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"prefer-numeric-literals","eslint":false,"description":"disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-numeric-literals","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"prefer-object-spread","eslint":false,"description":"disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/prefer-object-spread","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-promise-reject-errors","eslint":false,"description":"require using Error objects as Promise rejection reasons","category":"Best Practices","url":"https://eslint.org/docs/rules/prefer-promise-reject-errors","fixable":null,"options":{"allowEmptyReject":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"prefer-reflect","eslint":false,"description":"require `Reflect` methods where applicable","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-reflect","options":{"exceptions":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"prefer-rest-params","eslint":false,"description":"require rest parameters instead of `arguments`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-rest-params","options":{},"google":true,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"prefer-spread","eslint":false,"description":"require spread operators instead of `.apply()`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-spread","fixable":"code","options":{},"google":true,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"prefer-template","eslint":false,"description":"require template literals instead of string concatenation","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/prefer-template","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"quote-props","eslint":false,"description":"require quotes around object literal property names","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/quote-props","fixable":"code","options":{"always":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":6,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"consistent":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":0},"consistent-as-needed":{"error":6,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":0},"keywords":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":0},"unnecessary":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"numbers":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"quotes","eslint":false,"description":"enforce the consistent use of either backticks, double, or single quotes","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/quotes","fixable":"code","options":{"single":{"error":7,"warn":0,"off":0,"google":2,"airBnb":2,"standardJs":2},"extra":{},"double":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"backtick":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"avoid-escape":{"error":7,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"avoidEscape":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"allowTemplateLiterals":{"error":7,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"radix","eslint":false,"description":"enforce the consistent use of the radix argument when using `parseInt()`","category":"Best Practices","url":"https://eslint.org/docs/rules/radix","options":{"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0},"extra":{},"as-needed":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":4,"warn":0,"off":12},{"key":"require-atomic-updates","eslint":false,"description":"disallow assignments that can lead to race conditions due to usage of `await` or `yield`","category":"Possible Errors","url":"https://eslint.org/docs/rules/require-atomic-updates","fixable":null,"options":{},"google":false,"airBnb":false,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-await","eslint":false,"description":"disallow async functions which have no `await` expression","category":"Best Practices","url":"https://eslint.org/docs/rules/require-await","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-jsdoc","eslint":false,"description":"require JSDoc comments","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/require-jsdoc","options":{"require":{"error":1,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"extra":{}},"google":true,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"require-unicode-regexp","eslint":false,"description":"enforce the use of `u` flag on RegExp","category":"Best Practices","url":"https://eslint.org/docs/rules/require-unicode-regexp","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"require-yield","eslint":true,"description":"require generator functions to contain `yield`","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/require-yield","options":{},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"rest-spread-spacing","eslint":false,"description":"enforce spacing between rest and spread operators and their expressions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/rest-spread-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"semi-spacing","eslint":false,"description":"enforce consistent spacing before and after semicolons","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi-spacing","fixable":"whitespace","options":{"before":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":5,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":5,"warn":0,"off":11},{"key":"semi-style","eslint":false,"description":"enforce location of semicolons","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi-style","fixable":"whitespace","options":{"last":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":0},"extra":{},"first":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"semi","eslint":false,"description":"require or disallow semicolons instead of ASI","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/semi","fixable":"code","options":{"never":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2},"extra":{"name":"Semi vs. No-semi","values":{"always":5,"never":2}},"beforeStatementContinuationChars":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2},"always":{"error":8,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"omitLastInOneLineBlock":{"error":8,"warn":0,"off":8,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"sort-imports","eslint":false,"description":"enforce sorted import declarations within modules","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/sort-imports","fixable":"code","options":{"ignoreCase":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"memberSyntaxSortOrder":{"error":1,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"ignoreMemberSort":{"error":1,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"sort-keys","eslint":false,"description":"require object keys to be sorted","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/sort-keys","options":{"asc":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{},"desc":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"caseSensitive":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"natural":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"sort-vars","eslint":false,"description":"require variables within the same declaration block to be sorted","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/sort-vars","fixable":"code","options":{"ignoreCase":{"error":0,"warn":0,"off":1,"google":0,"airBnb":0,"standardJs":0},"extra":{}},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"space-before-blocks","eslint":false,"description":"enforce consistent spacing before blocks","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-before-blocks","fixable":"whitespace","options":{"always":{"error":7,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"keywords":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"functions":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"classes":{"error":7,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":7,"warn":0,"off":9},{"key":"space-before-function-paren","eslint":false,"description":"enforce consistent spacing before `function` definition opening parenthesis","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-before-function-paren","fixable":"whitespace","options":{"always":{"error":8,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":8,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"anonymous":{"error":8,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"named":{"error":8,"warn":0,"off":5,"google":2,"airBnb":2,"standardJs":2},"asyncArrow":{"error":8,"warn":0,"off":6,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":8,"warn":0,"off":8},{"key":"space-in-parens","eslint":false,"description":"enforce consistent spacing inside parentheses","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-in-parens","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"exceptions":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"space-infix-ops","eslint":false,"description":"require spacing around infix operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-infix-ops","fixable":"whitespace","options":{"int32Hint":{"error":4,"warn":0,"off":4,"google":0,"airBnb":2,"standardJs":2},"extra":{}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"space-unary-ops","eslint":false,"description":"enforce consistent spacing before or after unary operators","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/space-unary-ops","fixable":"whitespace","options":{"words":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"extra":{},"nonwords":{"error":4,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"overrides":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"spaced-comment","eslint":false,"description":"enforce consistent spacing after the `//` or `/*` in a comment","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/spaced-comment","fixable":"whitespace","options":{"always":{"error":6,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":6,"warn":0,"off":7,"google":2,"airBnb":2,"standardJs":2},"exceptions":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"markers":{"error":6,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"line":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2},"block":{"error":6,"warn":0,"off":4,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10},{"key":"strict","eslint":false,"description":"require or disallow strict mode directives","category":"Strict Mode","url":"https://eslint.org/docs/rules/strict","fixable":"code","options":{"never":{"error":5,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"extra":{},"global":{"error":5,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":0},"function":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0},"safe":{"error":5,"warn":0,"off":5,"google":0,"airBnb":2,"standardJs":0}},"google":false,"airBnb":true,"standardJs":false,"error":5,"warn":0,"off":11},{"key":"switch-colon-spacing","eslint":false,"description":"enforce spacing around colons of switch statements","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/switch-colon-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0},"extra":{},"after":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":0}},"google":true,"airBnb":true,"standardJs":false,"error":3,"warn":0,"off":13},{"key":"symbol-description","eslint":false,"description":"require symbol descriptions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/symbol-description","options":{},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"template-curly-spacing","eslint":false,"description":"require or disallow spacing around embedded expressions of template strings","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/template-curly-spacing","fixable":"whitespace","options":{"always":{"error":4,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":4,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"template-tag-spacing","eslint":false,"description":"require or disallow spacing between template tags and their literals","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/template-tag-spacing","fixable":"whitespace","options":{"always":{"error":2,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":2,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":2,"warn":0,"off":14},{"key":"unicode-bom","eslint":false,"description":"require or disallow Unicode byte order mark (BOM)","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/unicode-bom","fixable":"whitespace","options":{"always":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":3,"warn":0,"off":0,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"use-isnan","eslint":true,"description":"require calls to `isNaN()` when checking for `NaN`","category":"Possible Errors","url":"https://eslint.org/docs/rules/use-isnan","options":{},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"valid-jsdoc","eslint":false,"description":"enforce valid JSDoc comments","category":"Possible Errors","url":"https://eslint.org/docs/rules/valid-jsdoc","fixable":"code","options":{"prefer":{"error":2,"warn":0,"off":0,"google":2,"airBnb":0,"standardJs":0},"extra":{},"preferType":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireReturn":{"error":2,"warn":0,"off":0,"google":2,"airBnb":0,"standardJs":0},"requireParamDescription":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireReturnDescription":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"matchDescription":{"error":2,"warn":0,"off":2,"google":2,"airBnb":0,"standardJs":0},"requireReturnType":{"error":2,"warn":0,"off":1,"google":2,"airBnb":0,"standardJs":0},"requireParamType":{"error":2,"warn":0,"off":2,"google":2,"airBnb":0,"standardJs":0}},"google":true,"airBnb":false,"standardJs":false,"error":2,"warn":0,"off":14},{"key":"valid-typeof","eslint":true,"description":"enforce comparing `typeof` expressions against valid strings","category":"Possible Errors","url":"https://eslint.org/docs/rules/valid-typeof","options":{"requireStringLiterals":{"error":4,"warn":0,"off":2,"google":0,"airBnb":0,"standardJs":2},"extra":{}},"google":false,"airBnb":false,"standardJs":true,"error":4,"warn":0,"off":12},{"key":"vars-on-top","eslint":false,"description":"require `var` declarations be placed at the top of their containing scope","category":"Best Practices","url":"https://eslint.org/docs/rules/vars-on-top","options":{},"google":false,"airBnb":true,"standardJs":false,"error":1,"warn":0,"off":15},{"key":"wrap-iife","eslint":false,"description":"require parentheses around immediate `function` invocations","category":"Best Practices","url":"https://eslint.org/docs/rules/wrap-iife","fixable":"code","options":{"outside":{"error":3,"warn":0,"off":2,"google":0,"airBnb":2,"standardJs":2},"extra":{},"inside":{"error":3,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"any":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2},"functionPrototypeMethods":{"error":3,"warn":0,"off":1,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"wrap-regex","eslint":false,"description":"require parenthesis around regex literals","category":"Stylistic Issues","url":"https://eslint.org/docs/rules/wrap-regex","fixable":"code","options":{},"google":false,"airBnb":true,"standardJs":false,"error":0,"warn":0,"off":16},{"key":"yield-star-spacing","eslint":false,"description":"require or disallow spacing around the `*` in `yield*` expressions","category":"ECMAScript 6","url":"https://eslint.org/docs/rules/yield-star-spacing","fixable":"whitespace","options":{"before":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2},"extra":{},"after":{"error":3,"warn":0,"off":1,"google":2,"airBnb":2,"standardJs":2},"both":{"error":3,"warn":0,"off":2,"google":2,"airBnb":2,"standardJs":2},"neither":{"error":3,"warn":0,"off":3,"google":2,"airBnb":2,"standardJs":2}},"google":true,"airBnb":true,"standardJs":true,"error":3,"warn":0,"off":13},{"key":"yoda","eslint":false,"description":"require or disallow \"Yoda\" conditions","category":"Best Practices","url":"https://eslint.org/docs/rules/yoda","fixable":"code","options":{"always":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"extra":{},"never":{"error":6,"warn":0,"off":3,"google":0,"airBnb":2,"standardJs":2},"exceptRange":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2},"onlyEquality":{"error":6,"warn":0,"off":6,"google":0,"airBnb":2,"standardJs":2}},"google":false,"airBnb":true,"standardJs":true,"error":6,"warn":0,"off":10}];
 
 /***/ }),
 
@@ -18173,7 +18393,7 @@ var useRules = function useRules() {
 /*!***********************!*\
   !*** ./utils/grid.js ***!
   \***********************/
-/*! exports provided: Grid, Row, Col */
+/*! exports provided: Grid, Row, Col, Center */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18181,14 +18401,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return Grid; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return Row; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return Col; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Center", function() { return Center; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-flexbox-grid */ "./node_modules/react-flexbox-grid/lib/index.js");
-/* harmony import */ var react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-grid-system */ "./node_modules/react-grid-system/build/index.js");
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_grid_system__WEBPACK_IMPORTED_MODULE_4__);
 
 
 var _jsxFileName = "/Users/Jarvis/projects/poplint/utils/grid.js";
@@ -18199,7 +18420,7 @@ var Grid = function Grid(_ref) {
   var children = _ref.children,
       props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4__["Grid"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_grid_system__WEBPACK_IMPORTED_MODULE_4__["Container"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -18214,7 +18435,7 @@ var Row = function Row(_ref2) {
   var children = _ref2.children,
       props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, ["children"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4__["Row"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_grid_system__WEBPACK_IMPORTED_MODULE_4__["Row"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -18229,7 +18450,7 @@ var Col = function Col(_ref3) {
   var children = _ref3.children,
       props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref3, ["children"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_flexbox_grid__WEBPACK_IMPORTED_MODULE_4__["Col"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_grid_system__WEBPACK_IMPORTED_MODULE_4__["Col"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -18238,6 +18459,24 @@ var Col = function Col(_ref3) {
   }), children);
 };
 Col.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node
+};
+var Center = function Center(_ref4) {
+  var children = _ref4.children;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    style: {
+      width: '100%',
+      maxWidth: '565px',
+      margin: '0 auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, children);
+};
+Center.propTypes = {
   children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node
 };
 
