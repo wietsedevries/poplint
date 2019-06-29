@@ -86,7 +86,9 @@ const Ranking = () => {
               </Text>
               <List>
                 {renderList()}
-                <Paginator loadMore={increaseLimit} />
+                {(limit < rules.length) && (
+                  <Paginator loadMore={increaseLimit} />
+                )}
               </List>
             </Col>
           </Row>

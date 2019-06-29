@@ -1,7 +1,35 @@
 self.__precacheManifest = [
   {
-    "url": "/_next/static/chunks/commons.c8ba4f5c80611d6d9375.js",
-    "revision": "5295c733341a251fe089"
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/_app.js",
+    "revision": "c3e9938897882dd8be29"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/_error.js",
+    "revision": "b416ba40e4d96481dba5"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/index.js",
+    "revision": "759bb0cdb1ee6e001e35"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/ranking.js",
+    "revision": "24afefa6b56a02a5e8e8"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/semi-vs-no-semi.js",
+    "revision": "833091e61e4898cd464e"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/style-guides.js",
+    "revision": "1b3e42f01d030844a50e"
+  },
+  {
+    "url": "/_next/static/LgI88JT8uY74M2SRpuwss/pages/tabs-vs-spaces.js",
+    "revision": "980438d223363a8113d7"
+  },
+  {
+    "url": "/_next/static/chunks/commons.acf9604b7677825e4fbf.js",
+    "revision": "4fa58366376872628e06"
   },
   {
     "url": "/_next/static/runtime/main-2f35adbac3668ab071ba.js",
@@ -10,34 +38,6 @@ self.__precacheManifest = [
   {
     "url": "/_next/static/runtime/webpack-a79426b5e11f0ba5879d.js",
     "revision": "d284d55719907d9579fa"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/_app.js",
-    "revision": "38e3e41b5ed46e52b264"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/_error.js",
-    "revision": "af500c63c3d73c813677"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/index.js",
-    "revision": "3a7bf468bd7902390f7f"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/ranking.js",
-    "revision": "78fb216b6ec9bbfd9aea"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/semi-vs-no-semi.js",
-    "revision": "d7869c80f1e2b8434765"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/style-guides.js",
-    "revision": "ee43cbe93ac904bfe302"
-  },
-  {
-    "url": "/_next/static/wYWbXHKudfyOvEbekAJ-y/pages/tabs-vs-spaces.js",
-    "revision": "8c9087bc7740ebe30e35"
   }
 ];
 

@@ -16813,7 +16813,8 @@ var Badge = function Badge(_ref) {
     }
   };
 
-  var redirect = function redirect() {
+  var redirect = function redirect(e) {
+    e.stopPropagation();
     window.location.href = map[type].url;
   };
 
@@ -16824,7 +16825,7 @@ var Badge = function Badge(_ref) {
   }, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }));
@@ -16952,7 +16953,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/Jarvis/projects/poplint/ui/Division.js";
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: ", ";\n  width: ", ";\n  background-color: ", ";\n  line-height: ", ";\n  border-radius: ", ";\n  margin-left: 3px;\n  font-size: 10px;\n  color: ", ";\n  box-sizing: border-box;\n  position: relative;\n  border: ", ";\n\n  &:after {\n    content: ", ";\n    opacity: 0;\n    transition: .1s;\n    display: block;\n    top: -16px;\n    line-height: 16px;\n    position: absolute;\n    width: 100px;\n    text-align: center;\n    transform: translateX(-50%);\n    left: 50%;\n    pointer-events: none;\n    height: 0;\n    white-space: nowrap;\n  }\n\n  &:hover {\n\n    border-color: rgba(0,0,0,0.2);\n    &:after {\n      opacity: 1;\n    }\n\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: ", ";\n  width: ", ";\n  background-color: ", ";\n  line-height: ", ";\n  border-radius: ", ";\n  margin-left: 3px;\n  font-size: 10px;\n  color: ", ";\n  box-sizing: border-box;\n  position: relative;\n  border: ", ";\n\n  &:after {\n    content: ", ";\n    opacity: 0;\n    transition: .1s;\n    display: block;\n    top: -16px;\n    line-height: 16px;\n    position: absolute;\n    width: 100px;\n    text-align: center;\n    transform: translateX(-50%);\n    left: 50%;\n    pointer-events: none;\n    height: 0;\n    white-space: nowrap;\n  }\n\n  &:hover {\n\n    border-color: rgba(0,0,0,0.2);\n    &:after {\n      opacity: 1;\n    }\n\n  }\n  @media (max-width: 768px) {\n    &:after {\n      opacity: 1;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -17030,7 +17031,7 @@ var Division = function Division(_ref) {
     nada: nada,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 71
     },
     __self: this
   }, units.map(function (unit) {
@@ -17044,7 +17045,7 @@ var Division = function Division(_ref) {
       label: "".concat(id, ": ").concat(share.toFixed(0), "%"),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 75
       },
       __self: this
     });
@@ -17671,7 +17672,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  color: ", ";\n  font-size: ", ";\n  padding: 0;\n  margin: 0;\n  font-weight: 400;\n  margin-bottom: ", ";\n  text-align: ", ";\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  color: ", ";\n  font-size: ", ";\n  padding: 0;\n  margin: 0;\n  font-weight: 400;\n  margin-bottom: ", ";\n  text-align: ", ";\n\n  @media (max-width: 768px) {\n    font-size: ", ";\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -17710,6 +17711,8 @@ var Header2 = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].h2(_temp
   return props.margin && props.theme.fn.spacing(3);
 }, function (props) {
   return props.align;
+}, function (props) {
+  return props.theme.font[props.font || 'regular'];
 });
 var Header3 = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].h3(_templateObject3(), function (props) {
   return props.theme.color[props.color || 'grey'];
@@ -17750,7 +17753,7 @@ var Text = function Text(_ref) {
   }, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 60
     },
     __self: this
   }));
@@ -18095,7 +18098,7 @@ Portal.propTypes = {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftabs-vs-spaces&absolutePagePath=%2FUsers%2FJarvis%2Fprojects%2Fpoplint%2Fpages%2Ftabs-vs-spaces.js ***!
   \*************************************************************************************************************************************************/
@@ -18118,5 +18121,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=tabs-vs-spaces.js.map

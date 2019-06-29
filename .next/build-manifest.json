@@ -1,39 +1,45 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_aa8f31c0c93a8f34edc5.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/ranking": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/semi-vs-no-semi": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/style-guides": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ],
     "/tabs-vs-spaces": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.acf9604b7677825e4fbf.js",
+      "static/runtime/main-2f35adbac3668ab071ba.js"
     ]
   }
 }
