@@ -36,7 +36,7 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.14.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "style-loader": "^0.23.1"
   }
 }
